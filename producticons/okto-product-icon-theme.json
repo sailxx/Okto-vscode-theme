@@ -1,0 +1,41 @@
+{
+  "fonts": [
+    {
+      "id": "okto-product-font",
+      "src": [{ "path": "./fonts/okto-product-icons.woff", "format": "woff" }],
+      "weight": "normal",
+      "style": "normal"
+    }
+  ],
+  "iconDefinitions": {
+    "okto-files": { "fontCharacter": "\\e000" },
+    "okto-search": { "fontCharacter": "\\e001" },
+    "okto-source": { "fontCharacter": "\\e002" },
+    "okto-run": { "fontCharacter": "\\e003" },
+    "okto-extensions": { "fontCharacter": "\\e004" },
+    "okto-beaker": { "fontCharacter": "\\e005" },
+    "okto-python": { "fontCharacter": "\\e006" },
+    "okto-spark": { "fontCharacter": "\\e007" },
+    "okto-settings": { "fontCharacter": "\\e008" },
+    "okto-account": { "fontCharacter": "\\e009" }
+  },
+  "explorer-view-icon": "okto-files",
+  "search-view-icon": "okto-search",
+  "source-control-view-icon": "okto-source",
+  "run-view-icon": "okto-run",
+  "extensions-view-icon": "okto-extensions",
+  "test-view-icon": "okto-beaker",
+  "settings-view-bar-icon": "okto-settings",
+  "accounts-view-bar-icon": "okto-account",
+  "files": "okto-files",
+  "search": "okto-search",
+  "source-control": "okto-source",
+  "run": "okto-run",
+  "debug-alt": "okto-run",
+  "extensions": "okto-extensions",
+  "beaker": "okto-beaker",
+  "python": "okto-python",
+  "sparkle": "okto-spark",
+  "settings-gear": "okto-settings",
+  "account": "okto-account"
+}

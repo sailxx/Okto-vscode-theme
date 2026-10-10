@@ -1,8 +1,8 @@
 {
   "name": "okto-theme",
   "displayName": "Okto",
-  "description": "Okto Light and Dark color themes with a matching Okto tile-style file icon theme for Visual Studio Code.",
-  "version": "1.2.0",
+  "description": "Okto Light and Dark color themes with matching Okto file and product icon themes for Visual Studio Code.",
+  "version": "1.3.0",
   "publisher": "local",
   "engines": {
     "vscode": "^1.80.0"
@@ -28,6 +28,13 @@
         "label": "Okto Icons",
         "path": "./fileicons/okto-icon-theme.json",
         "id": "okto-icons"
+      }
+    ],
+    "productIconThemes": [
+      {
+        "id": "okto-product-icons",
+        "label": "Okto Product Icons",
+        "path": "./producticons/okto-product-icon-theme.json"
       }
     ]
   },
