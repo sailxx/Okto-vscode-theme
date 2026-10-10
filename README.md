@@ -10,9 +10,9 @@
 
 </div>
 
-<picture><img src="assets/readme/theme-cards.svg" width="100%" alt="Okto Light, Okto Dark и иконки в стиле Okto"></picture>
+<picture><img src="assets/readme/theme-cards.png" width="100%" alt="Okto Light, Okto Dark и иконки в стиле Okto"></picture>
 
-<picture><img src="assets/readme/file-icon-gallery.svg" width="100%" alt="Иконки файлов Okto для языков и форматов"></picture>
+<picture><img src="assets/readme/file-icon-gallery.png" width="100%" alt="Иконки файлов Okto для языков и форматов"></picture>
 
 ## Установка в Windows
 

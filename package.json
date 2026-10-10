@@ -4,6 +4,10 @@
   "description": "Okto Light and Dark color themes with matching Okto file and product icon themes for Visual Studio Code.",
   "version": "1.7.0",
   "publisher": "local",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/sailxx/okto-vscode-theme.git"
+  },
   "engines": {
     "vscode": "^1.80.0"
   },
