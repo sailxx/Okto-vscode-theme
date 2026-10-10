@@ -40,12 +40,13 @@
 </g>
 <g>
   <rect x="586.5" y="102.5" width="253" height="148" rx="14" class="card"/>
-  <text x="606" y="128" class="m label">03 · SYNTAX</text>
-  <text x="606" y="156" class="s title">Цветной код</text>
-  <text x="606" y="178" class="m copy">Переменные · строки</text>
-  <text x="606" y="194" class="m copy">числа · функции · типы</text>
-  <rect x="606" y="211" width="64" height="22" rx="11" fill="#E3DFEB"/><text x="638" y="226" text-anchor="middle" class="m label">let x</text>
-  <rect x="678" y="211" width="58" height="22" rx="11" fill="#E3DFEB"/><text x="707" y="226" text-anchor="middle" class="m label">"ok"</text>
-  <rect x="744" y="211" width="74" height="22" rx="11" fill="#4F5B92"/><text x="781" y="226" text-anchor="middle" class="m" font-size="10" font-weight="700" fill="#FFFFFF">fn()</text>
+  <text x="606" y="128" class="m label">03 · FILE ICONS</text>
+  <text x="606" y="156" class="s title">Okto Icons</text>
+  <text x="606" y="178" class="m copy">Иконки файлов, папок,</text>
+  <text x="606" y="194" class="m copy">кода, настроек и Git</text>
+  <rect x="606" y="211" width="64" height="22" rx="11" fill="#E3DFEB"/><text x="638" y="226" text-anchor="middle" class="m label">JS</text>
+  <rect x="678" y="211" width="58" height="22" rx="11" fill="#E3DFEB"/><text x="707" y="226" text-anchor="middle" class="m label">{}</text>
+  <rect x="744" y="211" width="74" height="22" rx="11" fill="#4F5B92"/><text x="781" y="226" text-anchor="middle" class="m" font-size="10" font-weight="700" fill="#FFFFFF">MD</text>
 </g>
 </svg>
+

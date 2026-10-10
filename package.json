@@ -1,8 +1,8 @@
 {
   "name": "okto-theme",
   "displayName": "Okto",
-  "description": "Minimal grayscale themes with soft rose accents and restrained syntax colors, inspired by the Budila alarm dashboard.",
-  "version": "1.0.0",
+  "description": "Okto Light and Dark color themes plus a matching file icon theme for Visual Studio Code.",
+  "version": "1.1.0",
   "publisher": "local",
   "engines": {
     "vscode": "^1.80.0"
@@ -21,6 +21,13 @@
         "label": "Okto Dark",
         "uiTheme": "vs-dark",
         "path": "./themes/quiet-grid-dark-color-theme.json"
+      }
+    ],
+    "iconThemes": [
+      {
+        "label": "Okto Icons",
+        "path": "./fileicons/okto-icon-theme.json",
+        "id": "okto-icons"
       }
     ]
   },
