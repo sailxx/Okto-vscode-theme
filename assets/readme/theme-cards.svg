@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="880" height="286" viewBox="0 0 880 286" role="img" aria-label="Палитра Okto: светлая и тёмная темы, цветная подсветка кода">
+<style>
+.m{font-family:"JetBrains Mono",SFMono-Regular,Consolas,"Liberation Mono",Menlo,monospace}
+.s{font-family:"Google Sans",Roboto,"Segoe UI",Helvetica,Arial,sans-serif}
+.card{fill:#F3EFF7;stroke:#E3E1EC}
+.title{font-size:15px;font-weight:700;fill:#1B1B21}
+.copy{font-size:10.5px;fill:#5F6070}
+.label{font-size:10px;font-weight:700;fill:#4F5B92}
+</style>
+<defs><pattern id="dots" width="16" height="16" patternUnits="userSpaceOnUse"><circle cx="1" cy="1" r="1" fill="#EAE7F0"/></pattern></defs>
+<rect width="880" height="286" rx="18" fill="#FBF8FF"/>
+<rect width="880" height="286" rx="18" fill="url(#dots)"/>
+<rect x=".5" y=".5" width="879" height="285" rx="17.5" fill="none" stroke="#E3E1EC"/>
+<rect x="40" y="28" width="8" height="8" rx="1.5" fill="#4F5B92"/>
+<text x="56" y="36" class="m" font-size="10" fill="#5F6070" letter-spacing="3">ЦВЕТОВЫЕ ТЕМЫ</text>
+<text x="40" y="75" class="s" font-size="24" font-weight="700" fill="#1B1B21">Один стиль. <tspan fill="#4F5B92">Два режима.</tspan></text>
+<g>
+  <rect x="40.5" y="102.5" width="253" height="148" rx="14" class="card"/>
+  <text x="60" y="128" class="m label">01 · LIGHT</text>
+  <text x="60" y="156" class="s title">Okto Light</text>
+  <text x="60" y="178" class="m copy">Белый редактор, мягкие</text>
+  <text x="60" y="194" class="m copy">серые панели, розовый акцент</text>
+  <rect x="60" y="215" width="36" height="7" rx="3.5" fill="#006B79"/>
+  <rect x="104" y="215" width="36" height="7" rx="3.5" fill="#426F17"/>
+  <rect x="148" y="215" width="36" height="7" rx="3.5" fill="#C42D43"/>
+  <rect x="192" y="215" width="36" height="7" rx="3.5" fill="#155D95"/>
+  <rect x="236" y="215" width="36" height="7" rx="3.5" fill="#7040A0"/>
+</g>
+<g>
+  <rect x="313.5" y="102.5" width="253" height="148" rx="14" fill="#E9E6EF" stroke="#D9D5E3"/>
+  <text x="333" y="128" class="m label">02 · DARK</text>
+  <text x="333" y="156" class="s title">Okto Dark</text>
+  <text x="333" y="178" class="m copy">Глубокий фон, графитовые</text>
+  <text x="333" y="194" class="m copy">панели, яркие токены</text>
+  <rect x="333" y="215" width="36" height="7" rx="3.5" fill="#62D4DD"/>
+  <rect x="377" y="215" width="36" height="7" rx="3.5" fill="#A8D477"/>
+  <rect x="421" y="215" width="36" height="7" rx="3.5" fill="#FF7883"/>
+  <rect x="465" y="215" width="36" height="7" rx="3.5" fill="#6FB9F2"/>
+  <rect x="509" y="215" width="36" height="7" rx="3.5" fill="#D29AF5"/>
+</g>
+<g>
+  <rect x="586.5" y="102.5" width="253" height="148" rx="14" class="card"/>
+  <text x="606" y="128" class="m label">03 · SYNTAX</text>
+  <text x="606" y="156" class="s title">Цветной код</text>
+  <text x="606" y="178" class="m copy">Переменные · строки</text>
+  <text x="606" y="194" class="m copy">числа · функции · типы</text>
+  <rect x="606" y="211" width="64" height="22" rx="11" fill="#E3DFEB"/><text x="638" y="226" text-anchor="middle" class="m label">let x</text>
+  <rect x="678" y="211" width="58" height="22" rx="11" fill="#E3DFEB"/><text x="707" y="226" text-anchor="middle" class="m label">"ok"</text>
+  <rect x="744" y="211" width="74" height="22" rx="11" fill="#4F5B92"/><text x="781" y="226" text-anchor="middle" class="m" font-size="10" font-weight="700" fill="#FFFFFF">fn()</text>
+</g>
+</svg>

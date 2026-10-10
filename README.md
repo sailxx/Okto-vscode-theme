@@ -1,16 +1,23 @@
-# Okto — VS Code themes
+<div align="center">
 
-Монохромные светлая и тёмная темы по мотивам интерфейса Budila: почти белые или почти чёрные рабочие области, мягко-серые панели, тонкие границы и пыльно-розовые акценты. Подсветка кода использует отдельные заметные цвета для переменных, параметров, строк, чисел, функций и типов.
+<img src="icon.png" width="96" alt="Okto">
 
-## Темы
+# Okto
 
-- **Okto Light** — белый редактор и светло-серые панели.
-- **Okto Dark** — почти чёрный редактор и графитовые панели.
+**Светлая и тёмная темы для Visual Studio Code**
 
-## Установка вручную в Windows
+Монохромная основа, мягкие панели и розовый акцент. Переменные, строки, числа, функции и типы подсвечиваются разными цветами.
 
-1. Откройте `%USERPROFILE%\.vscode\extensions` через `Win + R`.
-2. Создайте папку `local.okto-theme-1.0.0`.
-3. Скопируйте в неё `package.json`, `icon.png`, `icon.svg` и папку `themes` из этого репозитория.
+</div>
+
+<picture><img src="assets/readme/theme-cards.svg" width="100%" alt="Okto Light, Okto Dark и цветная подсветка кода"></picture>
+
+## Установка в Windows
+
+1. Склонируйте репозиторий или скачайте его как ZIP.
+2. Откройте `%USERPROFILE%\.vscode\extensions` через `Win + R`.
+3. Создайте папку `local.okto-theme-1.0.0` и скопируйте в неё `package.json`, `icon.png`, `icon.svg` и папку `themes`.
 4. Перезапустите VS Code или запустите **Developer: Reload Window** через `Ctrl + Shift + P`.
 5. Нажмите `Ctrl + K`, затем `Ctrl + T` и выберите **Okto Light** или **Okto Dark**.
+
+
