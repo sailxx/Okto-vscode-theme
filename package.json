@@ -2,7 +2,7 @@
   "name": "okto-theme",
   "displayName": "Okto",
   "description": "Okto Light and Dark color themes with matching Okto file and product icon themes for Visual Studio Code.",
-  "version": "1.7.0",
+  "version": "1.8.0",
   "publisher": "local",
   "repository": {
     "type": "git",

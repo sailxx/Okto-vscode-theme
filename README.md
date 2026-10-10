@@ -18,7 +18,7 @@
 
 1. Склонируйте репозиторий или скачайте его как ZIP.
 2. Откройте `%USERPROFILE%\.vscode\extensions` через `Win + R`.
-3. Создайте папку `local.okto-theme-1.7.0` и скопируйте в неё `package.json`, `icon.png`, `icon.svg`, а также папки `themes`, `fileicons` и `producticons`.
+3. Создайте папку `local.okto-theme-1.8.0` и скопируйте в неё `package.json`, `icon.png`, `icon.svg`, а также папки `themes`, `fileicons` и `producticons`.
 4. Перезапустите VS Code или запустите **Developer: Reload Window** через `Ctrl + Shift + P`.
 5. Выберите цветовую тему клавишами `Ctrl + K`, затем `Ctrl + T`: **Okto Light** или **Okto Dark**.
 6. В палитре команд найдите **Preferences: File Icon Theme** и выберите **Okto Icons**.

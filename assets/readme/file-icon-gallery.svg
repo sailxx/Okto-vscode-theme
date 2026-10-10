@@ -1,121 +1,121 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="648" height="350" viewBox="0 0 648 350">
-<rect width="100%" height="100%" rx="18" fill="#F2F1EF"/>
+<rect width="100%" height="100%" rx="18" fill="#21103F"/>
 <g transform="translate(38,3) scale(1)">
-<ns0:g xmlns:ns0="http://www.w3.org/2000/svg" transform="translate(-8 -8) scale(1.5)" fill="#5578A4" stroke-linecap="round" stroke-linejoin="round"><ns0:text x="16" y="21" text-anchor="middle" font-family="Arial, sans-serif" font-size="18" font-weight="700">C</ns0:text></ns0:g>
+<ns0:g xmlns:ns0="http://www.w3.org/2000/svg" transform="translate(-8 -8) scale(1.5)" fill="#659AD2" stroke-linecap="round" stroke-linejoin="round"><ns0:text x="16" y="21" text-anchor="middle" font-family="Arial, sans-serif" font-size="18" font-weight="700">C</ns0:text></ns0:g>
 </g>
-<text x="54.0" y="59" text-anchor="middle" fill="#66645F" font-family="Segoe UI, sans-serif" font-size="10">c</text>
+<text x="54.0" y="59" text-anchor="middle" fill="#D2C6E8" font-family="Segoe UI, sans-serif" font-size="10">c</text>
 <g transform="translate(146,3) scale(1)">
-<ns0:g xmlns:ns0="http://www.w3.org/2000/svg" transform="translate(-8 -8) scale(1.5)" fill="#777E91" stroke-linecap="round" stroke-linejoin="round"><ns0:path d="M13 12l-2.5 2.5L13 17m5-5 2.5 2.5L18 17m-1-6-2 8" fill="none" stroke="#777E91" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /></ns0:g>
+<ns0:g xmlns:ns0="http://www.w3.org/2000/svg" transform="translate(-8 -8) scale(1.5)" fill="#8172B8" stroke-linecap="round" stroke-linejoin="round"><ns0:path d="M13 12l-2.5 2.5L13 17m5-5 2.5 2.5L18 17m-1-6-2 8" fill="none" stroke="#8172B8" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /></ns0:g>
 </g>
-<text x="162.0" y="59" text-anchor="middle" fill="#66645F" font-family="Segoe UI, sans-serif" font-size="10">code</text>
+<text x="162.0" y="59" text-anchor="middle" fill="#D2C6E8" font-family="Segoe UI, sans-serif" font-size="10">code</text>
 <g transform="translate(254,3) scale(1)">
-<ns0:g xmlns:ns0="http://www.w3.org/2000/svg" transform="translate(-8 -8) scale(1.5)" fill="#8B7797" stroke-linecap="round" stroke-linejoin="round"><ns0:circle cx="15.5" cy="15" r="3.1" fill="none" stroke="#8B7797" stroke-width="1.5" /><ns0:path d="M15.5 9v2m0 8v2m6-6h-2m-8 0h-2m10.2-4.2-1.4 1.4m-5.6 5.6-1.4 1.4m8.4 0-1.4-1.4m-5.6-5.6-1.4-1.4" stroke="#8B7797" stroke-width="1.5" stroke-linecap="round" /></ns0:g>
+<ns0:g xmlns:ns0="http://www.w3.org/2000/svg" transform="translate(-8 -8) scale(1.5)" fill="#DCA62F" stroke-linecap="round" stroke-linejoin="round"><ns0:circle cx="15.5" cy="15" r="3.1" fill="none" stroke="#DCA62F" stroke-width="1.5" /><ns0:path d="M15.5 9v2m0 8v2m6-6h-2m-8 0h-2m10.2-4.2-1.4 1.4m-5.6 5.6-1.4 1.4m8.4 0-1.4-1.4m-5.6-5.6-1.4-1.4" stroke="#DCA62F" stroke-width="1.5" stroke-linecap="round" /></ns0:g>
 </g>
-<text x="270.0" y="59" text-anchor="middle" fill="#66645F" font-family="Segoe UI, sans-serif" font-size="10">config</text>
+<text x="270.0" y="59" text-anchor="middle" fill="#D2C6E8" font-family="Segoe UI, sans-serif" font-size="10">config</text>
 <g transform="translate(362,3) scale(1)">
-<ns0:g xmlns:ns0="http://www.w3.org/2000/svg" transform="translate(-8 -8) scale(1.5)" fill="#6579A8" stroke-linecap="round" stroke-linejoin="round"><ns0:text x="16" y="20" text-anchor="middle" font-family="Arial, sans-serif" font-size="15" font-weight="700" letter-spacing="-.7">C++</ns0:text></ns0:g>
+<ns0:g xmlns:ns0="http://www.w3.org/2000/svg" transform="translate(-8 -8) scale(1.5)" fill="#00599C" stroke-linecap="round" stroke-linejoin="round"><ns0:text x="16" y="20" text-anchor="middle" font-family="Arial, sans-serif" font-size="15" font-weight="700" letter-spacing="-.7">C++</ns0:text></ns0:g>
 </g>
-<text x="378.0" y="59" text-anchor="middle" fill="#66645F" font-family="Segoe UI, sans-serif" font-size="10">cpp</text>
+<text x="378.0" y="59" text-anchor="middle" fill="#D2C6E8" font-family="Segoe UI, sans-serif" font-size="10">cpp</text>
 <g transform="translate(470,3) scale(1)">
-<ns0:g xmlns:ns0="http://www.w3.org/2000/svg" transform="translate(-8 -8) scale(1.5)" fill="#71835A" stroke-linecap="round" stroke-linejoin="round"><ns0:text x="16" y="20" text-anchor="middle" font-family="Arial, sans-serif" font-size="15" font-weight="700" letter-spacing="-.7">C#</ns0:text></ns0:g>
+<ns0:g xmlns:ns0="http://www.w3.org/2000/svg" transform="translate(-8 -8) scale(1.5)" fill="#9B4F96" stroke-linecap="round" stroke-linejoin="round"><ns0:text x="16" y="20" text-anchor="middle" font-family="Arial, sans-serif" font-size="15" font-weight="700" letter-spacing="-.7">C#</ns0:text></ns0:g>
 </g>
-<text x="486.0" y="59" text-anchor="middle" fill="#66645F" font-family="Segoe UI, sans-serif" font-size="10">csharp</text>
+<text x="486.0" y="59" text-anchor="middle" fill="#D2C6E8" font-family="Segoe UI, sans-serif" font-size="10">csharp</text>
 <g transform="translate(578,3) scale(1)">
-<ns0:g xmlns:ns0="http://www.w3.org/2000/svg" transform="translate(-8 -8) scale(1.5)" fill="#67899A" stroke-linecap="round" stroke-linejoin="round"><ns0:ellipse cx="15.5" cy="10" rx="5.3" ry="2" /><ns0:path d="M10.2 10v7c0 1.2 2.4 2.2 5.3 2.2s5.3-1 5.3-2.2v-7M10.2 13.5c0 1.2 2.4 2.2 5.3 2.2s5.3-1 5.3-2.2" fill="none" stroke="#67899A" stroke-width="1.6" /></ns0:g>
+<ns0:g xmlns:ns0="http://www.w3.org/2000/svg" transform="translate(-8 -8) scale(1.5)" fill="#00AFCB" stroke-linecap="round" stroke-linejoin="round"><ns0:ellipse cx="15.5" cy="10" rx="5.3" ry="2" /><ns0:path d="M10.2 10v7c0 1.2 2.4 2.2 5.3 2.2s5.3-1 5.3-2.2v-7M10.2 13.5c0 1.2 2.4 2.2 5.3 2.2s5.3-1 5.3-2.2" fill="none" stroke="#00AFCB" stroke-width="1.6" /></ns0:g>
 </g>
-<text x="594.0" y="59" text-anchor="middle" fill="#66645F" font-family="Segoe UI, sans-serif" font-size="10">database</text>
+<text x="594.0" y="59" text-anchor="middle" fill="#D2C6E8" font-family="Segoe UI, sans-serif" font-size="10">database</text>
 <g transform="translate(38,73) scale(1)">
-<ns0:g xmlns:ns0="http://www.w3.org/2000/svg" transform="translate(-8 -8) scale(1.5)" fill="#5E879E" stroke-linecap="round" stroke-linejoin="round"><ns0:path d="M9 15h12c-.5 2.7-2.3 4-5.5 4H12c-2 0-3.1-1.2-3-4zm2-3h2v2h-2zm3 0h2v2h-2zm3 0h2v2h-2zm-6-3h2v2h-2zm3 0h2v2h-2zm3 0h2v2h-2z" /></ns0:g>
+<ns0:g xmlns:ns0="http://www.w3.org/2000/svg" transform="translate(-8 -8) scale(1.5)" fill="#2496ED" stroke-linecap="round" stroke-linejoin="round"><ns0:path d="M9 15h12c-.5 2.7-2.3 4-5.5 4H12c-2 0-3.1-1.2-3-4zm2-3h2v2h-2zm3 0h2v2h-2zm3 0h2v2h-2zm-6-3h2v2h-2zm3 0h2v2h-2zm3 0h2v2h-2z" /></ns0:g>
 </g>
-<text x="54.0" y="129" text-anchor="middle" fill="#66645F" font-family="Segoe UI, sans-serif" font-size="10">docker</text>
+<text x="54.0" y="129" text-anchor="middle" fill="#D2C6E8" font-family="Segoe UI, sans-serif" font-size="10">docker</text>
 <g transform="translate(146,73) scale(1)">
 <ns0:path xmlns:ns0="http://www.w3.org/2000/svg" d="M9 4h9l5 5v18H9z" fill="#F7F5F2" stroke="#BDB9B3" stroke-width="1.5" stroke-linejoin="round" />
 <ns0:path xmlns:ns0="http://www.w3.org/2000/svg" d="M18 4v5h5" fill="#EAE7E2" stroke="#BDB9B3" stroke-width="1.4" stroke-linejoin="round" />
 <ns0:path xmlns:ns0="http://www.w3.org/2000/svg" d="M12 14h8m-8 4h8m-8 4h5" fill="none" stroke="#85858B" stroke-width="1.4" stroke-linecap="round" />
 </g>
-<text x="162.0" y="129" text-anchor="middle" fill="#66645F" font-family="Segoe UI, sans-serif" font-size="10">file</text>
+<text x="162.0" y="129" text-anchor="middle" fill="#D2C6E8" font-family="Segoe UI, sans-serif" font-size="10">file</text>
 <g transform="translate(254,73) scale(1)">
-<ns0:g xmlns:ns0="http://www.w3.org/2000/svg" transform="translate(-8 -8) scale(1.5)" fill="#B46D62" stroke-linecap="round" stroke-linejoin="round"><ns0:path d="M12 10v8m0-5 6-3v8" fill="none" stroke="#B46D62" stroke-width="1.5" stroke-linecap="round" /><ns0:circle cx="12" cy="9" r="1.7" /><ns0:circle cx="12" cy="19" r="1.7" /><ns0:circle cx="18" cy="9" r="1.7" /><ns0:circle cx="18" cy="18" r="1.7" /></ns0:g>
+<ns0:g xmlns:ns0="http://www.w3.org/2000/svg" transform="translate(-8 -8) scale(1.5)" fill="#EF553F" stroke-linecap="round" stroke-linejoin="round"><ns0:path d="M12 10v8m0-5 6-3v8" fill="none" stroke="#EF553F" stroke-width="1.5" stroke-linecap="round" /><ns0:circle cx="12" cy="9" r="1.7" /><ns0:circle cx="12" cy="19" r="1.7" /><ns0:circle cx="18" cy="9" r="1.7" /><ns0:circle cx="18" cy="18" r="1.7" /></ns0:g>
 </g>
-<text x="270.0" y="129" text-anchor="middle" fill="#66645F" font-family="Segoe UI, sans-serif" font-size="10">git</text>
+<text x="270.0" y="129" text-anchor="middle" fill="#D2C6E8" font-family="Segoe UI, sans-serif" font-size="10">git</text>
 <g transform="translate(362,73) scale(1)">
-<ns0:g xmlns:ns0="http://www.w3.org/2000/svg" transform="translate(-8 -8) scale(1.5)" fill="#5291A0" stroke-linecap="round" stroke-linejoin="round"><ns0:text x="16" y="20" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" font-weight="700" letter-spacing="-1.2">Go</ns0:text></ns0:g>
+<ns0:g xmlns:ns0="http://www.w3.org/2000/svg" transform="translate(-8 -8) scale(1.5)" fill="#00ADD8" stroke-linecap="round" stroke-linejoin="round"><ns0:text x="16" y="20" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" font-weight="700" letter-spacing="-1.2">Go</ns0:text></ns0:g>
 </g>
-<text x="378.0" y="129" text-anchor="middle" fill="#66645F" font-family="Segoe UI, sans-serif" font-size="10">go</text>
+<text x="378.0" y="129" text-anchor="middle" fill="#D2C6E8" font-family="Segoe UI, sans-serif" font-size="10">go</text>
 <g transform="translate(470,73) scale(1)">
-<ns0:g xmlns:ns0="http://www.w3.org/2000/svg" transform="translate(-8 -8) scale(1.5)" fill="#668875" stroke-linecap="round" stroke-linejoin="round"><ns0:circle cx="18.5" cy="12.5" r="1.6" /><ns0:path d="M9 20l3.3-4.2 2.1 2.2 2-2.5 3.6 4.5z" /></ns0:g>
+<ns0:g xmlns:ns0="http://www.w3.org/2000/svg" transform="translate(-8 -8) scale(1.5)" fill="#55B97D" stroke-linecap="round" stroke-linejoin="round"><ns0:circle cx="18.5" cy="12.5" r="1.6" /><ns0:path d="M9 20l3.3-4.2 2.1 2.2 2-2.5 3.6 4.5z" /></ns0:g>
 </g>
-<text x="486.0" y="129" text-anchor="middle" fill="#66645F" font-family="Segoe UI, sans-serif" font-size="10">image</text>
+<text x="486.0" y="129" text-anchor="middle" fill="#D2C6E8" font-family="Segoe UI, sans-serif" font-size="10">image</text>
 <g transform="translate(578,73) scale(1)">
-<ns0:g xmlns:ns0="http://www.w3.org/2000/svg" transform="translate(-8 -8) scale(1.5)" fill="#B66E50" stroke-linecap="round" stroke-linejoin="round"><ns0:path d="M15.8 7.5c-2 1.3 2.4 1.7.1 3.1m2-4.2c-3 1.9 2.7 2.2.1 4.6M10 13.5h11l-1.1 4.2c-.3 1-1 1.5-2.1 1.5h-4.6c-1.1 0-1.8-.5-2.1-1.5zm1.2 7h8.5" fill="none" stroke="#B66E50" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" /></ns0:g>
+<ns0:g xmlns:ns0="http://www.w3.org/2000/svg" transform="translate(-8 -8) scale(1.5)" fill="#E76F00" stroke-linecap="round" stroke-linejoin="round"><ns0:path d="M15.8 7.5c-2 1.3 2.4 1.7.1 3.1m2-4.2c-3 1.9 2.7 2.2.1 4.6M10 13.5h11l-1.1 4.2c-.3 1-1 1.5-2.1 1.5h-4.6c-1.1 0-1.8-.5-2.1-1.5zm1.2 7h8.5" fill="none" stroke="#E76F00" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" /></ns0:g>
 </g>
-<text x="594.0" y="129" text-anchor="middle" fill="#66645F" font-family="Segoe UI, sans-serif" font-size="10">java</text>
+<text x="594.0" y="129" text-anchor="middle" fill="#D2C6E8" font-family="Segoe UI, sans-serif" font-size="10">java</text>
 <g transform="translate(38,143) scale(1)">
-<ns0:g xmlns:ns0="http://www.w3.org/2000/svg" transform="translate(-8 -8) scale(1.5)" fill="#B77A22" stroke-linecap="round" stroke-linejoin="round"><ns0:text x="16" y="20" text-anchor="middle" font-family="Arial, sans-serif" font-size="13" font-weight="700" letter-spacing="-1">JS</ns0:text></ns0:g>
+<ns0:g xmlns:ns0="http://www.w3.org/2000/svg" transform="translate(-8 -8) scale(1.5)" fill="#E6B800" stroke-linecap="round" stroke-linejoin="round"><ns0:text x="16" y="20" text-anchor="middle" font-family="Arial, sans-serif" font-size="13" font-weight="700" letter-spacing="-1">JS</ns0:text></ns0:g>
 </g>
-<text x="54.0" y="199" text-anchor="middle" fill="#66645F" font-family="Segoe UI, sans-serif" font-size="10">javascript</text>
+<text x="54.0" y="199" text-anchor="middle" fill="#D2C6E8" font-family="Segoe UI, sans-serif" font-size="10">javascript</text>
 <g transform="translate(146,143) scale(1)">
-<ns0:g xmlns:ns0="http://www.w3.org/2000/svg" transform="translate(-8 -8) scale(1.5)" fill="#8A784A" stroke-linecap="round" stroke-linejoin="round"><ns0:path d="M12 10c-1 0-1.4.5-1.4 1.5v1c0 .8-.3 1.2-.9 1.5.6.3.9.7.9 1.5v1c0 1 .4 1.5 1.4 1.5v-1.5c-.4 0-.5-.2-.5-.6v-.9c0-.7-.2-1.2-.7-1.5.5-.3.7-.8.7-1.5v-.9c0-.4.1-.6.5-.6zm3 0v1.5c.4 0 .5.2.5.6v.9c0 .7.2 1.2.7 1.5-.5.3-.7.8-.7 1.5v.9c0 .4-.1.6-.5.6V19c1 0 1.4-.5 1.4-1.5v-1c0-.8.3-1.2.9-1.5-.6-.3-.9-.7-.9-1.5v-1c0-1-.4-1.5-1.4-1.5z" /></ns0:g>
+<ns0:g xmlns:ns0="http://www.w3.org/2000/svg" transform="translate(-8 -8) scale(1.5)" fill="#D6A838" stroke-linecap="round" stroke-linejoin="round"><ns0:path d="M12 10c-1 0-1.4.5-1.4 1.5v1c0 .8-.3 1.2-.9 1.5.6.3.9.7.9 1.5v1c0 1 .4 1.5 1.4 1.5v-1.5c-.4 0-.5-.2-.5-.6v-.9c0-.7-.2-1.2-.7-1.5.5-.3.7-.8.7-1.5v-.9c0-.4.1-.6.5-.6zm3 0v1.5c.4 0 .5.2.5.6v.9c0 .7.2 1.2.7 1.5-.5.3-.7.8-.7 1.5v.9c0 .4-.1.6-.5.6V19c1 0 1.4-.5 1.4-1.5v-1c0-.8.3-1.2.9-1.5-.6-.3-.9-.7-.9-1.5v-1c0-1-.4-1.5-1.4-1.5z" /></ns0:g>
 </g>
-<text x="162.0" y="199" text-anchor="middle" fill="#66645F" font-family="Segoe UI, sans-serif" font-size="10">json</text>
+<text x="162.0" y="199" text-anchor="middle" fill="#D2C6E8" font-family="Segoe UI, sans-serif" font-size="10">json</text>
 <g transform="translate(254,143) scale(1)">
-<ns0:g xmlns:ns0="http://www.w3.org/2000/svg" transform="translate(-8 -8) scale(1.5)" fill="#9273A8" stroke-linecap="round" stroke-linejoin="round"><ns0:path d="M10 8v16" fill="none" stroke="#8B70A6" stroke-width="3.2" stroke-linecap="round" /><ns0:path d="M11 16 22 8" fill="none" stroke="#DB916A" stroke-width="3.2" stroke-linecap="round" /><ns0:path d="m13 15 9 9" fill="none" stroke="#6A9EAA" stroke-width="3.2" stroke-linecap="round" /></ns0:g>
+<ns0:g xmlns:ns0="http://www.w3.org/2000/svg" transform="translate(-8 -8) scale(1.5)" fill="#7F52FF" stroke-linecap="round" stroke-linejoin="round"><ns0:path d="M10 8v16" fill="none" stroke="#8B70A6" stroke-width="3.2" stroke-linecap="round" /><ns0:path d="M11 16 22 8" fill="none" stroke="#DB916A" stroke-width="3.2" stroke-linecap="round" /><ns0:path d="m13 15 9 9" fill="none" stroke="#6A9EAA" stroke-width="3.2" stroke-linecap="round" /></ns0:g>
 </g>
-<text x="270.0" y="199" text-anchor="middle" fill="#66645F" font-family="Segoe UI, sans-serif" font-size="10">kotlin</text>
+<text x="270.0" y="199" text-anchor="middle" fill="#D2C6E8" font-family="Segoe UI, sans-serif" font-size="10">kotlin</text>
 <g transform="translate(362,143) scale(1)">
-<ns0:g xmlns:ns0="http://www.w3.org/2000/svg" transform="translate(-8 -8) scale(1.5)" fill="#657D92" stroke-linecap="round" stroke-linejoin="round"><ns0:path d="M8 19v-7l2.2 2.3 2.1-2.3v7h-1.8v-3.2l-.3.4-.3-.4V19zm6.2-7.2h1.9v4h2v-4h1.8v5.7h-5.7z" /></ns0:g>
+<ns0:g xmlns:ns0="http://www.w3.org/2000/svg" transform="translate(-8 -8) scale(1.5)" fill="#3598D4" stroke-linecap="round" stroke-linejoin="round"><ns0:path d="M8 19v-7l2.2 2.3 2.1-2.3v7h-1.8v-3.2l-.3.4-.3-.4V19zm6.2-7.2h1.9v4h2v-4h1.8v5.7h-5.7z" /></ns0:g>
 </g>
-<text x="378.0" y="199" text-anchor="middle" fill="#66645F" font-family="Segoe UI, sans-serif" font-size="10">markdown</text>
+<text x="378.0" y="199" text-anchor="middle" fill="#D2C6E8" font-family="Segoe UI, sans-serif" font-size="10">markdown</text>
 <g transform="translate(470,143) scale(1)">
-<ns0:g xmlns:ns0="http://www.w3.org/2000/svg" transform="translate(-8 -8) scale(1.5)" fill="#B06E63" stroke-linecap="round" stroke-linejoin="round"><ns0:path d="M13 11l-3 3 3 3m5-6 3 3-3 3m-1-7-2 8" fill="none" stroke="#B06E63" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" /></ns0:g>
+<ns0:g xmlns:ns0="http://www.w3.org/2000/svg" transform="translate(-8 -8) scale(1.5)" fill="#E36A4E" stroke-linecap="round" stroke-linejoin="round"><ns0:path d="M13 11l-3 3 3 3m5-6 3 3-3 3m-1-7-2 8" fill="none" stroke="#E36A4E" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" /></ns0:g>
 </g>
-<text x="486.0" y="199" text-anchor="middle" fill="#66645F" font-family="Segoe UI, sans-serif" font-size="10">markup</text>
+<text x="486.0" y="199" text-anchor="middle" fill="#D2C6E8" font-family="Segoe UI, sans-serif" font-size="10">markup</text>
 <g transform="translate(578,143) scale(1)">
-<ns0:g xmlns:ns0="http://www.w3.org/2000/svg" transform="translate(-8 -8) scale(1.5)" fill="#B7835F" stroke-linecap="round" stroke-linejoin="round"><ns0:path d="M15.5 9l5 2.6v6l-5 2.6-5-2.6v-6zM10.5 11.6l5 2.7 5-2.7m-5 2.7v5.9" fill="none" stroke="#B7835F" stroke-width="1.4" stroke-linejoin="round" /></ns0:g>
+<ns0:g xmlns:ns0="http://www.w3.org/2000/svg" transform="translate(-8 -8) scale(1.5)" fill="#E58A56" stroke-linecap="round" stroke-linejoin="round"><ns0:path d="M15.5 9l5 2.6v6l-5 2.6-5-2.6v-6zM10.5 11.6l5 2.7 5-2.7m-5 2.7v5.9" fill="none" stroke="#E58A56" stroke-width="1.4" stroke-linejoin="round" /></ns0:g>
 </g>
-<text x="594.0" y="199" text-anchor="middle" fill="#66645F" font-family="Segoe UI, sans-serif" font-size="10">package</text>
+<text x="594.0" y="199" text-anchor="middle" fill="#D2C6E8" font-family="Segoe UI, sans-serif" font-size="10">package</text>
 <g transform="translate(38,213) scale(1)">
-<ns0:g xmlns:ns0="http://www.w3.org/2000/svg" transform="translate(-8 -8) scale(1.5)" fill="#7A73A3" stroke-linecap="round" stroke-linejoin="round"><ns0:text x="16" y="20" text-anchor="middle" font-family="Arial, sans-serif" font-size="10.5" font-style="italic" font-weight="700" letter-spacing="-.5">php</ns0:text></ns0:g>
+<ns0:g xmlns:ns0="http://www.w3.org/2000/svg" transform="translate(-8 -8) scale(1.5)" fill="#777BB4" stroke-linecap="round" stroke-linejoin="round"><ns0:text x="16" y="20" text-anchor="middle" font-family="Arial, sans-serif" font-size="10.5" font-style="italic" font-weight="700" letter-spacing="-.5">php</ns0:text></ns0:g>
 </g>
-<text x="54.0" y="269" text-anchor="middle" fill="#66645F" font-family="Segoe UI, sans-serif" font-size="10">php</text>
+<text x="54.0" y="269" text-anchor="middle" fill="#D2C6E8" font-family="Segoe UI, sans-serif" font-size="10">php</text>
 <g transform="translate(146,213) scale(1)">
-<ns0:g xmlns:ns0="http://www.w3.org/2000/svg" transform="translate(-8 -8) scale(1.5)" fill="#4E7099" stroke-linecap="round" stroke-linejoin="round"><ns0:path d="M16 7.5h-3.2c-2.1 0-3.4 1.2-3.4 3.2v2h7.1v1.2h-6c-2.2 0-3.6 1.4-3.6 3.6s1.4 3.8 3.6 3.8h2.2v-2.1c0-2.2 1.5-3.8 3.7-3.8h3.1c1.8 0 3-1.2 3-3v-1.5c0-2-1.2-3.4-3.4-3.4zm-1.8 2.1a.8.8 0 1 1 0 1.6.8.8 0 0 1 0-1.6z" /><ns0:path d="M16 22.5h3.2c2.1 0 3.4-1.2 3.4-3.2v-2h-7.1v-1.2h6c2.2 0 3.6-1.4 3.6-3.6s-1.4-3.8-3.6-3.8h-2.2v2.1c0 2.2-1.5 3.8-3.7 3.8h-3.1c-1.8 0-3 1.2-3 3v1.5c0 2 1.2 3.4 3.4 3.4zm1.8-2.1a.8.8 0 1 1 0-1.6.8.8 0 0 1 0 1.6z" /></ns0:g>
+<ns0:g xmlns:ns0="http://www.w3.org/2000/svg" transform="translate(-8 -8) scale(1.5)" fill="#3776AB" stroke-linecap="round" stroke-linejoin="round"><ns0:path fill="#3776AB" d="M16 7.5h-3.2c-2.1 0-3.4 1.2-3.4 3.2v2h7.1v1.2h-6c-2.2 0-3.6 1.4-3.6 3.6s1.4 3.8 3.6 3.8h2.2v-2.1c0-2.2 1.5-3.8 3.7-3.8h3.1c1.8 0 3-1.2 3-3v-1.5c0-2-1.2-3.4-3.4-3.4zm-1.8 2.1a.8.8 0 1 1 0 1.6.8.8 0 0 1 0-1.6z" /><ns0:path fill="#FFD43B" d="M16 22.5h3.2c2.1 0 3.4-1.2 3.4-3.2v-2h-7.1v-1.2h6c2.2 0 3.6-1.4 3.6-3.6s-1.4-3.8-3.6-3.8h-2.2v2.1c0 2.2-1.5 3.8-3.7 3.8h-3.1c-1.8 0-3 1.2-3 3v1.5c0 2 1.2 3.4 3.4 3.4zm1.8-2.1a.8.8 0 1 1 0-1.6.8.8 0 0 1 0 1.6z" /></ns0:g>
 </g>
-<text x="162.0" y="269" text-anchor="middle" fill="#66645F" font-family="Segoe UI, sans-serif" font-size="10">python</text>
+<text x="162.0" y="269" text-anchor="middle" fill="#D2C6E8" font-family="Segoe UI, sans-serif" font-size="10">python</text>
 <g transform="translate(254,213) scale(1)">
-<ns0:g xmlns:ns0="http://www.w3.org/2000/svg" transform="translate(-8 -8) scale(1.5)" fill="#648A78" stroke-linecap="round" stroke-linejoin="round"><ns0:path d="M10 11h9M10 14h9M10 17h6" fill="none" stroke="#648A78" stroke-width="1.4" stroke-linecap="round" /><ns0:circle cx="8" cy="11" r=".8" /><ns0:circle cx="8" cy="14" r=".8" /><ns0:circle cx="8" cy="17" r=".8" /></ns0:g>
+<ns0:g xmlns:ns0="http://www.w3.org/2000/svg" transform="translate(-8 -8) scale(1.5)" fill="#50B582" stroke-linecap="round" stroke-linejoin="round"><ns0:path d="M10 11h9M10 14h9M10 17h6" fill="none" stroke="#50B582" stroke-width="1.4" stroke-linecap="round" /><ns0:circle cx="8" cy="11" r=".8" /><ns0:circle cx="8" cy="14" r=".8" /><ns0:circle cx="8" cy="17" r=".8" /></ns0:g>
 </g>
-<text x="270.0" y="269" text-anchor="middle" fill="#66645F" font-family="Segoe UI, sans-serif" font-size="10">readme</text>
+<text x="270.0" y="269" text-anchor="middle" fill="#D2C6E8" font-family="Segoe UI, sans-serif" font-size="10">readme</text>
 <g transform="translate(362,213) scale(1)">
-<ns0:g xmlns:ns0="http://www.w3.org/2000/svg" transform="translate(-8 -8) scale(1.5)" fill="#AD5E61" stroke-linecap="round" stroke-linejoin="round"><ns0:path d="M10 11l4.1-3.3 6.3.7 1.8 4.5-5.8 8.4-7-4.8z" /><ns0:path d="M10 11l6.4 10.3 5.8-8.4m-8.1-5.2 2.3 13.6m-6.4-10.3 12.2-1.7" fill="none" stroke="#AD5E61" stroke-width=".8" /></ns0:g>
+<ns0:g xmlns:ns0="http://www.w3.org/2000/svg" transform="translate(-8 -8) scale(1.5)" fill="#CC342D" stroke-linecap="round" stroke-linejoin="round"><ns0:path d="M10 11l4.1-3.3 6.3.7 1.8 4.5-5.8 8.4-7-4.8z" /><ns0:path d="M10 11l6.4 10.3 5.8-8.4m-8.1-5.2 2.3 13.6m-6.4-10.3 12.2-1.7" fill="none" stroke="#CC342D" stroke-width=".8" /></ns0:g>
 </g>
-<text x="378.0" y="269" text-anchor="middle" fill="#66645F" font-family="Segoe UI, sans-serif" font-size="10">ruby</text>
+<text x="378.0" y="269" text-anchor="middle" fill="#D2C6E8" font-family="Segoe UI, sans-serif" font-size="10">ruby</text>
 <g transform="translate(470,213) scale(1)">
-<ns0:g xmlns:ns0="http://www.w3.org/2000/svg" transform="translate(-8 -8) scale(1.5)" fill="#A3654D" stroke-linecap="round" stroke-linejoin="round"><ns0:path d="M16 8.4l2 1.1 2.3-.1.9 2.1 1.8 1.4-.8 2.2.4 2.2-2 1.2-1.1 2-2.3-.3-2.1.9-1.7-1.5-2.2-.6-.4-2.2-1.4-1.8 1.2-2-.1-2.3 2.1-.9z" /><ns0:circle cx="16" cy="14.7" r="3.1" fill="none" stroke="#A3654D" stroke-width="1.2" /><ns0:circle cx="16" cy="14.7" r="1" /></ns0:g>
+<ns0:g xmlns:ns0="http://www.w3.org/2000/svg" transform="translate(-8 -8) scale(1.5)" fill="#D88755" stroke-linecap="round" stroke-linejoin="round"><ns0:path d="M16 8.4l2 1.1 2.3-.1.9 2.1 1.8 1.4-.8 2.2.4 2.2-2 1.2-1.1 2-2.3-.3-2.1.9-1.7-1.5-2.2-.6-.4-2.2-1.4-1.8 1.2-2-.1-2.3 2.1-.9z" /><ns0:circle cx="16" cy="14.7" r="3.1" fill="none" stroke="#D88755" stroke-width="1.2" /><ns0:circle cx="16" cy="14.7" r="1" /></ns0:g>
 </g>
-<text x="486.0" y="269" text-anchor="middle" fill="#66645F" font-family="Segoe UI, sans-serif" font-size="10">rust</text>
+<text x="486.0" y="269" text-anchor="middle" fill="#D2C6E8" font-family="Segoe UI, sans-serif" font-size="10">rust</text>
 <g transform="translate(578,213) scale(1)">
-<ns0:g xmlns:ns0="http://www.w3.org/2000/svg" transform="translate(-8 -8) scale(1.5)" fill="#A46E89" stroke-linecap="round" stroke-linejoin="round"><ns0:text x="16" y="20" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" font-weight="700" letter-spacing="-.7">CSS</ns0:text></ns0:g>
+<ns0:g xmlns:ns0="http://www.w3.org/2000/svg" transform="translate(-8 -8) scale(1.5)" fill="#4677C4" stroke-linecap="round" stroke-linejoin="round"><ns0:text x="16" y="20" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" font-weight="700" letter-spacing="-.7">CSS</ns0:text></ns0:g>
 </g>
-<text x="594.0" y="269" text-anchor="middle" fill="#66645F" font-family="Segoe UI, sans-serif" font-size="10">style</text>
+<text x="594.0" y="269" text-anchor="middle" fill="#D2C6E8" font-family="Segoe UI, sans-serif" font-size="10">style</text>
 <g transform="translate(38,283) scale(1)">
-<ns0:g xmlns:ns0="http://www.w3.org/2000/svg" transform="translate(-8 -8) scale(1.5)" fill="#C86C51" stroke-linecap="round" stroke-linejoin="round"><ns0:path d="M21 10c-1.6-2-5.1-2.6-7.8-1.2-3.2 1.7-3.3 4.2-.4 5.5l4.4 1.8c2.3.9 2.1 3-.4 4.3-2.7 1.4-6.5.8-8.6-1.4" fill="none" stroke="#C86C51" stroke-width="3.1" stroke-linecap="round" /><ns0:path d="M20.5 8.8c1.1 1.1 1.5 2.3 1.1 3.6" fill="none" stroke="#DDA18A" stroke-width="1.4" stroke-linecap="round" /></ns0:g>
+<ns0:g xmlns:ns0="http://www.w3.org/2000/svg" transform="translate(-8 -8) scale(1.5)" fill="#FF3E00" stroke-linecap="round" stroke-linejoin="round"><ns0:path d="M21 10c-1.6-2-5.1-2.6-7.8-1.2-3.2 1.7-3.3 4.2-.4 5.5l4.4 1.8c2.3.9 2.1 3-.4 4.3-2.7 1.4-6.5.8-8.6-1.4" fill="none" stroke="#FF3E00" stroke-width="3.1" stroke-linecap="round" /><ns0:path d="M20.5 8.8c1.1 1.1 1.5 2.3 1.1 3.6" fill="none" stroke="#DDA18A" stroke-width="1.4" stroke-linecap="round" /></ns0:g>
 </g>
-<text x="54.0" y="339" text-anchor="middle" fill="#66645F" font-family="Segoe UI, sans-serif" font-size="10">svelte</text>
+<text x="54.0" y="339" text-anchor="middle" fill="#D2C6E8" font-family="Segoe UI, sans-serif" font-size="10">svelte</text>
 <g transform="translate(146,283) scale(1)">
-<ns0:g xmlns:ns0="http://www.w3.org/2000/svg" transform="translate(-8 -8) scale(1.5)" fill="#C1784D" stroke-linecap="round" stroke-linejoin="round"><ns0:path d="M8.5 11.1c2.2 2.4 4.3 4 6.4 4.7-1.2-1.8-2-3.8-2.4-5.8 2.7 3.1 5.5 5.2 9 6.2-.5 3.3-3.2 5.4-6.5 5.4-2.3 0-4.5-.9-6.1-2.6 2 .4 3.8.1 5.1-.8-2.5-.9-4.5-3.1-5.5-7.1z" /><ns0:path d="M9 22c4.2 1.3 8.4.6 11.6-1.7" fill="none" stroke="#C1784D" stroke-width="1.5" stroke-linecap="round" /></ns0:g>
+<ns0:g xmlns:ns0="http://www.w3.org/2000/svg" transform="translate(-8 -8) scale(1.5)" fill="#F05138" stroke-linecap="round" stroke-linejoin="round"><ns0:path d="M8.5 11.1c2.2 2.4 4.3 4 6.4 4.7-1.2-1.8-2-3.8-2.4-5.8 2.7 3.1 5.5 5.2 9 6.2-.5 3.3-3.2 5.4-6.5 5.4-2.3 0-4.5-.9-6.1-2.6 2 .4 3.8.1 5.1-.8-2.5-.9-4.5-3.1-5.5-7.1z" /><ns0:path d="M9 22c4.2 1.3 8.4.6 11.6-1.7" fill="none" stroke="#F05138" stroke-width="1.5" stroke-linecap="round" /></ns0:g>
 </g>
-<text x="162.0" y="339" text-anchor="middle" fill="#66645F" font-family="Segoe UI, sans-serif" font-size="10">swift</text>
+<text x="162.0" y="339" text-anchor="middle" fill="#D2C6E8" font-family="Segoe UI, sans-serif" font-size="10">swift</text>
 <g transform="translate(254,283) scale(1)">
-<ns0:g xmlns:ns0="http://www.w3.org/2000/svg" transform="translate(-8 -8) scale(1.5)" fill="#5E8770" stroke-linecap="round" stroke-linejoin="round"><ns0:path d="M9 12l3 2.5-3 2.5M14 17h5" fill="none" stroke="#5E8770" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" /></ns0:g>
+<ns0:g xmlns:ns0="http://www.w3.org/2000/svg" transform="translate(-8 -8) scale(1.5)" fill="#58B967" stroke-linecap="round" stroke-linejoin="round"><ns0:path d="M9 12l3 2.5-3 2.5M14 17h5" fill="none" stroke="#58B967" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" /></ns0:g>
 </g>
-<text x="270.0" y="339" text-anchor="middle" fill="#66645F" font-family="Segoe UI, sans-serif" font-size="10">terminal</text>
+<text x="270.0" y="339" text-anchor="middle" fill="#D2C6E8" font-family="Segoe UI, sans-serif" font-size="10">terminal</text>
 <g transform="translate(362,283) scale(1)">
-<ns0:g xmlns:ns0="http://www.w3.org/2000/svg" transform="translate(-8 -8) scale(1.5)" fill="#4E6F9E" stroke-linecap="round" stroke-linejoin="round"><ns0:text x="16" y="20" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" font-weight="700" letter-spacing="-.8">TS</ns0:text></ns0:g>
+<ns0:g xmlns:ns0="http://www.w3.org/2000/svg" transform="translate(-8 -8) scale(1.5)" fill="#3178C6" stroke-linecap="round" stroke-linejoin="round"><ns0:text x="16" y="20" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" font-weight="700" letter-spacing="-.8">TS</ns0:text></ns0:g>
 </g>
-<text x="378.0" y="339" text-anchor="middle" fill="#66645F" font-family="Segoe UI, sans-serif" font-size="10">typescript</text>
+<text x="378.0" y="339" text-anchor="middle" fill="#D2C6E8" font-family="Segoe UI, sans-serif" font-size="10">typescript</text>
 <g transform="translate(470,283) scale(1)">
-<ns0:g xmlns:ns0="http://www.w3.org/2000/svg" transform="translate(-8 -8) scale(1.5)" fill="#628D78" stroke-linecap="round" stroke-linejoin="round"><ns0:path d="M9 10h3l3.5 5.8L19 10h3l-6.5 10.5z" /></ns0:g>
+<ns0:g xmlns:ns0="http://www.w3.org/2000/svg" transform="translate(-8 -8) scale(1.5)" fill="#41B883" stroke-linecap="round" stroke-linejoin="round"><ns0:path d="M9 10h3l3.5 5.8L19 10h3l-6.5 10.5z" /></ns0:g>
 </g>
-<text x="486.0" y="339" text-anchor="middle" fill="#66645F" font-family="Segoe UI, sans-serif" font-size="10">vue</text>
+<text x="486.0" y="339" text-anchor="middle" fill="#D2C6E8" font-family="Segoe UI, sans-serif" font-size="10">vue</text>
 </svg>

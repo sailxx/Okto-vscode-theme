@@ -5,21 +5,21 @@ root = Path(__file__).resolve().parent.parent
 icons = root / "fileicons" / "icons"
 
 colors = {
-    "python": "#4E7099", "javascript": "#B77A22", "typescript": "#4E6F9E",
-    "json": "#8A784A", "markdown": "#657D92", "image": "#668875",
-    "database": "#67899A", "terminal": "#5E8770", "style": "#A46E89",
-    "markup": "#B06E63", "config": "#8B7797", "package": "#B7835F",
-    "git": "#B46D62", "docker": "#5E879E", "readme": "#648A78",
-    "code": "#777E91", "rust": "#A3654D", "go": "#5291A0",
-    "java": "#B66E50", "c": "#5578A4", "cpp": "#6579A8",
-    "csharp": "#71835A", "ruby": "#AD5E61", "php": "#7A73A3",
-    "swift": "#C1784D", "kotlin": "#9273A8", "svelte": "#C86C51",
-    "vue": "#628D78", "file": "#85858B",
+    "python": "#3776AB", "javascript": "#E6B800", "typescript": "#3178C6",
+    "json": "#D6A838", "markdown": "#3598D4", "image": "#55B97D",
+    "database": "#00AFCB", "terminal": "#58B967", "style": "#4677C4",
+    "markup": "#E36A4E", "config": "#DCA62F", "package": "#E58A56",
+    "git": "#EF553F", "docker": "#2496ED", "readme": "#50B582",
+    "code": "#8172B8", "rust": "#D88755", "go": "#00ADD8",
+    "java": "#E76F00", "c": "#659AD2", "cpp": "#00599C",
+    "csharp": "#9B4F96", "ruby": "#CC342D", "php": "#777BB4",
+    "swift": "#F05138", "kotlin": "#7F52FF", "svelte": "#FF3E00",
+    "vue": "#41B883", "file": "#92929B",
 }
 
 # Each file type is represented by a standalone logo mark with a restrained accent.
 marks = {
-    "python": '<path d="M16 7.5h-3.2c-2.1 0-3.4 1.2-3.4 3.2v2h7.1v1.2h-6c-2.2 0-3.6 1.4-3.6 3.6s1.4 3.8 3.6 3.8h2.2v-2.1c0-2.2 1.5-3.8 3.7-3.8h3.1c1.8 0 3-1.2 3-3v-1.5c0-2-1.2-3.4-3.4-3.4zm-1.8 2.1a.8.8 0 1 1 0 1.6.8.8 0 0 1 0-1.6z"/><path d="M16 22.5h3.2c2.1 0 3.4-1.2 3.4-3.2v-2h-7.1v-1.2h6c2.2 0 3.6-1.4 3.6-3.6s-1.4-3.8-3.6-3.8h-2.2v2.1c0 2.2-1.5 3.8-3.7 3.8h-3.1c-1.8 0-3 1.2-3 3v1.5c0 2 1.2 3.4 3.4 3.4zm1.8-2.1a.8.8 0 1 1 0-1.6.8.8 0 0 1 0 1.6z"/>',
+    "python": '<path fill="#3776AB" d="M16 7.5h-3.2c-2.1 0-3.4 1.2-3.4 3.2v2h7.1v1.2h-6c-2.2 0-3.6 1.4-3.6 3.6s1.4 3.8 3.6 3.8h2.2v-2.1c0-2.2 1.5-3.8 3.7-3.8h3.1c1.8 0 3-1.2 3-3v-1.5c0-2-1.2-3.4-3.4-3.4zm-1.8 2.1a.8.8 0 1 1 0 1.6.8.8 0 0 1 0-1.6z"/><path fill="#FFD43B" d="M16 22.5h3.2c2.1 0 3.4-1.2 3.4-3.2v-2h-7.1v-1.2h6c2.2 0 3.6-1.4 3.6-3.6s-1.4-3.8-3.6-3.8h-2.2v2.1c0 2.2-1.5 3.8-3.7 3.8h-3.1c-1.8 0-3 1.2-3 3v1.5c0 2 1.2 3.4 3.4 3.4zm1.8-2.1a.8.8 0 1 1 0-1.6.8.8 0 0 1 0 1.6z"/>',
     "javascript": '<text x="16" y="20" text-anchor="middle" font-family="Arial, sans-serif" font-size="13" font-weight="700" letter-spacing="-1">JS</text>',
     "typescript": '<text x="16" y="20" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" font-weight="700" letter-spacing="-.8">TS</text>',
     "json": '<path d="M12 10c-1 0-1.4.5-1.4 1.5v1c0 .8-.3 1.2-.9 1.5.6.3.9.7.9 1.5v1c0 1 .4 1.5 1.4 1.5v-1.5c-.4 0-.5-.2-.5-.6v-.9c0-.7-.2-1.2-.7-1.5.5-.3.7-.8.7-1.5v-.9c0-.4.1-.6.5-.6zm3 0v1.5c.4 0 .5.2.5.6v.9c0 .7.2 1.2.7 1.5-.5.3-.7.8-.7 1.5v.9c0 .4-.1.6-.5.6V19c1 0 1.4-.5 1.4-1.5v-1c0-.8.3-1.2.9-1.5-.6-.3-.9-.7-.9-1.5v-1c0-1-.4-1.5-1.4-1.5z"/>',
@@ -90,7 +90,7 @@ gallery = root / "assets" / "readme" / "file-icon-gallery.svg"
 names = sorted(marks)
 cols, cell_w, cell_h = 6, 108, 70
 rows = (len(names) + cols - 1) // cols
-elements = [f'<svg xmlns="http://www.w3.org/2000/svg" width="{cols*cell_w}" height="{rows*cell_h}" viewBox="0 0 {cols*cell_w} {rows*cell_h}">', '<rect width="100%" height="100%" rx="18" fill="#F2F1EF"/>']
+elements = [f'<svg xmlns="http://www.w3.org/2000/svg" width="{cols*cell_w}" height="{rows*cell_h}" viewBox="0 0 {cols*cell_w} {rows*cell_h}">', '<rect width="100%" height="100%" rx="18" fill="#21103F"/>']
 ns = "{http://www.w3.org/2000/svg}"
 for i, name in enumerate(names):
     col, row = i % cols, i // cols
@@ -100,6 +100,6 @@ for i, name in enumerate(names):
     for child in list(svg_root):
         elements.append(ET.tostring(child, encoding="unicode"))
     elements.append('</g>')
-    elements.append(f'<text x="{x+cell_w/2}" y="{y+59}" text-anchor="middle" fill="#66645F" font-family="Segoe UI, sans-serif" font-size="10">{name}</text>')
+    elements.append(f'<text x="{x+cell_w/2}" y="{y+59}" text-anchor="middle" fill="#D2C6E8" font-family="Segoe UI, sans-serif" font-size="10">{name}</text>')
 elements.append('</svg>')
 gallery.write_text("\n".join(elements), encoding="utf-8")
