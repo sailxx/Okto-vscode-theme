@@ -1,7 +1,7 @@
-"""Generates the Okto beaded file icon theme.
+"""Generates the Okto flat file icon theme.
 
-Every file type is a glossy glass bead with a white glyph; folders are matching
-glossy folders with a small glyph badge. Text glyphs are converted to outlines
+Every file type is a flat colour tile with a white glyph; folders are matching
+flat folders with a small glyph badge. Text glyphs are converted to outlines
 (Inter Bold) so the SVGs render identically everywhere.
 
 Usage: python3 scripts/generate_file_icons.py [path/to/Inter-Bold.otf]
@@ -222,31 +222,16 @@ def paint(frag, glyph_color, deep):
 
 
 def glyph_group(name, glyph_color, deep, transform):
-    frag = glyphs[name]
-    shadow = paint(frag, deep, deep)
-    return (
-        f'<g transform="{transform}">'
-        f'<g transform="translate(0 .7)" opacity=".4">{shadow}</g>'
-        f'{paint(frag, glyph_color, deep)}</g>'
-    )
+    return f'<g transform="{transform}">{paint(glyphs[name], glyph_color, deep)}</g>'
 
 
 def bead_svg(name, top, base, deep, glyph_color="#FFFFFF"):
-    gid = f"b-{name}"
+    gid = f"t-{name}"
     body = (
-        f'<defs>'
-        f'<radialGradient id="{gid}" cx=".36" cy=".28" r=".85"><stop offset="0" stop-color="{top}"/>'
-        f'<stop offset=".55" stop-color="{base}"/><stop offset="1" stop-color="{deep}"/></radialGradient>'
-        f'<radialGradient id="{gid}-r" cx=".5" cy="1.02" r=".62"><stop offset="0" stop-color="#FFFFFF" stop-opacity=".5"/>'
-        f'<stop offset="1" stop-color="#FFFFFF" stop-opacity="0"/></radialGradient>'
-        f'<linearGradient id="{gid}-s" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#FFFFFF" stop-opacity=".9"/>'
-        f'<stop offset="1" stop-color="#FFFFFF" stop-opacity="0"/></linearGradient></defs>'
-        f'<ellipse cx="16" cy="29.9" rx="9" ry="1.4" fill="#000" opacity=".2"/>'
-        f'<circle cx="16" cy="15.5" r="13.6" fill="url(#{gid})"/>'
-        f'<circle cx="16" cy="15.5" r="13.6" fill="url(#{gid}-r)"/>'
-        f'<circle cx="16" cy="15.5" r="13.2" fill="none" stroke="{deep}" stroke-opacity=".55" stroke-width=".9"/>'
-        f'<ellipse cx="11.6" cy="8.5" rx="6.3" ry="3.3" fill="url(#{gid}-s)" transform="rotate(-30 11.6 8.5)"/>'
-        + glyph_group(name, glyph_color, deep, "translate(16 16)")
+        f'<defs><linearGradient id="{gid}" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="{top}"/>'
+        f'<stop offset="1" stop-color="{base}"/></linearGradient></defs>'
+        f'<rect x="2.5" y="2.5" width="27" height="27" rx="8" fill="url(#{gid})"/>'
+        + glyph_group(name, glyph_color, base, "translate(16 16) scale(1.02)")
     )
     return f'<svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32">{body}</svg>'
 
@@ -264,16 +249,8 @@ def folder_svg(kind, top, base, deep, glyph, opened):
         cx, cy = (17, 20.3) if opened else (16, 19.4)
         badge = glyph_group(glyph, "#FFFFFF", deep, f"translate({cx} {cy}) scale(.56)")
     body = (
-        f'<defs>'
-        f'<linearGradient id="{gid}-b" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="{base}"/><stop offset="1" stop-color="{deep}"/></linearGradient>'
-        f'<linearGradient id="{gid}-f" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="{top}"/>'
-        f'<stop offset=".6" stop-color="{base}"/><stop offset="1" stop-color="{deep}"/></linearGradient>'
-        f'<linearGradient id="{gid}-s" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#FFFFFF" stop-opacity=".7"/>'
-        f'<stop offset="1" stop-color="#FFFFFF" stop-opacity="0"/></linearGradient></defs>'
-        f'<ellipse cx="16" cy="28.9" rx="11" ry="1.2" fill="#000" opacity=".18"/>'
-        f'<path d="{FOLDER_BACK}" fill="url(#{gid}-b)"/>'
-        f'<path d="{front}" fill="url(#{gid}-f)" stroke="{deep}" stroke-opacity=".5" stroke-width=".8"/>'
-        f'<path d="{front}" fill="url(#{gid}-s)" opacity=".55" clip-path="inset(0 0 55% 0)"/>'
+        f'<path d="{FOLDER_BACK}" fill="{deep}"/>'
+        f'<path d="{front}" fill="{base}"/>'
         f'{badge}'
     )
     return f'<svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32">{body}</svg>'

@@ -20,39 +20,16 @@ def inner(name):
     return body.replace('id="', f'id="p{name}-').replace("url(#", f"url(#p{name}-").replace('"url(#p' + name + '-', '"url(#p' + name + '-')
 
 
-# ---------------------------------------------------------------- app icon: ring of eight beads
-ring = ["#FF7DB0", "#FF9A6B", "#FFD97A", "#7EE0A0", "#5FD8E6", "#6EB8FF", "#9B86FF", "#C77DFF"]
-
-
-def shade(h, f):
-    h = h.lstrip("#")
-    r, g, b = (int(h[i:i + 2], 16) for i in (0, 2, 4))
-    f1 = lambda v: max(0, min(255, round(v + (255 - v) * f if f >= 0 else v * (1 + f))))  # noqa: E731
-    return f"#{f1(r):02X}{f1(g):02X}{f1(b):02X}"
-
-
-defs, beads = [], []
-for i, c in enumerate(ring):
-    a = -math.pi / 2 + i * math.pi / 4
-    x, y = 128 + 74 * math.cos(a), 128 + 74 * math.sin(a)
-    defs.append(
-        f'<radialGradient id="g{i}" cx=".36" cy=".28" r=".85"><stop offset="0" stop-color="{shade(c, .5)}"/>'
-        f'<stop offset=".55" stop-color="{c}"/><stop offset="1" stop-color="{shade(c, -.32)}"/></radialGradient>'
-    )
-    beads.append(
-        f'<ellipse cx="{x:.1f}" cy="{y + 24:.1f}" rx="20" ry="4" fill="#000" opacity=".25"/>'
-        f'<circle cx="{x:.1f}" cy="{y:.1f}" r="25" fill="url(#g{i})"/>'
-        f'<ellipse cx="{x - 7:.1f}" cy="{y - 11:.1f}" rx="12" ry="6.5" fill="#fff" opacity=".55" transform="rotate(-30 {x - 7:.1f} {y - 11:.1f})"/>'
-    )
+# ---------------------------------------------------------------- app icon: 3x3 grid of flat tiles
+grid = ["#FF7DB0", "#FF9A6B", "#FFD97A", "#9B86FF", "#FFFFFF", "#7EE0A0", "#6EB8FF", "#5FD8E6", "#C77DFF"]
+tiles = []
+for i, c in enumerate(grid):
+    x, y = 48 + (i % 3) * 56, 48 + (i // 3) * 56
+    tiles.append(f'<rect x="{x}" y="{y}" width="48" height="48" rx="14" fill="{c}"/>')
 icon = (
     '<svg xmlns="http://www.w3.org/2000/svg" width="256" height="256" viewBox="0 0 256 256"><defs>'
-    '<linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#2C1A57"/><stop offset="1" stop-color="#120D22"/></linearGradient>'
-    '<radialGradient id="core" cx=".35" cy=".3" r=".9"><stop offset="0" stop-color="#FFFFFF"/><stop offset=".5" stop-color="#FFB5D2"/><stop offset="1" stop-color="#D2467F"/></radialGradient>'
-    + "".join(defs) +
-    '</defs><rect x="8" y="8" width="240" height="240" rx="56" fill="url(#bg)"/>'
-    '<rect x="8.5" y="8.5" width="239" height="239" rx="55.5" fill="none" stroke="#FFFFFF" stroke-opacity=".12"/>'
-    + "".join(beads) +
-    '<circle cx="128" cy="128" r="22" fill="url(#core)"/><ellipse cx="121" cy="119" rx="9" ry="5" fill="#fff" opacity=".7" transform="rotate(-30 121 119)"/></svg>'
+    '<linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#2C1A57"/><stop offset="1" stop-color="#120D22"/></linearGradient></defs>'
+    '<rect x="8" y="8" width="240" height="240" rx="56" fill="url(#bg)"/>' + "".join(tiles) + '</svg>'
 )
 (root / "icon.svg").write_text(icon, encoding="utf-8")
 
