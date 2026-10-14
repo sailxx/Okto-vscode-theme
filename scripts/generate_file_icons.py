@@ -1,5 +1,6 @@
 from pathlib import Path
 import json
+import re
 
 root = Path(__file__).resolve().parent.parent
 icons = root / "fileicons" / "icons"
@@ -50,19 +51,42 @@ marks = {
     "file": '<path d="M11 12h9M11 15h9M11 18h6" fill="none" stroke="{c}" stroke-width="1.3" stroke-linecap="round"/>',
 }
 
+def shade(hex_color, f):
+    h = hex_color.lstrip("#")
+    r, g, b = (int(h[i:i+2], 16) for i in (0, 2, 4))
+    if f >= 0:
+        r, g, b = (round(v + (255 - v) * f) for v in (r, g, b))
+    else:
+        r, g, b = (round(v * (1 + f)) for v in (r, g, b))
+    return f"#{r:02X}{g:02X}{b:02X}"
+
+# Light bead colours get a dark glyph for contrast; the rest use a white glyph.
+dark_glyph = {"javascript": "#3D3000", "json": "#3D2E00", "config": "#3D2E00"}
+
 def svg(name, mark, color):
     if name == "file":
         artwork = '<path d="M9 4h9l5 5v18H9z" fill="#F7F5F2" stroke="#BDB9B3" stroke-width="1.5" stroke-linejoin="round"/><path d="M18 4v5h5" fill="#EAE7E2" stroke="#BDB9B3" stroke-width="1.4" stroke-linejoin="round"/><path d="M12 14h8m-8 4h8m-8 4h5" fill="none" stroke="#85858B" stroke-width="1.4" stroke-linecap="round"/>'
-    else:
-        artwork = f'<g transform="translate(-8 -8) scale(1.5)" fill="{color}" stroke-linecap="round" stroke-linejoin="round">{mark}</g>'
-    return f'<svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32">{artwork}</svg>'.replace('stroke="{c}"', f'stroke="{color}"')
+        return f'<svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32">{artwork}</svg>'
+    glyph = dark_glyph.get(name, "#FFFFFF")
+    body = re.sub(r'(fill|stroke)="#[0-9A-Fa-f]{6}"', lambda m: f'{m.group(1)}="{glyph}"', mark)
+    body = body.replace('stroke="{c}"', f'stroke="{glyph}"')
+    artwork = (
+        f'<defs><radialGradient id="b-{name}" cx=".35" cy=".28" r=".85">'
+        f'<stop offset="0" stop-color="{shade(color, .45)}"/><stop offset=".45" stop-color="{color}"/>'
+        f'<stop offset="1" stop-color="{shade(color, -.28)}"/></radialGradient></defs>'
+        f'<circle cx="16" cy="16" r="13.5" fill="url(#b-{name})" stroke="{shade(color, -.4)}" stroke-width=".8"/>'
+        f'<ellipse cx="12.5" cy="9.2" rx="6" ry="3.2" fill="#FFFFFF" fill-opacity=".38" transform="rotate(-22 12.5 9.2)"/>'
+        f'<g transform="translate(-3.4 -2.75) scale(1.25)" fill="{glyph}" stroke-linecap="round" stroke-linejoin="round">{body}</g>'
+    )
+    return f'<svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32">{artwork}</svg>'
 
 for name, mark in marks.items():
     (icons / f"{name}.svg").write_text(svg(name, mark, colors[name]), encoding="utf-8")
 
-# The folder remains a distinctive Okto tile, with a soft pink tab accent.
-(icons / "folder.svg").write_text('''<svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32"><path d="M3.5 8h9l2.4 2.7h13.6v14.8H3.5z" fill="#EAE7E2" stroke="#BDB9B3" stroke-width="1.3" stroke-linejoin="round"/><path d="M4 12h23" stroke="#C7868B" stroke-width="1.6" stroke-linecap="round"/><rect x="8" y="15" width="6" height="5.5" rx="1.2" fill="#CFCBC5"/><rect x="15.5" y="15" width="6" height="5.5" rx="1.2" fill="#BDB9B3"/></svg>''', encoding="utf-8")
-(icons / "folder-open.svg").write_text('''<svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32"><path d="M3.5 8h9l2.4 2.7h13.6v12.8H3.5z" fill="#EAE7E2" stroke="#BDB9B3" stroke-width="1.3" stroke-linejoin="round"/><path d="M3.5 14h25l-3.5 11H3z" fill="#F0EDE8" stroke="#BDB9B3" stroke-width="1.3" stroke-linejoin="round"/><path d="M6 16h19" stroke="#C7868B" stroke-width="1.3" stroke-linecap="round"/><rect x="9" y="18" width="5" height="4" rx="1" fill="#CFCBC5"/><rect x="15.5" y="18" width="5" height="4" rx="1" fill="#BDB9B3"/></svg>''', encoding="utf-8")
+# Folders are glossy amber beads-on-a-tab to match the bead family.
+FOLDER_DEFS = '<defs><linearGradient id="f" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#FFD27A"/><stop offset="1" stop-color="#E8962E"/></linearGradient><linearGradient id="t" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#F2B04C"/><stop offset="1" stop-color="#D9822A"/></linearGradient></defs>'
+(icons / "folder.svg").write_text(f'''<svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32">{FOLDER_DEFS}<path d="M3.5 7.5h9l2.4 2.7h13.6v15.3H3.5z" fill="url(#t)" stroke="#B8691C" stroke-width=".9" stroke-linejoin="round"/><rect x="3.5" y="11.5" width="25" height="14" rx="2" fill="url(#f)" stroke="#B8691C" stroke-width=".9"/><ellipse cx="11" cy="14" rx="6" ry="1.6" fill="#FFF" fill-opacity=".4"/><circle cx="16" cy="19" r="2.6" fill="#FFF" fill-opacity=".55"/></svg>''', encoding="utf-8")
+(icons / "folder-open.svg").write_text(f'''<svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32">{FOLDER_DEFS}<path d="M3.5 7.5h9l2.4 2.7h13.6v13.3H3.5z" fill="url(#t)" stroke="#B8691C" stroke-width=".9" stroke-linejoin="round"/><path d="M7 13h24l-3.5 12.5H3z" fill="url(#f)" stroke="#B8691C" stroke-width=".9" stroke-linejoin="round"/><path d="M8 15.5h17" stroke="#FFF" stroke-opacity=".45" stroke-width="1.6" stroke-linecap="round"/><circle cx="16" cy="20.5" r="2.4" fill="#FFF" fill-opacity=".55"/></svg>''', encoding="utf-8")
 
 theme_path = root / "fileicons" / "okto-icon-theme.json"
 theme = json.loads(theme_path.read_text(encoding="utf-8"))

@@ -1,31 +1,52 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="648" height="350" viewBox="0 0 648 350">
 <rect width="100%" height="100%" rx="18" fill="#21103F"/>
 <g transform="translate(38,3) scale(1)">
-<ns0:g xmlns:ns0="http://www.w3.org/2000/svg" transform="translate(-8 -8) scale(1.5)" fill="#659AD2" stroke-linecap="round" stroke-linejoin="round"><ns0:text x="16" y="21" text-anchor="middle" font-family="Arial, sans-serif" font-size="18" font-weight="700">C</ns0:text></ns0:g>
+<ns0:defs xmlns:ns0="http://www.w3.org/2000/svg"><ns0:radialGradient id="b-c" cx=".35" cy=".28" r=".85"><ns0:stop offset="0" stop-color="#AAC7E6" /><ns0:stop offset=".45" stop-color="#659AD2" /><ns0:stop offset="1" stop-color="#496F97" /></ns0:radialGradient></ns0:defs>
+<ns0:circle xmlns:ns0="http://www.w3.org/2000/svg" cx="16" cy="16" r="13.5" fill="url(#b-c)" stroke="#3D5C7E" stroke-width=".8" />
+<ns0:ellipse xmlns:ns0="http://www.w3.org/2000/svg" cx="12.5" cy="9.2" rx="6" ry="3.2" fill="#FFFFFF" fill-opacity=".38" transform="rotate(-22 12.5 9.2)" />
+<ns0:g xmlns:ns0="http://www.w3.org/2000/svg" transform="translate(-3.4 -2.75) scale(1.25)" fill="#FFFFFF" stroke-linecap="round" stroke-linejoin="round"><ns0:text x="16" y="21" text-anchor="middle" font-family="Arial, sans-serif" font-size="18" font-weight="700">C</ns0:text></ns0:g>
 </g>
 <text x="54.0" y="59" text-anchor="middle" fill="#D2C6E8" font-family="Segoe UI, sans-serif" font-size="10">c</text>
 <g transform="translate(146,3) scale(1)">
-<ns0:g xmlns:ns0="http://www.w3.org/2000/svg" transform="translate(-8 -8) scale(1.5)" fill="#8172B8" stroke-linecap="round" stroke-linejoin="round"><ns0:path d="M13 12l-2.5 2.5L13 17m5-5 2.5 2.5L18 17m-1-6-2 8" fill="none" stroke="#8172B8" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /></ns0:g>
+<ns0:defs xmlns:ns0="http://www.w3.org/2000/svg"><ns0:radialGradient id="b-code" cx=".35" cy=".28" r=".85"><ns0:stop offset="0" stop-color="#BAB1D8" /><ns0:stop offset=".45" stop-color="#8172B8" /><ns0:stop offset="1" stop-color="#5D5284" /></ns0:radialGradient></ns0:defs>
+<ns0:circle xmlns:ns0="http://www.w3.org/2000/svg" cx="16" cy="16" r="13.5" fill="url(#b-code)" stroke="#4D446E" stroke-width=".8" />
+<ns0:ellipse xmlns:ns0="http://www.w3.org/2000/svg" cx="12.5" cy="9.2" rx="6" ry="3.2" fill="#FFFFFF" fill-opacity=".38" transform="rotate(-22 12.5 9.2)" />
+<ns0:g xmlns:ns0="http://www.w3.org/2000/svg" transform="translate(-3.4 -2.75) scale(1.25)" fill="#FFFFFF" stroke-linecap="round" stroke-linejoin="round"><ns0:path d="M13 12l-2.5 2.5L13 17m5-5 2.5 2.5L18 17m-1-6-2 8" fill="none" stroke="#FFFFFF" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /></ns0:g>
 </g>
 <text x="162.0" y="59" text-anchor="middle" fill="#D2C6E8" font-family="Segoe UI, sans-serif" font-size="10">code</text>
 <g transform="translate(254,3) scale(1)">
-<ns0:g xmlns:ns0="http://www.w3.org/2000/svg" transform="translate(-8 -8) scale(1.5)" fill="#DCA62F" stroke-linecap="round" stroke-linejoin="round"><ns0:circle cx="15.5" cy="15" r="3.1" fill="none" stroke="#DCA62F" stroke-width="1.5" /><ns0:path d="M15.5 9v2m0 8v2m6-6h-2m-8 0h-2m10.2-4.2-1.4 1.4m-5.6 5.6-1.4 1.4m8.4 0-1.4-1.4m-5.6-5.6-1.4-1.4" stroke="#DCA62F" stroke-width="1.5" stroke-linecap="round" /></ns0:g>
+<ns0:defs xmlns:ns0="http://www.w3.org/2000/svg"><ns0:radialGradient id="b-config" cx=".35" cy=".28" r=".85"><ns0:stop offset="0" stop-color="#ECCE8D" /><ns0:stop offset=".45" stop-color="#DCA62F" /><ns0:stop offset="1" stop-color="#9E7822" /></ns0:radialGradient></ns0:defs>
+<ns0:circle xmlns:ns0="http://www.w3.org/2000/svg" cx="16" cy="16" r="13.5" fill="url(#b-config)" stroke="#84641C" stroke-width=".8" />
+<ns0:ellipse xmlns:ns0="http://www.w3.org/2000/svg" cx="12.5" cy="9.2" rx="6" ry="3.2" fill="#FFFFFF" fill-opacity=".38" transform="rotate(-22 12.5 9.2)" />
+<ns0:g xmlns:ns0="http://www.w3.org/2000/svg" transform="translate(-3.4 -2.75) scale(1.25)" fill="#3D2E00" stroke-linecap="round" stroke-linejoin="round"><ns0:circle cx="15.5" cy="15" r="3.1" fill="none" stroke="#3D2E00" stroke-width="1.5" /><ns0:path d="M15.5 9v2m0 8v2m6-6h-2m-8 0h-2m10.2-4.2-1.4 1.4m-5.6 5.6-1.4 1.4m8.4 0-1.4-1.4m-5.6-5.6-1.4-1.4" stroke="#3D2E00" stroke-width="1.5" stroke-linecap="round" /></ns0:g>
 </g>
 <text x="270.0" y="59" text-anchor="middle" fill="#D2C6E8" font-family="Segoe UI, sans-serif" font-size="10">config</text>
 <g transform="translate(362,3) scale(1)">
-<ns0:g xmlns:ns0="http://www.w3.org/2000/svg" transform="translate(-8 -8) scale(1.5)" fill="#00599C" stroke-linecap="round" stroke-linejoin="round"><ns0:text x="16" y="20" text-anchor="middle" font-family="Arial, sans-serif" font-size="15" font-weight="700" letter-spacing="-.7">C++</ns0:text></ns0:g>
+<ns0:defs xmlns:ns0="http://www.w3.org/2000/svg"><ns0:radialGradient id="b-cpp" cx=".35" cy=".28" r=".85"><ns0:stop offset="0" stop-color="#73A4C9" /><ns0:stop offset=".45" stop-color="#00599C" /><ns0:stop offset="1" stop-color="#004070" /></ns0:radialGradient></ns0:defs>
+<ns0:circle xmlns:ns0="http://www.w3.org/2000/svg" cx="16" cy="16" r="13.5" fill="url(#b-cpp)" stroke="#00355E" stroke-width=".8" />
+<ns0:ellipse xmlns:ns0="http://www.w3.org/2000/svg" cx="12.5" cy="9.2" rx="6" ry="3.2" fill="#FFFFFF" fill-opacity=".38" transform="rotate(-22 12.5 9.2)" />
+<ns0:g xmlns:ns0="http://www.w3.org/2000/svg" transform="translate(-3.4 -2.75) scale(1.25)" fill="#FFFFFF" stroke-linecap="round" stroke-linejoin="round"><ns0:text x="16" y="20" text-anchor="middle" font-family="Arial, sans-serif" font-size="15" font-weight="700" letter-spacing="-.7">C++</ns0:text></ns0:g>
 </g>
 <text x="378.0" y="59" text-anchor="middle" fill="#D2C6E8" font-family="Segoe UI, sans-serif" font-size="10">cpp</text>
 <g transform="translate(470,3) scale(1)">
-<ns0:g xmlns:ns0="http://www.w3.org/2000/svg" transform="translate(-8 -8) scale(1.5)" fill="#9B4F96" stroke-linecap="round" stroke-linejoin="round"><ns0:text x="16" y="20" text-anchor="middle" font-family="Arial, sans-serif" font-size="15" font-weight="700" letter-spacing="-.7">C#</ns0:text></ns0:g>
+<ns0:defs xmlns:ns0="http://www.w3.org/2000/svg"><ns0:radialGradient id="b-csharp" cx=".35" cy=".28" r=".85"><ns0:stop offset="0" stop-color="#C89EC5" /><ns0:stop offset=".45" stop-color="#9B4F96" /><ns0:stop offset="1" stop-color="#70396C" /></ns0:radialGradient></ns0:defs>
+<ns0:circle xmlns:ns0="http://www.w3.org/2000/svg" cx="16" cy="16" r="13.5" fill="url(#b-csharp)" stroke="#5D2F5A" stroke-width=".8" />
+<ns0:ellipse xmlns:ns0="http://www.w3.org/2000/svg" cx="12.5" cy="9.2" rx="6" ry="3.2" fill="#FFFFFF" fill-opacity=".38" transform="rotate(-22 12.5 9.2)" />
+<ns0:g xmlns:ns0="http://www.w3.org/2000/svg" transform="translate(-3.4 -2.75) scale(1.25)" fill="#FFFFFF" stroke-linecap="round" stroke-linejoin="round"><ns0:text x="16" y="20" text-anchor="middle" font-family="Arial, sans-serif" font-size="15" font-weight="700" letter-spacing="-.7">C#</ns0:text></ns0:g>
 </g>
 <text x="486.0" y="59" text-anchor="middle" fill="#D2C6E8" font-family="Segoe UI, sans-serif" font-size="10">csharp</text>
 <g transform="translate(578,3) scale(1)">
-<ns0:g xmlns:ns0="http://www.w3.org/2000/svg" transform="translate(-8 -8) scale(1.5)" fill="#00AFCB" stroke-linecap="round" stroke-linejoin="round"><ns0:ellipse cx="15.5" cy="10" rx="5.3" ry="2" /><ns0:path d="M10.2 10v7c0 1.2 2.4 2.2 5.3 2.2s5.3-1 5.3-2.2v-7M10.2 13.5c0 1.2 2.4 2.2 5.3 2.2s5.3-1 5.3-2.2" fill="none" stroke="#00AFCB" stroke-width="1.6" /></ns0:g>
+<ns0:defs xmlns:ns0="http://www.w3.org/2000/svg"><ns0:radialGradient id="b-database" cx=".35" cy=".28" r=".85"><ns0:stop offset="0" stop-color="#73D3E2" /><ns0:stop offset=".45" stop-color="#00AFCB" /><ns0:stop offset="1" stop-color="#007E92" /></ns0:radialGradient></ns0:defs>
+<ns0:circle xmlns:ns0="http://www.w3.org/2000/svg" cx="16" cy="16" r="13.5" fill="url(#b-database)" stroke="#00697A" stroke-width=".8" />
+<ns0:ellipse xmlns:ns0="http://www.w3.org/2000/svg" cx="12.5" cy="9.2" rx="6" ry="3.2" fill="#FFFFFF" fill-opacity=".38" transform="rotate(-22 12.5 9.2)" />
+<ns0:g xmlns:ns0="http://www.w3.org/2000/svg" transform="translate(-3.4 -2.75) scale(1.25)" fill="#FFFFFF" stroke-linecap="round" stroke-linejoin="round"><ns0:ellipse cx="15.5" cy="10" rx="5.3" ry="2" /><ns0:path d="M10.2 10v7c0 1.2 2.4 2.2 5.3 2.2s5.3-1 5.3-2.2v-7M10.2 13.5c0 1.2 2.4 2.2 5.3 2.2s5.3-1 5.3-2.2" fill="none" stroke="#FFFFFF" stroke-width="1.6" /></ns0:g>
 </g>
 <text x="594.0" y="59" text-anchor="middle" fill="#D2C6E8" font-family="Segoe UI, sans-serif" font-size="10">database</text>
 <g transform="translate(38,73) scale(1)">
-<ns0:g xmlns:ns0="http://www.w3.org/2000/svg" transform="translate(-8 -8) scale(1.5)" fill="#2496ED" stroke-linecap="round" stroke-linejoin="round"><ns0:path d="M9 15h12c-.5 2.7-2.3 4-5.5 4H12c-2 0-3.1-1.2-3-4zm2-3h2v2h-2zm3 0h2v2h-2zm3 0h2v2h-2zm-6-3h2v2h-2zm3 0h2v2h-2zm3 0h2v2h-2z" /></ns0:g>
+<ns0:defs xmlns:ns0="http://www.w3.org/2000/svg"><ns0:radialGradient id="b-docker" cx=".35" cy=".28" r=".85"><ns0:stop offset="0" stop-color="#87C5F5" /><ns0:stop offset=".45" stop-color="#2496ED" /><ns0:stop offset="1" stop-color="#1A6CAB" /></ns0:radialGradient></ns0:defs>
+<ns0:circle xmlns:ns0="http://www.w3.org/2000/svg" cx="16" cy="16" r="13.5" fill="url(#b-docker)" stroke="#165A8E" stroke-width=".8" />
+<ns0:ellipse xmlns:ns0="http://www.w3.org/2000/svg" cx="12.5" cy="9.2" rx="6" ry="3.2" fill="#FFFFFF" fill-opacity=".38" transform="rotate(-22 12.5 9.2)" />
+<ns0:g xmlns:ns0="http://www.w3.org/2000/svg" transform="translate(-3.4 -2.75) scale(1.25)" fill="#FFFFFF" stroke-linecap="round" stroke-linejoin="round"><ns0:path d="M9 15h12c-.5 2.7-2.3 4-5.5 4H12c-2 0-3.1-1.2-3-4zm2-3h2v2h-2zm3 0h2v2h-2zm3 0h2v2h-2zm-6-3h2v2h-2zm3 0h2v2h-2zm3 0h2v2h-2z" /></ns0:g>
 </g>
 <text x="54.0" y="129" text-anchor="middle" fill="#D2C6E8" font-family="Segoe UI, sans-serif" font-size="10">docker</text>
 <g transform="translate(146,73) scale(1)">
@@ -35,87 +56,150 @@
 </g>
 <text x="162.0" y="129" text-anchor="middle" fill="#D2C6E8" font-family="Segoe UI, sans-serif" font-size="10">file</text>
 <g transform="translate(254,73) scale(1)">
-<ns0:g xmlns:ns0="http://www.w3.org/2000/svg" transform="translate(-8 -8) scale(1.5)" fill="#EF553F" stroke-linecap="round" stroke-linejoin="round"><ns0:path d="M12 10v8m0-5 6-3v8" fill="none" stroke="#EF553F" stroke-width="1.5" stroke-linecap="round" /><ns0:circle cx="12" cy="9" r="1.7" /><ns0:circle cx="12" cy="19" r="1.7" /><ns0:circle cx="18" cy="9" r="1.7" /><ns0:circle cx="18" cy="18" r="1.7" /></ns0:g>
+<ns0:defs xmlns:ns0="http://www.w3.org/2000/svg"><ns0:radialGradient id="b-git" cx=".35" cy=".28" r=".85"><ns0:stop offset="0" stop-color="#F6A295" /><ns0:stop offset=".45" stop-color="#EF553F" /><ns0:stop offset="1" stop-color="#AC3D2D" /></ns0:radialGradient></ns0:defs>
+<ns0:circle xmlns:ns0="http://www.w3.org/2000/svg" cx="16" cy="16" r="13.5" fill="url(#b-git)" stroke="#8F3326" stroke-width=".8" />
+<ns0:ellipse xmlns:ns0="http://www.w3.org/2000/svg" cx="12.5" cy="9.2" rx="6" ry="3.2" fill="#FFFFFF" fill-opacity=".38" transform="rotate(-22 12.5 9.2)" />
+<ns0:g xmlns:ns0="http://www.w3.org/2000/svg" transform="translate(-3.4 -2.75) scale(1.25)" fill="#FFFFFF" stroke-linecap="round" stroke-linejoin="round"><ns0:path d="M12 10v8m0-5 6-3v8" fill="none" stroke="#FFFFFF" stroke-width="1.5" stroke-linecap="round" /><ns0:circle cx="12" cy="9" r="1.7" /><ns0:circle cx="12" cy="19" r="1.7" /><ns0:circle cx="18" cy="9" r="1.7" /><ns0:circle cx="18" cy="18" r="1.7" /></ns0:g>
 </g>
 <text x="270.0" y="129" text-anchor="middle" fill="#D2C6E8" font-family="Segoe UI, sans-serif" font-size="10">git</text>
 <g transform="translate(362,73) scale(1)">
-<ns0:g xmlns:ns0="http://www.w3.org/2000/svg" transform="translate(-8 -8) scale(1.5)" fill="#00ADD8" stroke-linecap="round" stroke-linejoin="round"><ns0:text x="16" y="20" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" font-weight="700" letter-spacing="-1.2">Go</ns0:text></ns0:g>
+<ns0:defs xmlns:ns0="http://www.w3.org/2000/svg"><ns0:radialGradient id="b-go" cx=".35" cy=".28" r=".85"><ns0:stop offset="0" stop-color="#73D2EA" /><ns0:stop offset=".45" stop-color="#00ADD8" /><ns0:stop offset="1" stop-color="#007D9C" /></ns0:radialGradient></ns0:defs>
+<ns0:circle xmlns:ns0="http://www.w3.org/2000/svg" cx="16" cy="16" r="13.5" fill="url(#b-go)" stroke="#006882" stroke-width=".8" />
+<ns0:ellipse xmlns:ns0="http://www.w3.org/2000/svg" cx="12.5" cy="9.2" rx="6" ry="3.2" fill="#FFFFFF" fill-opacity=".38" transform="rotate(-22 12.5 9.2)" />
+<ns0:g xmlns:ns0="http://www.w3.org/2000/svg" transform="translate(-3.4 -2.75) scale(1.25)" fill="#FFFFFF" stroke-linecap="round" stroke-linejoin="round"><ns0:text x="16" y="20" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" font-weight="700" letter-spacing="-1.2">Go</ns0:text></ns0:g>
 </g>
 <text x="378.0" y="129" text-anchor="middle" fill="#D2C6E8" font-family="Segoe UI, sans-serif" font-size="10">go</text>
 <g transform="translate(470,73) scale(1)">
-<ns0:g xmlns:ns0="http://www.w3.org/2000/svg" transform="translate(-8 -8) scale(1.5)" fill="#55B97D" stroke-linecap="round" stroke-linejoin="round"><ns0:circle cx="18.5" cy="12.5" r="1.6" /><ns0:path d="M9 20l3.3-4.2 2.1 2.2 2-2.5 3.6 4.5z" /></ns0:g>
+<ns0:defs xmlns:ns0="http://www.w3.org/2000/svg"><ns0:radialGradient id="b-image" cx=".35" cy=".28" r=".85"><ns0:stop offset="0" stop-color="#A2D8B8" /><ns0:stop offset=".45" stop-color="#55B97D" /><ns0:stop offset="1" stop-color="#3D855A" /></ns0:radialGradient></ns0:defs>
+<ns0:circle xmlns:ns0="http://www.w3.org/2000/svg" cx="16" cy="16" r="13.5" fill="url(#b-image)" stroke="#336F4B" stroke-width=".8" />
+<ns0:ellipse xmlns:ns0="http://www.w3.org/2000/svg" cx="12.5" cy="9.2" rx="6" ry="3.2" fill="#FFFFFF" fill-opacity=".38" transform="rotate(-22 12.5 9.2)" />
+<ns0:g xmlns:ns0="http://www.w3.org/2000/svg" transform="translate(-3.4 -2.75) scale(1.25)" fill="#FFFFFF" stroke-linecap="round" stroke-linejoin="round"><ns0:circle cx="18.5" cy="12.5" r="1.6" /><ns0:path d="M9 20l3.3-4.2 2.1 2.2 2-2.5 3.6 4.5z" /></ns0:g>
 </g>
 <text x="486.0" y="129" text-anchor="middle" fill="#D2C6E8" font-family="Segoe UI, sans-serif" font-size="10">image</text>
 <g transform="translate(578,73) scale(1)">
-<ns0:g xmlns:ns0="http://www.w3.org/2000/svg" transform="translate(-8 -8) scale(1.5)" fill="#E76F00" stroke-linecap="round" stroke-linejoin="round"><ns0:path d="M15.8 7.5c-2 1.3 2.4 1.7.1 3.1m2-4.2c-3 1.9 2.7 2.2.1 4.6M10 13.5h11l-1.1 4.2c-.3 1-1 1.5-2.1 1.5h-4.6c-1.1 0-1.8-.5-2.1-1.5zm1.2 7h8.5" fill="none" stroke="#E76F00" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" /></ns0:g>
+<ns0:defs xmlns:ns0="http://www.w3.org/2000/svg"><ns0:radialGradient id="b-java" cx=".35" cy=".28" r=".85"><ns0:stop offset="0" stop-color="#F2B073" /><ns0:stop offset=".45" stop-color="#E76F00" /><ns0:stop offset="1" stop-color="#A65000" /></ns0:radialGradient></ns0:defs>
+<ns0:circle xmlns:ns0="http://www.w3.org/2000/svg" cx="16" cy="16" r="13.5" fill="url(#b-java)" stroke="#8B4300" stroke-width=".8" />
+<ns0:ellipse xmlns:ns0="http://www.w3.org/2000/svg" cx="12.5" cy="9.2" rx="6" ry="3.2" fill="#FFFFFF" fill-opacity=".38" transform="rotate(-22 12.5 9.2)" />
+<ns0:g xmlns:ns0="http://www.w3.org/2000/svg" transform="translate(-3.4 -2.75) scale(1.25)" fill="#FFFFFF" stroke-linecap="round" stroke-linejoin="round"><ns0:path d="M15.8 7.5c-2 1.3 2.4 1.7.1 3.1m2-4.2c-3 1.9 2.7 2.2.1 4.6M10 13.5h11l-1.1 4.2c-.3 1-1 1.5-2.1 1.5h-4.6c-1.1 0-1.8-.5-2.1-1.5zm1.2 7h8.5" fill="none" stroke="#FFFFFF" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" /></ns0:g>
 </g>
 <text x="594.0" y="129" text-anchor="middle" fill="#D2C6E8" font-family="Segoe UI, sans-serif" font-size="10">java</text>
 <g transform="translate(38,143) scale(1)">
-<ns0:g xmlns:ns0="http://www.w3.org/2000/svg" transform="translate(-8 -8) scale(1.5)" fill="#E6B800" stroke-linecap="round" stroke-linejoin="round"><ns0:text x="16" y="20" text-anchor="middle" font-family="Arial, sans-serif" font-size="13" font-weight="700" letter-spacing="-1">JS</ns0:text></ns0:g>
+<ns0:defs xmlns:ns0="http://www.w3.org/2000/svg"><ns0:radialGradient id="b-javascript" cx=".35" cy=".28" r=".85"><ns0:stop offset="0" stop-color="#F1D873" /><ns0:stop offset=".45" stop-color="#E6B800" /><ns0:stop offset="1" stop-color="#A68400" /></ns0:radialGradient></ns0:defs>
+<ns0:circle xmlns:ns0="http://www.w3.org/2000/svg" cx="16" cy="16" r="13.5" fill="url(#b-javascript)" stroke="#8A6E00" stroke-width=".8" />
+<ns0:ellipse xmlns:ns0="http://www.w3.org/2000/svg" cx="12.5" cy="9.2" rx="6" ry="3.2" fill="#FFFFFF" fill-opacity=".38" transform="rotate(-22 12.5 9.2)" />
+<ns0:g xmlns:ns0="http://www.w3.org/2000/svg" transform="translate(-3.4 -2.75) scale(1.25)" fill="#3D3000" stroke-linecap="round" stroke-linejoin="round"><ns0:text x="16" y="20" text-anchor="middle" font-family="Arial, sans-serif" font-size="13" font-weight="700" letter-spacing="-1">JS</ns0:text></ns0:g>
 </g>
 <text x="54.0" y="199" text-anchor="middle" fill="#D2C6E8" font-family="Segoe UI, sans-serif" font-size="10">javascript</text>
 <g transform="translate(146,143) scale(1)">
-<ns0:g xmlns:ns0="http://www.w3.org/2000/svg" transform="translate(-8 -8) scale(1.5)" fill="#D6A838" stroke-linecap="round" stroke-linejoin="round"><ns0:path d="M12 10c-1 0-1.4.5-1.4 1.5v1c0 .8-.3 1.2-.9 1.5.6.3.9.7.9 1.5v1c0 1 .4 1.5 1.4 1.5v-1.5c-.4 0-.5-.2-.5-.6v-.9c0-.7-.2-1.2-.7-1.5.5-.3.7-.8.7-1.5v-.9c0-.4.1-.6.5-.6zm3 0v1.5c.4 0 .5.2.5.6v.9c0 .7.2 1.2.7 1.5-.5.3-.7.8-.7 1.5v.9c0 .4-.1.6-.5.6V19c1 0 1.4-.5 1.4-1.5v-1c0-.8.3-1.2.9-1.5-.6-.3-.9-.7-.9-1.5v-1c0-1-.4-1.5-1.4-1.5z" /></ns0:g>
+<ns0:defs xmlns:ns0="http://www.w3.org/2000/svg"><ns0:radialGradient id="b-json" cx=".35" cy=".28" r=".85"><ns0:stop offset="0" stop-color="#E8CF92" /><ns0:stop offset=".45" stop-color="#D6A838" /><ns0:stop offset="1" stop-color="#9A7928" /></ns0:radialGradient></ns0:defs>
+<ns0:circle xmlns:ns0="http://www.w3.org/2000/svg" cx="16" cy="16" r="13.5" fill="url(#b-json)" stroke="#806522" stroke-width=".8" />
+<ns0:ellipse xmlns:ns0="http://www.w3.org/2000/svg" cx="12.5" cy="9.2" rx="6" ry="3.2" fill="#FFFFFF" fill-opacity=".38" transform="rotate(-22 12.5 9.2)" />
+<ns0:g xmlns:ns0="http://www.w3.org/2000/svg" transform="translate(-3.4 -2.75) scale(1.25)" fill="#3D2E00" stroke-linecap="round" stroke-linejoin="round"><ns0:path d="M12 10c-1 0-1.4.5-1.4 1.5v1c0 .8-.3 1.2-.9 1.5.6.3.9.7.9 1.5v1c0 1 .4 1.5 1.4 1.5v-1.5c-.4 0-.5-.2-.5-.6v-.9c0-.7-.2-1.2-.7-1.5.5-.3.7-.8.7-1.5v-.9c0-.4.1-.6.5-.6zm3 0v1.5c.4 0 .5.2.5.6v.9c0 .7.2 1.2.7 1.5-.5.3-.7.8-.7 1.5v.9c0 .4-.1.6-.5.6V19c1 0 1.4-.5 1.4-1.5v-1c0-.8.3-1.2.9-1.5-.6-.3-.9-.7-.9-1.5v-1c0-1-.4-1.5-1.4-1.5z" /></ns0:g>
 </g>
 <text x="162.0" y="199" text-anchor="middle" fill="#D2C6E8" font-family="Segoe UI, sans-serif" font-size="10">json</text>
 <g transform="translate(254,143) scale(1)">
-<ns0:g xmlns:ns0="http://www.w3.org/2000/svg" transform="translate(-8 -8) scale(1.5)" fill="#7F52FF" stroke-linecap="round" stroke-linejoin="round"><ns0:path d="M10 8v16" fill="none" stroke="#8B70A6" stroke-width="3.2" stroke-linecap="round" /><ns0:path d="M11 16 22 8" fill="none" stroke="#DB916A" stroke-width="3.2" stroke-linecap="round" /><ns0:path d="m13 15 9 9" fill="none" stroke="#6A9EAA" stroke-width="3.2" stroke-linecap="round" /></ns0:g>
+<ns0:defs xmlns:ns0="http://www.w3.org/2000/svg"><ns0:radialGradient id="b-kotlin" cx=".35" cy=".28" r=".85"><ns0:stop offset="0" stop-color="#B9A0FF" /><ns0:stop offset=".45" stop-color="#7F52FF" /><ns0:stop offset="1" stop-color="#5B3BB8" /></ns0:radialGradient></ns0:defs>
+<ns0:circle xmlns:ns0="http://www.w3.org/2000/svg" cx="16" cy="16" r="13.5" fill="url(#b-kotlin)" stroke="#4C3199" stroke-width=".8" />
+<ns0:ellipse xmlns:ns0="http://www.w3.org/2000/svg" cx="12.5" cy="9.2" rx="6" ry="3.2" fill="#FFFFFF" fill-opacity=".38" transform="rotate(-22 12.5 9.2)" />
+<ns0:g xmlns:ns0="http://www.w3.org/2000/svg" transform="translate(-3.4 -2.75) scale(1.25)" fill="#FFFFFF" stroke-linecap="round" stroke-linejoin="round"><ns0:path d="M10 8v16" fill="none" stroke="#FFFFFF" stroke-width="3.2" stroke-linecap="round" /><ns0:path d="M11 16 22 8" fill="none" stroke="#FFFFFF" stroke-width="3.2" stroke-linecap="round" /><ns0:path d="m13 15 9 9" fill="none" stroke="#FFFFFF" stroke-width="3.2" stroke-linecap="round" /></ns0:g>
 </g>
 <text x="270.0" y="199" text-anchor="middle" fill="#D2C6E8" font-family="Segoe UI, sans-serif" font-size="10">kotlin</text>
 <g transform="translate(362,143) scale(1)">
-<ns0:g xmlns:ns0="http://www.w3.org/2000/svg" transform="translate(-8 -8) scale(1.5)" fill="#3598D4" stroke-linecap="round" stroke-linejoin="round"><ns0:path d="M8 19v-7l2.2 2.3 2.1-2.3v7h-1.8v-3.2l-.3.4-.3-.4V19zm6.2-7.2h1.9v4h2v-4h1.8v5.7h-5.7z" /></ns0:g>
+<ns0:defs xmlns:ns0="http://www.w3.org/2000/svg"><ns0:radialGradient id="b-markdown" cx=".35" cy=".28" r=".85"><ns0:stop offset="0" stop-color="#90C6E7" /><ns0:stop offset=".45" stop-color="#3598D4" /><ns0:stop offset="1" stop-color="#266D99" /></ns0:radialGradient></ns0:defs>
+<ns0:circle xmlns:ns0="http://www.w3.org/2000/svg" cx="16" cy="16" r="13.5" fill="url(#b-markdown)" stroke="#205B7F" stroke-width=".8" />
+<ns0:ellipse xmlns:ns0="http://www.w3.org/2000/svg" cx="12.5" cy="9.2" rx="6" ry="3.2" fill="#FFFFFF" fill-opacity=".38" transform="rotate(-22 12.5 9.2)" />
+<ns0:g xmlns:ns0="http://www.w3.org/2000/svg" transform="translate(-3.4 -2.75) scale(1.25)" fill="#FFFFFF" stroke-linecap="round" stroke-linejoin="round"><ns0:path d="M8 19v-7l2.2 2.3 2.1-2.3v7h-1.8v-3.2l-.3.4-.3-.4V19zm6.2-7.2h1.9v4h2v-4h1.8v5.7h-5.7z" /></ns0:g>
 </g>
 <text x="378.0" y="199" text-anchor="middle" fill="#D2C6E8" font-family="Segoe UI, sans-serif" font-size="10">markdown</text>
 <g transform="translate(470,143) scale(1)">
-<ns0:g xmlns:ns0="http://www.w3.org/2000/svg" transform="translate(-8 -8) scale(1.5)" fill="#E36A4E" stroke-linecap="round" stroke-linejoin="round"><ns0:path d="M13 11l-3 3 3 3m5-6 3 3-3 3m-1-7-2 8" fill="none" stroke="#E36A4E" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" /></ns0:g>
+<ns0:defs xmlns:ns0="http://www.w3.org/2000/svg"><ns0:radialGradient id="b-markup" cx=".35" cy=".28" r=".85"><ns0:stop offset="0" stop-color="#F0AD9E" /><ns0:stop offset=".45" stop-color="#E36A4E" /><ns0:stop offset="1" stop-color="#A34C38" /></ns0:radialGradient></ns0:defs>
+<ns0:circle xmlns:ns0="http://www.w3.org/2000/svg" cx="16" cy="16" r="13.5" fill="url(#b-markup)" stroke="#88402F" stroke-width=".8" />
+<ns0:ellipse xmlns:ns0="http://www.w3.org/2000/svg" cx="12.5" cy="9.2" rx="6" ry="3.2" fill="#FFFFFF" fill-opacity=".38" transform="rotate(-22 12.5 9.2)" />
+<ns0:g xmlns:ns0="http://www.w3.org/2000/svg" transform="translate(-3.4 -2.75) scale(1.25)" fill="#FFFFFF" stroke-linecap="round" stroke-linejoin="round"><ns0:path d="M13 11l-3 3 3 3m5-6 3 3-3 3m-1-7-2 8" fill="none" stroke="#FFFFFF" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" /></ns0:g>
 </g>
 <text x="486.0" y="199" text-anchor="middle" fill="#D2C6E8" font-family="Segoe UI, sans-serif" font-size="10">markup</text>
 <g transform="translate(578,143) scale(1)">
-<ns0:g xmlns:ns0="http://www.w3.org/2000/svg" transform="translate(-8 -8) scale(1.5)" fill="#E58A56" stroke-linecap="round" stroke-linejoin="round"><ns0:path d="M15.5 9l5 2.6v6l-5 2.6-5-2.6v-6zM10.5 11.6l5 2.7 5-2.7m-5 2.7v5.9" fill="none" stroke="#E58A56" stroke-width="1.4" stroke-linejoin="round" /></ns0:g>
+<ns0:defs xmlns:ns0="http://www.w3.org/2000/svg"><ns0:radialGradient id="b-package" cx=".35" cy=".28" r=".85"><ns0:stop offset="0" stop-color="#F1BFA2" /><ns0:stop offset=".45" stop-color="#E58A56" /><ns0:stop offset="1" stop-color="#A5633E" /></ns0:radialGradient></ns0:defs>
+<ns0:circle xmlns:ns0="http://www.w3.org/2000/svg" cx="16" cy="16" r="13.5" fill="url(#b-package)" stroke="#895334" stroke-width=".8" />
+<ns0:ellipse xmlns:ns0="http://www.w3.org/2000/svg" cx="12.5" cy="9.2" rx="6" ry="3.2" fill="#FFFFFF" fill-opacity=".38" transform="rotate(-22 12.5 9.2)" />
+<ns0:g xmlns:ns0="http://www.w3.org/2000/svg" transform="translate(-3.4 -2.75) scale(1.25)" fill="#FFFFFF" stroke-linecap="round" stroke-linejoin="round"><ns0:path d="M15.5 9l5 2.6v6l-5 2.6-5-2.6v-6zM10.5 11.6l5 2.7 5-2.7m-5 2.7v5.9" fill="none" stroke="#FFFFFF" stroke-width="1.4" stroke-linejoin="round" /></ns0:g>
 </g>
 <text x="594.0" y="199" text-anchor="middle" fill="#D2C6E8" font-family="Segoe UI, sans-serif" font-size="10">package</text>
 <g transform="translate(38,213) scale(1)">
-<ns0:g xmlns:ns0="http://www.w3.org/2000/svg" transform="translate(-8 -8) scale(1.5)" fill="#777BB4" stroke-linecap="round" stroke-linejoin="round"><ns0:text x="16" y="20" text-anchor="middle" font-family="Arial, sans-serif" font-size="10.5" font-style="italic" font-weight="700" letter-spacing="-.5">php</ns0:text></ns0:g>
+<ns0:defs xmlns:ns0="http://www.w3.org/2000/svg"><ns0:radialGradient id="b-php" cx=".35" cy=".28" r=".85"><ns0:stop offset="0" stop-color="#B4B6D6" /><ns0:stop offset=".45" stop-color="#777BB4" /><ns0:stop offset="1" stop-color="#565982" /></ns0:radialGradient></ns0:defs>
+<ns0:circle xmlns:ns0="http://www.w3.org/2000/svg" cx="16" cy="16" r="13.5" fill="url(#b-php)" stroke="#474A6C" stroke-width=".8" />
+<ns0:ellipse xmlns:ns0="http://www.w3.org/2000/svg" cx="12.5" cy="9.2" rx="6" ry="3.2" fill="#FFFFFF" fill-opacity=".38" transform="rotate(-22 12.5 9.2)" />
+<ns0:g xmlns:ns0="http://www.w3.org/2000/svg" transform="translate(-3.4 -2.75) scale(1.25)" fill="#FFFFFF" stroke-linecap="round" stroke-linejoin="round"><ns0:text x="16" y="20" text-anchor="middle" font-family="Arial, sans-serif" font-size="10.5" font-style="italic" font-weight="700" letter-spacing="-.5">php</ns0:text></ns0:g>
 </g>
 <text x="54.0" y="269" text-anchor="middle" fill="#D2C6E8" font-family="Segoe UI, sans-serif" font-size="10">php</text>
 <g transform="translate(146,213) scale(1)">
-<ns0:g xmlns:ns0="http://www.w3.org/2000/svg" transform="translate(-8 -8) scale(1.5)" fill="#3776AB" stroke-linecap="round" stroke-linejoin="round"><ns0:path fill="#3776AB" d="M16 7.5h-3.2c-2.1 0-3.4 1.2-3.4 3.2v2h7.1v1.2h-6c-2.2 0-3.6 1.4-3.6 3.6s1.4 3.8 3.6 3.8h2.2v-2.1c0-2.2 1.5-3.8 3.7-3.8h3.1c1.8 0 3-1.2 3-3v-1.5c0-2-1.2-3.4-3.4-3.4zm-1.8 2.1a.8.8 0 1 1 0 1.6.8.8 0 0 1 0-1.6z" /><ns0:path fill="#FFD43B" d="M16 22.5h3.2c2.1 0 3.4-1.2 3.4-3.2v-2h-7.1v-1.2h6c2.2 0 3.6-1.4 3.6-3.6s-1.4-3.8-3.6-3.8h-2.2v2.1c0 2.2-1.5 3.8-3.7 3.8h-3.1c-1.8 0-3 1.2-3 3v1.5c0 2 1.2 3.4 3.4 3.4zm1.8-2.1a.8.8 0 1 1 0-1.6.8.8 0 0 1 0 1.6z" /></ns0:g>
+<ns0:defs xmlns:ns0="http://www.w3.org/2000/svg"><ns0:radialGradient id="b-python" cx=".35" cy=".28" r=".85"><ns0:stop offset="0" stop-color="#91B4D1" /><ns0:stop offset=".45" stop-color="#3776AB" /><ns0:stop offset="1" stop-color="#28557B" /></ns0:radialGradient></ns0:defs>
+<ns0:circle xmlns:ns0="http://www.w3.org/2000/svg" cx="16" cy="16" r="13.5" fill="url(#b-python)" stroke="#214767" stroke-width=".8" />
+<ns0:ellipse xmlns:ns0="http://www.w3.org/2000/svg" cx="12.5" cy="9.2" rx="6" ry="3.2" fill="#FFFFFF" fill-opacity=".38" transform="rotate(-22 12.5 9.2)" />
+<ns0:g xmlns:ns0="http://www.w3.org/2000/svg" transform="translate(-3.4 -2.75) scale(1.25)" fill="#FFFFFF" stroke-linecap="round" stroke-linejoin="round"><ns0:path fill="#FFFFFF" d="M16 7.5h-3.2c-2.1 0-3.4 1.2-3.4 3.2v2h7.1v1.2h-6c-2.2 0-3.6 1.4-3.6 3.6s1.4 3.8 3.6 3.8h2.2v-2.1c0-2.2 1.5-3.8 3.7-3.8h3.1c1.8 0 3-1.2 3-3v-1.5c0-2-1.2-3.4-3.4-3.4zm-1.8 2.1a.8.8 0 1 1 0 1.6.8.8 0 0 1 0-1.6z" /><ns0:path fill="#FFFFFF" d="M16 22.5h3.2c2.1 0 3.4-1.2 3.4-3.2v-2h-7.1v-1.2h6c2.2 0 3.6-1.4 3.6-3.6s-1.4-3.8-3.6-3.8h-2.2v2.1c0 2.2-1.5 3.8-3.7 3.8h-3.1c-1.8 0-3 1.2-3 3v1.5c0 2 1.2 3.4 3.4 3.4zm1.8-2.1a.8.8 0 1 1 0-1.6.8.8 0 0 1 0 1.6z" /></ns0:g>
 </g>
 <text x="162.0" y="269" text-anchor="middle" fill="#D2C6E8" font-family="Segoe UI, sans-serif" font-size="10">python</text>
 <g transform="translate(254,213) scale(1)">
-<ns0:g xmlns:ns0="http://www.w3.org/2000/svg" transform="translate(-8 -8) scale(1.5)" fill="#50B582" stroke-linecap="round" stroke-linejoin="round"><ns0:path d="M10 11h9M10 14h9M10 17h6" fill="none" stroke="#50B582" stroke-width="1.4" stroke-linecap="round" /><ns0:circle cx="8" cy="11" r=".8" /><ns0:circle cx="8" cy="14" r=".8" /><ns0:circle cx="8" cy="17" r=".8" /></ns0:g>
+<ns0:defs xmlns:ns0="http://www.w3.org/2000/svg"><ns0:radialGradient id="b-readme" cx=".35" cy=".28" r=".85"><ns0:stop offset="0" stop-color="#9FD6BA" /><ns0:stop offset=".45" stop-color="#50B582" /><ns0:stop offset="1" stop-color="#3A825E" /></ns0:radialGradient></ns0:defs>
+<ns0:circle xmlns:ns0="http://www.w3.org/2000/svg" cx="16" cy="16" r="13.5" fill="url(#b-readme)" stroke="#306D4E" stroke-width=".8" />
+<ns0:ellipse xmlns:ns0="http://www.w3.org/2000/svg" cx="12.5" cy="9.2" rx="6" ry="3.2" fill="#FFFFFF" fill-opacity=".38" transform="rotate(-22 12.5 9.2)" />
+<ns0:g xmlns:ns0="http://www.w3.org/2000/svg" transform="translate(-3.4 -2.75) scale(1.25)" fill="#FFFFFF" stroke-linecap="round" stroke-linejoin="round"><ns0:path d="M10 11h9M10 14h9M10 17h6" fill="none" stroke="#FFFFFF" stroke-width="1.4" stroke-linecap="round" /><ns0:circle cx="8" cy="11" r=".8" /><ns0:circle cx="8" cy="14" r=".8" /><ns0:circle cx="8" cy="17" r=".8" /></ns0:g>
 </g>
 <text x="270.0" y="269" text-anchor="middle" fill="#D2C6E8" font-family="Segoe UI, sans-serif" font-size="10">readme</text>
 <g transform="translate(362,213) scale(1)">
-<ns0:g xmlns:ns0="http://www.w3.org/2000/svg" transform="translate(-8 -8) scale(1.5)" fill="#CC342D" stroke-linecap="round" stroke-linejoin="round"><ns0:path d="M10 11l4.1-3.3 6.3.7 1.8 4.5-5.8 8.4-7-4.8z" /><ns0:path d="M10 11l6.4 10.3 5.8-8.4m-8.1-5.2 2.3 13.6m-6.4-10.3 12.2-1.7" fill="none" stroke="#CC342D" stroke-width=".8" /></ns0:g>
+<ns0:defs xmlns:ns0="http://www.w3.org/2000/svg"><ns0:radialGradient id="b-ruby" cx=".35" cy=".28" r=".85"><ns0:stop offset="0" stop-color="#E38F8C" /><ns0:stop offset=".45" stop-color="#CC342D" /><ns0:stop offset="1" stop-color="#932520" /></ns0:radialGradient></ns0:defs>
+<ns0:circle xmlns:ns0="http://www.w3.org/2000/svg" cx="16" cy="16" r="13.5" fill="url(#b-ruby)" stroke="#7A1F1B" stroke-width=".8" />
+<ns0:ellipse xmlns:ns0="http://www.w3.org/2000/svg" cx="12.5" cy="9.2" rx="6" ry="3.2" fill="#FFFFFF" fill-opacity=".38" transform="rotate(-22 12.5 9.2)" />
+<ns0:g xmlns:ns0="http://www.w3.org/2000/svg" transform="translate(-3.4 -2.75) scale(1.25)" fill="#FFFFFF" stroke-linecap="round" stroke-linejoin="round"><ns0:path d="M10 11l4.1-3.3 6.3.7 1.8 4.5-5.8 8.4-7-4.8z" /><ns0:path d="M10 11l6.4 10.3 5.8-8.4m-8.1-5.2 2.3 13.6m-6.4-10.3 12.2-1.7" fill="none" stroke="#FFFFFF" stroke-width=".8" /></ns0:g>
 </g>
 <text x="378.0" y="269" text-anchor="middle" fill="#D2C6E8" font-family="Segoe UI, sans-serif" font-size="10">ruby</text>
 <g transform="translate(470,213) scale(1)">
-<ns0:g xmlns:ns0="http://www.w3.org/2000/svg" transform="translate(-8 -8) scale(1.5)" fill="#D88755" stroke-linecap="round" stroke-linejoin="round"><ns0:path d="M16 8.4l2 1.1 2.3-.1.9 2.1 1.8 1.4-.8 2.2.4 2.2-2 1.2-1.1 2-2.3-.3-2.1.9-1.7-1.5-2.2-.6-.4-2.2-1.4-1.8 1.2-2-.1-2.3 2.1-.9z" /><ns0:circle cx="16" cy="14.7" r="3.1" fill="none" stroke="#D88755" stroke-width="1.2" /><ns0:circle cx="16" cy="14.7" r="1" /></ns0:g>
+<ns0:defs xmlns:ns0="http://www.w3.org/2000/svg"><ns0:radialGradient id="b-rust" cx=".35" cy=".28" r=".85"><ns0:stop offset="0" stop-color="#EABDA2" /><ns0:stop offset=".45" stop-color="#D88755" /><ns0:stop offset="1" stop-color="#9C613D" /></ns0:radialGradient></ns0:defs>
+<ns0:circle xmlns:ns0="http://www.w3.org/2000/svg" cx="16" cy="16" r="13.5" fill="url(#b-rust)" stroke="#825133" stroke-width=".8" />
+<ns0:ellipse xmlns:ns0="http://www.w3.org/2000/svg" cx="12.5" cy="9.2" rx="6" ry="3.2" fill="#FFFFFF" fill-opacity=".38" transform="rotate(-22 12.5 9.2)" />
+<ns0:g xmlns:ns0="http://www.w3.org/2000/svg" transform="translate(-3.4 -2.75) scale(1.25)" fill="#FFFFFF" stroke-linecap="round" stroke-linejoin="round"><ns0:path d="M16 8.4l2 1.1 2.3-.1.9 2.1 1.8 1.4-.8 2.2.4 2.2-2 1.2-1.1 2-2.3-.3-2.1.9-1.7-1.5-2.2-.6-.4-2.2-1.4-1.8 1.2-2-.1-2.3 2.1-.9z" /><ns0:circle cx="16" cy="14.7" r="3.1" fill="none" stroke="#FFFFFF" stroke-width="1.2" /><ns0:circle cx="16" cy="14.7" r="1" /></ns0:g>
 </g>
 <text x="486.0" y="269" text-anchor="middle" fill="#D2C6E8" font-family="Segoe UI, sans-serif" font-size="10">rust</text>
 <g transform="translate(578,213) scale(1)">
-<ns0:g xmlns:ns0="http://www.w3.org/2000/svg" transform="translate(-8 -8) scale(1.5)" fill="#4677C4" stroke-linecap="round" stroke-linejoin="round"><ns0:text x="16" y="20" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" font-weight="700" letter-spacing="-.7">CSS</ns0:text></ns0:g>
+<ns0:defs xmlns:ns0="http://www.w3.org/2000/svg"><ns0:radialGradient id="b-style" cx=".35" cy=".28" r=".85"><ns0:stop offset="0" stop-color="#99B4DF" /><ns0:stop offset=".45" stop-color="#4677C4" /><ns0:stop offset="1" stop-color="#32568D" /></ns0:radialGradient></ns0:defs>
+<ns0:circle xmlns:ns0="http://www.w3.org/2000/svg" cx="16" cy="16" r="13.5" fill="url(#b-style)" stroke="#2A4776" stroke-width=".8" />
+<ns0:ellipse xmlns:ns0="http://www.w3.org/2000/svg" cx="12.5" cy="9.2" rx="6" ry="3.2" fill="#FFFFFF" fill-opacity=".38" transform="rotate(-22 12.5 9.2)" />
+<ns0:g xmlns:ns0="http://www.w3.org/2000/svg" transform="translate(-3.4 -2.75) scale(1.25)" fill="#FFFFFF" stroke-linecap="round" stroke-linejoin="round"><ns0:text x="16" y="20" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" font-weight="700" letter-spacing="-.7">CSS</ns0:text></ns0:g>
 </g>
 <text x="594.0" y="269" text-anchor="middle" fill="#D2C6E8" font-family="Segoe UI, sans-serif" font-size="10">style</text>
 <g transform="translate(38,283) scale(1)">
-<ns0:g xmlns:ns0="http://www.w3.org/2000/svg" transform="translate(-8 -8) scale(1.5)" fill="#FF3E00" stroke-linecap="round" stroke-linejoin="round"><ns0:path d="M21 10c-1.6-2-5.1-2.6-7.8-1.2-3.2 1.7-3.3 4.2-.4 5.5l4.4 1.8c2.3.9 2.1 3-.4 4.3-2.7 1.4-6.5.8-8.6-1.4" fill="none" stroke="#FF3E00" stroke-width="3.1" stroke-linecap="round" /><ns0:path d="M20.5 8.8c1.1 1.1 1.5 2.3 1.1 3.6" fill="none" stroke="#DDA18A" stroke-width="1.4" stroke-linecap="round" /></ns0:g>
+<ns0:defs xmlns:ns0="http://www.w3.org/2000/svg"><ns0:radialGradient id="b-svelte" cx=".35" cy=".28" r=".85"><ns0:stop offset="0" stop-color="#FF9573" /><ns0:stop offset=".45" stop-color="#FF3E00" /><ns0:stop offset="1" stop-color="#B82D00" /></ns0:radialGradient></ns0:defs>
+<ns0:circle xmlns:ns0="http://www.w3.org/2000/svg" cx="16" cy="16" r="13.5" fill="url(#b-svelte)" stroke="#992500" stroke-width=".8" />
+<ns0:ellipse xmlns:ns0="http://www.w3.org/2000/svg" cx="12.5" cy="9.2" rx="6" ry="3.2" fill="#FFFFFF" fill-opacity=".38" transform="rotate(-22 12.5 9.2)" />
+<ns0:g xmlns:ns0="http://www.w3.org/2000/svg" transform="translate(-3.4 -2.75) scale(1.25)" fill="#FFFFFF" stroke-linecap="round" stroke-linejoin="round"><ns0:path d="M21 10c-1.6-2-5.1-2.6-7.8-1.2-3.2 1.7-3.3 4.2-.4 5.5l4.4 1.8c2.3.9 2.1 3-.4 4.3-2.7 1.4-6.5.8-8.6-1.4" fill="none" stroke="#FFFFFF" stroke-width="3.1" stroke-linecap="round" /><ns0:path d="M20.5 8.8c1.1 1.1 1.5 2.3 1.1 3.6" fill="none" stroke="#FFFFFF" stroke-width="1.4" stroke-linecap="round" /></ns0:g>
 </g>
 <text x="54.0" y="339" text-anchor="middle" fill="#D2C6E8" font-family="Segoe UI, sans-serif" font-size="10">svelte</text>
 <g transform="translate(146,283) scale(1)">
-<ns0:g xmlns:ns0="http://www.w3.org/2000/svg" transform="translate(-8 -8) scale(1.5)" fill="#F05138" stroke-linecap="round" stroke-linejoin="round"><ns0:path d="M8.5 11.1c2.2 2.4 4.3 4 6.4 4.7-1.2-1.8-2-3.8-2.4-5.8 2.7 3.1 5.5 5.2 9 6.2-.5 3.3-3.2 5.4-6.5 5.4-2.3 0-4.5-.9-6.1-2.6 2 .4 3.8.1 5.1-.8-2.5-.9-4.5-3.1-5.5-7.1z" /><ns0:path d="M9 22c4.2 1.3 8.4.6 11.6-1.7" fill="none" stroke="#F05138" stroke-width="1.5" stroke-linecap="round" /></ns0:g>
+<ns0:defs xmlns:ns0="http://www.w3.org/2000/svg"><ns0:radialGradient id="b-swift" cx=".35" cy=".28" r=".85"><ns0:stop offset="0" stop-color="#F79F92" /><ns0:stop offset=".45" stop-color="#F05138" /><ns0:stop offset="1" stop-color="#AD3A28" /></ns0:radialGradient></ns0:defs>
+<ns0:circle xmlns:ns0="http://www.w3.org/2000/svg" cx="16" cy="16" r="13.5" fill="url(#b-swift)" stroke="#903122" stroke-width=".8" />
+<ns0:ellipse xmlns:ns0="http://www.w3.org/2000/svg" cx="12.5" cy="9.2" rx="6" ry="3.2" fill="#FFFFFF" fill-opacity=".38" transform="rotate(-22 12.5 9.2)" />
+<ns0:g xmlns:ns0="http://www.w3.org/2000/svg" transform="translate(-3.4 -2.75) scale(1.25)" fill="#FFFFFF" stroke-linecap="round" stroke-linejoin="round"><ns0:path d="M8.5 11.1c2.2 2.4 4.3 4 6.4 4.7-1.2-1.8-2-3.8-2.4-5.8 2.7 3.1 5.5 5.2 9 6.2-.5 3.3-3.2 5.4-6.5 5.4-2.3 0-4.5-.9-6.1-2.6 2 .4 3.8.1 5.1-.8-2.5-.9-4.5-3.1-5.5-7.1z" /><ns0:path d="M9 22c4.2 1.3 8.4.6 11.6-1.7" fill="none" stroke="#FFFFFF" stroke-width="1.5" stroke-linecap="round" /></ns0:g>
 </g>
 <text x="162.0" y="339" text-anchor="middle" fill="#D2C6E8" font-family="Segoe UI, sans-serif" font-size="10">swift</text>
 <g transform="translate(254,283) scale(1)">
-<ns0:g xmlns:ns0="http://www.w3.org/2000/svg" transform="translate(-8 -8) scale(1.5)" fill="#58B967" stroke-linecap="round" stroke-linejoin="round"><ns0:path d="M9 12l3 2.5-3 2.5M14 17h5" fill="none" stroke="#58B967" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" /></ns0:g>
+<ns0:defs xmlns:ns0="http://www.w3.org/2000/svg"><ns0:radialGradient id="b-terminal" cx=".35" cy=".28" r=".85"><ns0:stop offset="0" stop-color="#A3D8AB" /><ns0:stop offset=".45" stop-color="#58B967" /><ns0:stop offset="1" stop-color="#3F854A" /></ns0:radialGradient></ns0:defs>
+<ns0:circle xmlns:ns0="http://www.w3.org/2000/svg" cx="16" cy="16" r="13.5" fill="url(#b-terminal)" stroke="#356F3E" stroke-width=".8" />
+<ns0:ellipse xmlns:ns0="http://www.w3.org/2000/svg" cx="12.5" cy="9.2" rx="6" ry="3.2" fill="#FFFFFF" fill-opacity=".38" transform="rotate(-22 12.5 9.2)" />
+<ns0:g xmlns:ns0="http://www.w3.org/2000/svg" transform="translate(-3.4 -2.75) scale(1.25)" fill="#FFFFFF" stroke-linecap="round" stroke-linejoin="round"><ns0:path d="M9 12l3 2.5-3 2.5M14 17h5" fill="none" stroke="#FFFFFF" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" /></ns0:g>
 </g>
 <text x="270.0" y="339" text-anchor="middle" fill="#D2C6E8" font-family="Segoe UI, sans-serif" font-size="10">terminal</text>
 <g transform="translate(362,283) scale(1)">
-<ns0:g xmlns:ns0="http://www.w3.org/2000/svg" transform="translate(-8 -8) scale(1.5)" fill="#3178C6" stroke-linecap="round" stroke-linejoin="round"><ns0:text x="16" y="20" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" font-weight="700" letter-spacing="-.8">TS</ns0:text></ns0:g>
+<ns0:defs xmlns:ns0="http://www.w3.org/2000/svg"><ns0:radialGradient id="b-typescript" cx=".35" cy=".28" r=".85"><ns0:stop offset="0" stop-color="#8EB5E0" /><ns0:stop offset=".45" stop-color="#3178C6" /><ns0:stop offset="1" stop-color="#23568F" /></ns0:radialGradient></ns0:defs>
+<ns0:circle xmlns:ns0="http://www.w3.org/2000/svg" cx="16" cy="16" r="13.5" fill="url(#b-typescript)" stroke="#1D4877" stroke-width=".8" />
+<ns0:ellipse xmlns:ns0="http://www.w3.org/2000/svg" cx="12.5" cy="9.2" rx="6" ry="3.2" fill="#FFFFFF" fill-opacity=".38" transform="rotate(-22 12.5 9.2)" />
+<ns0:g xmlns:ns0="http://www.w3.org/2000/svg" transform="translate(-3.4 -2.75) scale(1.25)" fill="#FFFFFF" stroke-linecap="round" stroke-linejoin="round"><ns0:text x="16" y="20" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" font-weight="700" letter-spacing="-.8">TS</ns0:text></ns0:g>
 </g>
 <text x="378.0" y="339" text-anchor="middle" fill="#D2C6E8" font-family="Segoe UI, sans-serif" font-size="10">typescript</text>
 <g transform="translate(470,283) scale(1)">
-<ns0:g xmlns:ns0="http://www.w3.org/2000/svg" transform="translate(-8 -8) scale(1.5)" fill="#41B883" stroke-linecap="round" stroke-linejoin="round"><ns0:path d="M9 10h3l3.5 5.8L19 10h3l-6.5 10.5z" /></ns0:g>
+<ns0:defs xmlns:ns0="http://www.w3.org/2000/svg"><ns0:radialGradient id="b-vue" cx=".35" cy=".28" r=".85"><ns0:stop offset="0" stop-color="#96D8BB" /><ns0:stop offset=".45" stop-color="#41B883" /><ns0:stop offset="1" stop-color="#2F845E" /></ns0:radialGradient></ns0:defs>
+<ns0:circle xmlns:ns0="http://www.w3.org/2000/svg" cx="16" cy="16" r="13.5" fill="url(#b-vue)" stroke="#276E4F" stroke-width=".8" />
+<ns0:ellipse xmlns:ns0="http://www.w3.org/2000/svg" cx="12.5" cy="9.2" rx="6" ry="3.2" fill="#FFFFFF" fill-opacity=".38" transform="rotate(-22 12.5 9.2)" />
+<ns0:g xmlns:ns0="http://www.w3.org/2000/svg" transform="translate(-3.4 -2.75) scale(1.25)" fill="#FFFFFF" stroke-linecap="round" stroke-linejoin="round"><ns0:path d="M9 10h3l3.5 5.8L19 10h3l-6.5 10.5z" /></ns0:g>
 </g>
 <text x="486.0" y="339" text-anchor="middle" fill="#D2C6E8" font-family="Segoe UI, sans-serif" font-size="10">vue</text>
 </svg>
