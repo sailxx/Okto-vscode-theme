@@ -1,0 +1,19 @@
+{
+  "name": "mac",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "type": "module",
+  "dependencies": {
+    "@phosphor-icons/core": "^2.1.1",
+    "@vscode/codicons": "^0.0.46-24",
+    "opentype.js": "^2.0.0",
+    "svg2ttf": "^6.1.0",
+    "svgicons2svgfont": "^16.0.0",
+    "ttf2woff": "^3.0.0"
+  }
+}

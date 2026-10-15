@@ -49,6 +49,13 @@
 
 <img src="assets/readme/numbers-ru.svg" width="100%" alt="В цифрах: 37 иконок файлов, 10 цветных папок, 2 темы, 309 цветов интерфейса, 0 строк кода">
 
+<details>
+<summary><b>Mac-иконки</b></summary>
+
+Две дополнительные темы в духе macOS: **Okto Mac Icons** (id `okto-mac-icons`: документы с загнутым уголком, цветные плашки языков, синие папки) и **Okto Mac Product Icons** (id `okto-mac-product-icons`: около 700 значков интерфейса, округлый стиль как у SF Symbols, на основе Phosphor Icons, MIT). Пересборка: `cd tools/mac && npm install && node build-product.mjs && node build-files.mjs`.
+
+</details>
+
 <details open>
 <summary><b>Установка</b></summary>
 

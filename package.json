@@ -2,7 +2,7 @@
   "name": "okto-theme",
   "displayName": "Okto",
   "description": "Okto Light and Dark color themes with matching Okto file and product icon themes for Visual Studio Code.",
-  "version": "2.0.0",
+  "version": "2.1.0",
   "publisher": "local",
   "repository": {
     "type": "git",
@@ -32,6 +32,11 @@
         "label": "Okto Icons",
         "path": "./fileicons/okto-icon-theme.json",
         "id": "okto-icons"
+      },
+      {
+        "label": "Okto Mac Icons",
+        "path": "./fileicons/okto-mac-file-icon-theme.json",
+        "id": "okto-mac-icons"
       }
     ],
     "productIconThemes": [
@@ -39,6 +44,11 @@
         "id": "okto-product-icons",
         "label": "Okto Product Icons",
         "path": "./producticons/okto-product-icon-theme.json"
+      },
+      {
+        "id": "okto-mac-product-icons",
+        "label": "Okto Mac Product Icons",
+        "path": "./producticons/okto-mac-product-icon-theme.json"
       }
     ]
   },

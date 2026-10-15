@@ -8,3 +8,4 @@ producticons/generate_font.py
 *.vsix
 install.ps1
 install.sh
+tools/**

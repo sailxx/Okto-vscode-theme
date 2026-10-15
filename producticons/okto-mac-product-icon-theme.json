@@ -1,0 +1,1555 @@
+{
+  "$schema": "vscode://schemas/product-icon-theme",
+  "fonts": [
+    {
+      "id": "okto-mac-font",
+      "src": [
+        {
+          "path": "./fonts/okto-mac-icons.woff",
+          "format": "woff"
+        }
+      ],
+      "weight": "normal",
+      "style": "normal"
+    }
+  ],
+  "iconDefinitions": {
+    "ph-user": {
+      "fontCharacter": "\\e000"
+    },
+    "ph-files": {
+      "fontCharacter": "\\e001"
+    },
+    "ph-file": {
+      "fontCharacter": "\\e002"
+    },
+    "ph-folder": {
+      "fontCharacter": "\\e003"
+    },
+    "ph-folder-open": {
+      "fontCharacter": "\\e004"
+    },
+    "ph-folders": {
+      "fontCharacter": "\\e005"
+    },
+    "ph-magnifying-glass": {
+      "fontCharacter": "\\e006"
+    },
+    "ph-git-branch": {
+      "fontCharacter": "\\e007"
+    },
+    "ph-puzzle-piece": {
+      "fontCharacter": "\\e008"
+    },
+    "ph-desktop": {
+      "fontCharacter": "\\e009"
+    },
+    "ph-plugs-connected": {
+      "fontCharacter": "\\e00a"
+    },
+    "ph-bug": {
+      "fontCharacter": "\\e00b"
+    },
+    "ph-play": {
+      "fontCharacter": "\\e00c"
+    },
+    "ph-flask": {
+      "fontCharacter": "\\e00d"
+    },
+    "ph-gear-six": {
+      "fontCharacter": "\\e00e"
+    },
+    "ph-file-py": {
+      "fontCharacter": "\\e00f"
+    },
+    "ph-diamond": {
+      "fontCharacter": "\\e010"
+    },
+    "ph-brackets-curly": {
+      "fontCharacter": "\\e011"
+    },
+    "ph-markdown-logo": {
+      "fontCharacter": "\\e012"
+    },
+    "ph-sparkle": {
+      "fontCharacter": "\\e013"
+    },
+    "ph-sparkle-fill": {
+      "fontCharacter": "\\e014"
+    },
+    "ph-robot": {
+      "fontCharacter": "\\e015"
+    },
+    "ph-chat-circle-dots": {
+      "fontCharacter": "\\e016"
+    },
+    "ph-lightbulb": {
+      "fontCharacter": "\\e017"
+    },
+    "ph-magic-wand": {
+      "fontCharacter": "\\e018"
+    },
+    "ph-wrench": {
+      "fontCharacter": "\\e019"
+    },
+    "ph-squares-four": {
+      "fontCharacter": "\\e01a"
+    },
+    "ph-plus": {
+      "fontCharacter": "\\e01b"
+    },
+    "ph-minus": {
+      "fontCharacter": "\\e01c"
+    },
+    "ph-x": {
+      "fontCharacter": "\\e01d"
+    },
+    "ph-x-square": {
+      "fontCharacter": "\\e01e"
+    },
+    "ph-square": {
+      "fontCharacter": "\\e01f"
+    },
+    "ph-copy": {
+      "fontCharacter": "\\e020"
+    },
+    "ph-check": {
+      "fontCharacter": "\\e021"
+    },
+    "ph-check-circle": {
+      "fontCharacter": "\\e022"
+    },
+    "ph-check-circle-fill": {
+      "fontCharacter": "\\e023"
+    },
+    "ph-seal-check": {
+      "fontCharacter": "\\e024"
+    },
+    "ph-seal-check-fill": {
+      "fontCharacter": "\\e025"
+    },
+    "ph-pencil-simple": {
+      "fontCharacter": "\\e026"
+    },
+    "ph-trash": {
+      "fontCharacter": "\\e027"
+    },
+    "ph-arrow-u-up-left": {
+      "fontCharacter": "\\e028"
+    },
+    "ph-arrow-u-up-right": {
+      "fontCharacter": "\\e029"
+    },
+    "ph-floppy-disk": {
+      "fontCharacter": "\\e02a"
+    },
+    "ph-floppy-disk-back": {
+      "fontCharacter": "\\e02b"
+    },
+    "ph-arrow-clockwise": {
+      "fontCharacter": "\\e02c"
+    },
+    "ph-arrows-clockwise": {
+      "fontCharacter": "\\e02d"
+    },
+    "ph-clock-counter-clockwise": {
+      "fontCharacter": "\\e02e"
+    },
+    "ph-funnel-simple": {
+      "fontCharacter": "\\e02f"
+    },
+    "ph-funnel-fill": {
+      "fontCharacter": "\\e030"
+    },
+    "ph-eye": {
+      "fontCharacter": "\\e031"
+    },
+    "ph-eye-slash": {
+      "fontCharacter": "\\e032"
+    },
+    "ph-lock-simple": {
+      "fontCharacter": "\\e033"
+    },
+    "ph-lock-simple-open": {
+      "fontCharacter": "\\e034"
+    },
+    "ph-key": {
+      "fontCharacter": "\\e035"
+    },
+    "ph-link-simple": {
+      "fontCharacter": "\\e036"
+    },
+    "ph-arrow-square-out": {
+      "fontCharacter": "\\e037"
+    },
+    "ph-push-pin-simple": {
+      "fontCharacter": "\\e038"
+    },
+    "ph-push-pin-simple-fill": {
+      "fontCharacter": "\\e039"
+    },
+    "ph-push-pin-simple-slash": {
+      "fontCharacter": "\\e03a"
+    },
+    "ph-star": {
+      "fontCharacter": "\\e03b"
+    },
+    "ph-star-fill": {
+      "fontCharacter": "\\e03c"
+    },
+    "ph-star-half": {
+      "fontCharacter": "\\e03d"
+    },
+    "ph-heart": {
+      "fontCharacter": "\\e03e"
+    },
+    "ph-heart-fill": {
+      "fontCharacter": "\\e03f"
+    },
+    "ph-bookmark-simple": {
+      "fontCharacter": "\\e040"
+    },
+    "ph-flag": {
+      "fontCharacter": "\\e041"
+    },
+    "ph-tag": {
+      "fontCharacter": "\\e042"
+    },
+    "ph-house-simple": {
+      "fontCharacter": "\\e043"
+    },
+    "ph-info": {
+      "fontCharacter": "\\e044"
+    },
+    "ph-question": {
+      "fontCharacter": "\\e045"
+    },
+    "ph-warning": {
+      "fontCharacter": "\\e046"
+    },
+    "ph-warning-circle": {
+      "fontCharacter": "\\e047"
+    },
+    "ph-exclamation-mark": {
+      "fontCharacter": "\\e048"
+    },
+    "ph-bell-simple": {
+      "fontCharacter": "\\e049"
+    },
+    "ph-bell-simple-ringing": {
+      "fontCharacter": "\\e04a"
+    },
+    "ph-bell-simple-slash": {
+      "fontCharacter": "\\e04b"
+    },
+    "ph-envelope-simple": {
+      "fontCharacter": "\\e04c"
+    },
+    "ph-envelope-simple-open": {
+      "fontCharacter": "\\e04d"
+    },
+    "ph-calendar-blank": {
+      "fontCharacter": "\\e04e"
+    },
+    "ph-clock": {
+      "fontCharacter": "\\e04f"
+    },
+    "ph-map-pin-simple": {
+      "fontCharacter": "\\e050"
+    },
+    "ph-globe-simple": {
+      "fontCharacter": "\\e051"
+    },
+    "ph-magnifying-glass-plus": {
+      "fontCharacter": "\\e052"
+    },
+    "ph-magnifying-glass-minus": {
+      "fontCharacter": "\\e053"
+    },
+    "ph-cursor": {
+      "fontCharacter": "\\e054"
+    },
+    "ph-crosshair": {
+      "fontCharacter": "\\e055"
+    },
+    "ph-download-simple": {
+      "fontCharacter": "\\e056"
+    },
+    "ph-cloud-arrow-down": {
+      "fontCharacter": "\\e057"
+    },
+    "ph-cloud-arrow-up": {
+      "fontCharacter": "\\e058"
+    },
+    "ph-cloud": {
+      "fontCharacter": "\\e059"
+    },
+    "ph-export": {
+      "fontCharacter": "\\e05a"
+    },
+    "ph-share-fat": {
+      "fontCharacter": "\\e05b"
+    },
+    "ph-paper-plane-tilt": {
+      "fontCharacter": "\\e05c"
+    },
+    "ph-arrow-bend-up-left": {
+      "fontCharacter": "\\e05d"
+    },
+    "ph-arrow-bend-up-right": {
+      "fontCharacter": "\\e05e"
+    },
+    "ph-dots-three": {
+      "fontCharacter": "\\e05f"
+    },
+    "ph-dots-three-vertical": {
+      "fontCharacter": "\\e060"
+    },
+    "ph-list": {
+      "fontCharacter": "\\e061"
+    },
+    "ph-dots-six-vertical": {
+      "fontCharacter": "\\e062"
+    },
+    "ph-arrows-out-cardinal": {
+      "fontCharacter": "\\e063"
+    },
+    "ph-speaker-simple-slash": {
+      "fontCharacter": "\\e064"
+    },
+    "ph-speaker-simple-high": {
+      "fontCharacter": "\\e065"
+    },
+    "ph-microphone": {
+      "fontCharacter": "\\e066"
+    },
+    "ph-microphone-fill": {
+      "fontCharacter": "\\e067"
+    },
+    "ph-megaphone-simple": {
+      "fontCharacter": "\\e068"
+    },
+    "ph-chat-circle-text": {
+      "fontCharacter": "\\e069"
+    },
+    "ph-smiley": {
+      "fontCharacter": "\\e06a"
+    },
+    "ph-thumbs-up": {
+      "fontCharacter": "\\e06b"
+    },
+    "ph-thumbs-down": {
+      "fontCharacter": "\\e06c"
+    },
+    "ph-thumbs-up-fill": {
+      "fontCharacter": "\\e06d"
+    },
+    "ph-thumbs-down-fill": {
+      "fontCharacter": "\\e06e"
+    },
+    "ph-gift": {
+      "fontCharacter": "\\e06f"
+    },
+    "ph-rocket": {
+      "fontCharacter": "\\e070"
+    },
+    "ph-flame": {
+      "fontCharacter": "\\e071"
+    },
+    "ph-lightbulb-filament": {
+      "fontCharacter": "\\e072"
+    },
+    "ph-coffee": {
+      "fontCharacter": "\\e073"
+    },
+    "ph-music-note": {
+      "fontCharacter": "\\e074"
+    },
+    "ph-game-controller": {
+      "fontCharacter": "\\e075"
+    },
+    "ph-piano-keys": {
+      "fontCharacter": "\\e076"
+    },
+    "ph-shield": {
+      "fontCharacter": "\\e077"
+    },
+    "ph-scales": {
+      "fontCharacter": "\\e078"
+    },
+    "ph-buildings": {
+      "fontCharacter": "\\e079"
+    },
+    "ph-user-plus": {
+      "fontCharacter": "\\e07a"
+    },
+    "ph-user-sound": {
+      "fontCharacter": "\\e07b"
+    },
+    "ph-shield-check": {
+      "fontCharacter": "\\e07c"
+    },
+    "ph-shield-slash": {
+      "fontCharacter": "\\e07d"
+    },
+    "ph-shield-warning": {
+      "fontCharacter": "\\e07e"
+    },
+    "ph-at": {
+      "fontCharacter": "\\e07f"
+    },
+    "ph-broadcast": {
+      "fontCharacter": "\\e080"
+    },
+    "ph-rss-simple": {
+      "fontCharacter": "\\e081"
+    },
+    "ph-briefcase": {
+      "fontCharacter": "\\e082"
+    },
+    "ph-book": {
+      "fontCharacter": "\\e083"
+    },
+    "ph-books": {
+      "fontCharacter": "\\e084"
+    },
+    "ph-graduation-cap": {
+      "fontCharacter": "\\e085"
+    },
+    "ph-package": {
+      "fontCharacter": "\\e086"
+    },
+    "ph-archive": {
+      "fontCharacter": "\\e087"
+    },
+    "ph-tray": {
+      "fontCharacter": "\\e088"
+    },
+    "ph-file-x": {
+      "fontCharacter": "\\e089"
+    },
+    "ph-compass": {
+      "fontCharacter": "\\e08a"
+    },
+    "ph-medal": {
+      "fontCharacter": "\\e08b"
+    },
+    "ph-rabbit": {
+      "fontCharacter": "\\e08c"
+    },
+    "ph-github-logo": {
+      "fontCharacter": "\\e08d"
+    },
+    "ph-paint-bucket": {
+      "fontCharacter": "\\e08e"
+    },
+    "ph-circle-half": {
+      "fontCharacter": "\\e08f"
+    },
+    "ph-palette": {
+      "fontCharacter": "\\e090"
+    },
+    "ph-caret-down": {
+      "fontCharacter": "\\e091"
+    },
+    "ph-caret-up": {
+      "fontCharacter": "\\e092"
+    },
+    "ph-caret-left": {
+      "fontCharacter": "\\e093"
+    },
+    "ph-caret-right": {
+      "fontCharacter": "\\e094"
+    },
+    "ph-arrow-down": {
+      "fontCharacter": "\\e095"
+    },
+    "ph-arrow-up": {
+      "fontCharacter": "\\e096"
+    },
+    "ph-arrow-left": {
+      "fontCharacter": "\\e097"
+    },
+    "ph-arrow-right": {
+      "fontCharacter": "\\e098"
+    },
+    "ph-arrows-left-right": {
+      "fontCharacter": "\\e099"
+    },
+    "ph-swap": {
+      "fontCharacter": "\\e09a"
+    },
+    "ph-arrow-circle-down": {
+      "fontCharacter": "\\e09b"
+    },
+    "ph-arrow-circle-up": {
+      "fontCharacter": "\\e09c"
+    },
+    "ph-arrow-circle-left": {
+      "fontCharacter": "\\e09d"
+    },
+    "ph-arrow-circle-right": {
+      "fontCharacter": "\\e09e"
+    },
+    "ph-caret-down-fill": {
+      "fontCharacter": "\\e09f"
+    },
+    "ph-caret-up-fill": {
+      "fontCharacter": "\\e0a0"
+    },
+    "ph-caret-left-fill": {
+      "fontCharacter": "\\e0a1"
+    },
+    "ph-caret-right-fill": {
+      "fontCharacter": "\\e0a2"
+    },
+    "ph-arrows-in-line-vertical": {
+      "fontCharacter": "\\e0a3"
+    },
+    "ph-arrows-out-line-vertical": {
+      "fontCharacter": "\\e0a4"
+    },
+    "ph-sign-out": {
+      "fontCharacter": "\\e0a5"
+    },
+    "ph-file-arrow-up": {
+      "fontCharacter": "\\e0a6"
+    },
+    "ph-file-text": {
+      "fontCharacter": "\\e0a7"
+    },
+    "ph-file-magnifying-glass": {
+      "fontCharacter": "\\e0a8"
+    },
+    "ph-skip-forward": {
+      "fontCharacter": "\\e0a9"
+    },
+    "ph-git-merge": {
+      "fontCharacter": "\\e0aa"
+    },
+    "ph-circle": {
+      "fontCharacter": "\\e0ab"
+    },
+    "ph-circle-fill": {
+      "fontCharacter": "\\e0ac"
+    },
+    "ph-dot-outline": {
+      "fontCharacter": "\\e0ad"
+    },
+    "ph-dot-fill": {
+      "fontCharacter": "\\e0ae"
+    },
+    "ph-prohibit": {
+      "fontCharacter": "\\e0af"
+    },
+    "ph-square-fill": {
+      "fontCharacter": "\\e0b0"
+    },
+    "ph-stop-circle": {
+      "fontCharacter": "\\e0b1"
+    },
+    "ph-play-circle": {
+      "fontCharacter": "\\e0b2"
+    },
+    "ph-spinner": {
+      "fontCharacter": "\\e0b3"
+    },
+    "ph-play-fill": {
+      "fontCharacter": "\\e0b4"
+    },
+    "ph-pause-fill": {
+      "fontCharacter": "\\e0b5"
+    },
+    "ph-stop-fill": {
+      "fontCharacter": "\\e0b6"
+    },
+    "ph-repeat": {
+      "fontCharacter": "\\e0b7"
+    },
+    "ph-arrow-line-down": {
+      "fontCharacter": "\\e0b8"
+    },
+    "ph-arrow-line-up": {
+      "fontCharacter": "\\e0b9"
+    },
+    "ph-rewind": {
+      "fontCharacter": "\\e0ba"
+    },
+    "ph-plugs": {
+      "fontCharacter": "\\e0bb"
+    },
+    "ph-terminal-window": {
+      "fontCharacter": "\\e0bc"
+    },
+    "ph-list-dashes": {
+      "fontCharacter": "\\e0bd"
+    },
+    "ph-arrow-right-fill": {
+      "fontCharacter": "\\e0be"
+    },
+    "ph-chart-pie-slice": {
+      "fontCharacter": "\\e0bf"
+    },
+    "ph-git-commit": {
+      "fontCharacter": "\\e0c0"
+    },
+    "ph-git-diff": {
+      "fontCharacter": "\\e0c1"
+    },
+    "ph-git-pull-request": {
+      "fontCharacter": "\\e0c2"
+    },
+    "ph-upload-simple": {
+      "fontCharacter": "\\e0c3"
+    },
+    "ph-git-fork": {
+      "fontCharacter": "\\e0c4"
+    },
+    "ph-plus-square": {
+      "fontCharacter": "\\e0c5"
+    },
+    "ph-minus-square": {
+      "fontCharacter": "\\e0c6"
+    },
+    "ph-text-aa": {
+      "fontCharacter": "\\e0c7"
+    },
+    "ph-file-lock": {
+      "fontCharacter": "\\e0c8"
+    },
+    "ph-table": {
+      "fontCharacter": "\\e0c9"
+    },
+    "ph-file-code": {
+      "fontCharacter": "\\e0ca"
+    },
+    "ph-file-pdf": {
+      "fontCharacter": "\\e0cb"
+    },
+    "ph-image-square": {
+      "fontCharacter": "\\e0cc"
+    },
+    "ph-file-zip": {
+      "fontCharacter": "\\e0cd"
+    },
+    "ph-file-plus": {
+      "fontCharacter": "\\e0ce"
+    },
+    "ph-folder-plus": {
+      "fontCharacter": "\\e0cf"
+    },
+    "ph-stack-plus": {
+      "fontCharacter": "\\e0d0"
+    },
+    "ph-note": {
+      "fontCharacter": "\\e0d1"
+    },
+    "ph-notebook": {
+      "fontCharacter": "\\e0d2"
+    },
+    "ph-code": {
+      "fontCharacter": "\\e0d3"
+    },
+    "ph-code-block": {
+      "fontCharacter": "\\e0d4"
+    },
+    "ph-code-simple": {
+      "fontCharacter": "\\e0d5"
+    },
+    "ph-pencil-simple-line": {
+      "fontCharacter": "\\e0d6"
+    },
+    "ph-columns": {
+      "fontCharacter": "\\e0d7"
+    },
+    "ph-square-split-horizontal": {
+      "fontCharacter": "\\e0d8"
+    },
+    "ph-square-split-vertical": {
+      "fontCharacter": "\\e0d9"
+    },
+    "ph-app-window": {
+      "fontCharacter": "\\e0da"
+    },
+    "ph-browsers": {
+      "fontCharacter": "\\e0db"
+    },
+    "ph-corners-out": {
+      "fontCharacter": "\\e0dc"
+    },
+    "ph-corners-in": {
+      "fontCharacter": "\\e0dd"
+    },
+    "ph-scissors": {
+      "fontCharacter": "\\e0de"
+    },
+    "ph-browser": {
+      "fontCharacter": "\\e0df"
+    },
+    "ph-monitor-arrow-up": {
+      "fontCharacter": "\\e0e0"
+    },
+    "ph-device-mobile": {
+      "fontCharacter": "\\e0e1"
+    },
+    "ph-camera": {
+      "fontCharacter": "\\e0e2"
+    },
+    "ph-video-camera": {
+      "fontCharacter": "\\e0e3"
+    },
+    "ph-list-bullets": {
+      "fontCharacter": "\\e0e4"
+    },
+    "ph-hard-drives": {
+      "fontCharacter": "\\e0e5"
+    },
+    "ph-database": {
+      "fontCharacter": "\\e0e6"
+    },
+    "ph-cpu": {
+      "fontCharacter": "\\e0e7"
+    },
+    "ph-users-three": {
+      "fontCharacter": "\\e0e8"
+    },
+    "ph-stack": {
+      "fontCharacter": "\\e0e9"
+    },
+    "ph-map-trifold": {
+      "fontCharacter": "\\e0ea"
+    },
+    "ph-map-trifold-fill": {
+      "fontCharacter": "\\e0eb"
+    },
+    "ph-pulse": {
+      "fontCharacter": "\\e0ec"
+    },
+    "ph-chart-line-up": {
+      "fontCharacter": "\\e0ed"
+    },
+    "ph-chart-line": {
+      "fontCharacter": "\\e0ee"
+    },
+    "ph-chart-scatter": {
+      "fontCharacter": "\\e0ef"
+    },
+    "ph-chart-bar": {
+      "fontCharacter": "\\e0f0"
+    },
+    "ph-percent": {
+      "fontCharacter": "\\e0f1"
+    },
+    "ph-credit-card": {
+      "fontCharacter": "\\e0f2"
+    },
+    "ph-list-checks": {
+      "fontCharacter": "\\e0f3"
+    },
+    "ph-sidebar-simple": {
+      "fontCharacter": "\\e0f4"
+    },
+    "ph-square-half-bottom": {
+      "fontCharacter": "\\e0f5"
+    },
+    "ph-sidebar": {
+      "fontCharacter": "\\e0f6"
+    },
+    "ph-list-numbers": {
+      "fontCharacter": "\\e0f7"
+    },
+    "ph-check-square": {
+      "fontCharacter": "\\e0f8"
+    },
+    "ph-tree-structure": {
+      "fontCharacter": "\\e0f9"
+    },
+    "ph-text-b": {
+      "fontCharacter": "\\e0fa"
+    },
+    "ph-text-italic": {
+      "fontCharacter": "\\e0fb"
+    },
+    "ph-text-strikethrough": {
+      "fontCharacter": "\\e0fc"
+    },
+    "ph-text-underline": {
+      "fontCharacter": "\\e0fd"
+    },
+    "ph-asterisk-simple": {
+      "fontCharacter": "\\e0fe"
+    },
+    "ph-text-align-left": {
+      "fontCharacter": "\\e0ff"
+    },
+    "ph-arrow-elbow-down-left": {
+      "fontCharacter": "\\e100"
+    },
+    "ph-text-indent": {
+      "fontCharacter": "\\e101"
+    },
+    "ph-quotes": {
+      "fontCharacter": "\\e102"
+    },
+    "ph-text-t": {
+      "fontCharacter": "\\e103"
+    },
+    "ph-arrow-line-right": {
+      "fontCharacter": "\\e104"
+    },
+    "ph-sort-ascending": {
+      "fontCharacter": "\\e105"
+    },
+    "ph-function": {
+      "fontCharacter": "\\e106"
+    },
+    "ph-hash": {
+      "fontCharacter": "\\e107"
+    },
+    "ph-chat-teardrop": {
+      "fontCharacter": "\\e108"
+    },
+    "ph-chats-teardrop": {
+      "fontCharacter": "\\e109"
+    },
+    "ph-chat-teardrop-text": {
+      "fontCharacter": "\\e10a"
+    },
+    "ph-chat-teardrop-dots": {
+      "fontCharacter": "\\e10b"
+    },
+    "ph-paperclip": {
+      "fontCharacter": "\\e10c"
+    },
+    "ph-waveform": {
+      "fontCharacter": "\\e10d"
+    },
+    "ph-chat-circle": {
+      "fontCharacter": "\\e10e"
+    },
+    "ph-cube": {
+      "fontCharacter": "\\e10f"
+    },
+    "ph-lightning": {
+      "fontCharacter": "\\e110"
+    },
+    "ph-textbox": {
+      "fontCharacter": "\\e111"
+    },
+    "ph-calculator": {
+      "fontCharacter": "\\e112"
+    },
+    "ph-ruler": {
+      "fontCharacter": "\\e113"
+    },
+    "ph-clipboard-text": {
+      "fontCharacter": "\\e114"
+    },
+    "ph-stop": {
+      "fontCharacter": "\\e115"
+    },
+    "ph-eraser": {
+      "fontCharacter": "\\e116"
+    },
+    "ph-clipboard": {
+      "fontCharacter": "\\e117"
+    },
+    "ph-eyeglasses": {
+      "fontCharacter": "\\e118"
+    },
+    "ph-flip-horizontal": {
+      "fontCharacter": "\\e119"
+    }
+  },
+  "account": "ph-user",
+  "git-pull-request-assignee": "ph-user",
+  "files": "ph-files",
+  "file": "ph-file",
+  "folder": "ph-folder",
+  "file-directory": "ph-folder",
+  "symbol-folder": "ph-folder",
+  "folder-opened": "ph-folder-open",
+  "folder-active": "ph-folder-open",
+  "root-folder": "ph-folder",
+  "root-folder-opened": "ph-folder-open",
+  "folder-library": "ph-folders",
+  "search": "ph-magnifying-glass",
+  "search-save": "ph-magnifying-glass",
+  "search-fuzzy": "ph-magnifying-glass",
+  "search-stop": "ph-magnifying-glass",
+  "go-to-search": "ph-magnifying-glass",
+  "source-control": "ph-git-branch",
+  "extensions": "ph-puzzle-piece",
+  "extensions-large": "ph-puzzle-piece",
+  "remote-explorer": "ph-desktop",
+  "remote": "ph-plugs-connected",
+  "debug-alt": "ph-bug",
+  "debug": "ph-bug",
+  "bug": "ph-bug",
+  "run-all": "ph-play",
+  "beaker": "ph-flask",
+  "microscope": "ph-flask",
+  "beaker-stop": "ph-flask",
+  "settings-gear": "ph-gear-six",
+  "settings": "ph-gear-six",
+  "gear": "ph-gear-six",
+  "python": "ph-file-py",
+  "ruby": "ph-diamond",
+  "json": "ph-brackets-curly",
+  "bracket": "ph-brackets-curly",
+  "markdown": "ph-markdown-logo",
+  "sparkle": "ph-sparkle",
+  "sparkle-filled": "ph-sparkle-fill",
+  "copilot": "ph-sparkle",
+  "robot": "ph-robot",
+  "agent": "ph-sparkle",
+  "chat-sparkle": "ph-chat-circle-dots",
+  "thinking": "ph-lightbulb",
+  "mcp": "ph-plugs-connected",
+  "claude": "ph-sparkle",
+  "wand": "ph-magic-wand",
+  "tools": "ph-wrench",
+  "dashboard": "ph-squares-four",
+  "add": "ph-plus",
+  "plus": "ph-plus",
+  "gist-new": "ph-plus",
+  "repo-create": "ph-plus",
+  "add-small": "ph-plus",
+  "add-compact": "ph-plus",
+  "remove": "ph-minus",
+  "remove-small": "ph-minus",
+  "close": "ph-x",
+  "remove-close": "ph-x",
+  "x": "ph-x",
+  "close-all": "ph-x-square",
+  "close-compact": "ph-x",
+  "chrome-close": "ph-x",
+  "chrome-minimize": "ph-minus",
+  "chrome-maximize": "ph-square",
+  "chrome-restore": "ph-copy",
+  "check": "ph-check",
+  "check-all": "ph-check",
+  "check-compact": "ph-check",
+  "pass": "ph-check-circle",
+  "issue-closed": "ph-check-circle",
+  "pass-filled": "ph-check-circle-fill",
+  "pass-compact": "ph-check-circle",
+  "verified": "ph-seal-check",
+  "verified-filled": "ph-seal-check-fill",
+  "dash": "ph-minus",
+  "edit": "ph-pencil-simple",
+  "pencil": "ph-pencil-simple",
+  "edit-compact": "ph-pencil-simple",
+  "trash": "ph-trash",
+  "trashcan": "ph-trash",
+  "discard": "ph-arrow-u-up-left",
+  "redo": "ph-arrow-u-up-right",
+  "copy": "ph-copy",
+  "save": "ph-floppy-disk",
+  "save-all": "ph-floppy-disk-back",
+  "save-as": "ph-floppy-disk-back",
+  "refresh": "ph-arrow-clockwise",
+  "refresh-compact": "ph-arrow-clockwise",
+  "sync": "ph-arrows-clockwise",
+  "sync-compact": "ph-arrows-clockwise",
+  "sync-ignored": "ph-arrows-clockwise",
+  "history": "ph-clock-counter-clockwise",
+  "clock": "ph-clock-counter-clockwise",
+  "filter": "ph-funnel-simple",
+  "filter-filled": "ph-funnel-fill",
+  "list-filter": "ph-funnel-simple",
+  "eye": "ph-eye",
+  "eye-unwatch": "ph-eye",
+  "eye-watch": "ph-eye",
+  "eye-closed": "ph-eye-slash",
+  "lock": "ph-lock-simple",
+  "lock-small": "ph-lock-simple",
+  "unlock": "ph-lock-simple-open",
+  "key": "ph-key",
+  "link": "ph-link-simple",
+  "link-external": "ph-arrow-square-out",
+  "pin": "ph-push-pin-simple",
+  "pinned": "ph-push-pin-simple-fill",
+  "pinned-dirty": "ph-push-pin-simple-fill",
+  "unpin": "ph-push-pin-simple-slash",
+  "star-empty": "ph-star",
+  "star-full": "ph-star-fill",
+  "star-half": "ph-star-half",
+  "heart": "ph-heart",
+  "heart-filled": "ph-heart-fill",
+  "bookmark": "ph-bookmark-simple",
+  "flag": "ph-flag",
+  "tag": "ph-tag",
+  "git-pull-request-label": "ph-tag",
+  "tag-add": "ph-tag",
+  "tag-remove": "ph-tag",
+  "home": "ph-house-simple",
+  "info": "ph-info",
+  "issue-opened": "ph-info",
+  "question": "ph-question",
+  "warning": "ph-warning",
+  "warning-compact": "ph-warning",
+  "error": "ph-warning-circle",
+  "stop": "ph-stop",
+  "error-small": "ph-warning-circle",
+  "terminal-decoration-error": "ph-warning-circle",
+  "error-compact": "ph-warning-circle",
+  "important": "ph-exclamation-mark",
+  "important-compact": "ph-exclamation-mark",
+  "bell": "ph-bell-simple",
+  "bell-dot": "ph-bell-simple-ringing",
+  "bell-slash": "ph-bell-simple-slash",
+  "bell-slash-dot": "ph-bell-simple-slash",
+  "mail": "ph-envelope-simple",
+  "mail-read": "ph-envelope-simple-open",
+  "calendar": "ph-calendar-blank",
+  "clockface": "ph-clock",
+  "watch": "ph-clock",
+  "location": "ph-map-pin-simple",
+  "globe": "ph-globe-simple",
+  "zoom-in": "ph-magnifying-glass-plus",
+  "zoom-out": "ph-magnifying-glass-minus",
+  "inspect": "ph-cursor",
+  "target": "ph-crosshair",
+  "download": "ph-download-simple",
+  "cloud-download": "ph-cloud-arrow-down",
+  "cloud-upload": "ph-cloud-arrow-up",
+  "cloud": "ph-cloud",
+  "cloud-small": "ph-cloud",
+  "cloud-compact": "ph-cloud",
+  "export": "ph-export",
+  "share": "ph-share-fat",
+  "send": "ph-paper-plane-tilt",
+  "reply": "ph-arrow-bend-up-left",
+  "forward": "ph-arrow-bend-up-right",
+  "ellipsis": "ph-dots-three",
+  "kebab-vertical": "ph-dots-three-vertical",
+  "menu": "ph-list",
+  "three-bars": "ph-list",
+  "grabber": "ph-dots-six-vertical",
+  "gripper": "ph-dots-six-vertical",
+  "move": "ph-arrows-out-cardinal",
+  "mute": "ph-speaker-simple-slash",
+  "unmute": "ph-speaker-simple-high",
+  "mic": "ph-microphone",
+  "mic-filled": "ph-microphone-fill",
+  "megaphone": "ph-megaphone-simple",
+  "feedback": "ph-chat-circle-text",
+  "git-pull-request-reviewer": "ph-chat-circle-text",
+  "smiley": "ph-smiley",
+  "thumbsup": "ph-thumbs-up",
+  "thumbsdown": "ph-thumbs-down",
+  "thumbsup-filled": "ph-thumbs-up-fill",
+  "thumbsdown-filled": "ph-thumbs-down-fill",
+  "gift": "ph-gift",
+  "rocket": "ph-rocket",
+  "rocket-compact": "ph-rocket",
+  "flame": "ph-flame",
+  "lightbulb": "ph-lightbulb",
+  "light-bulb": "ph-lightbulb",
+  "lightbulb-sparkle": "ph-lightbulb",
+  "lightbulb-autofix": "ph-lightbulb-filament",
+  "lightbulb-empty": "ph-lightbulb",
+  "lightbulb-compact": "ph-lightbulb",
+  "coffee": "ph-coffee",
+  "music": "ph-music-note",
+  "game": "ph-game-controller",
+  "piano": "ph-piano-keys",
+  "shield": "ph-shield",
+  "shield-compact": "ph-shield",
+  "law": "ph-scales",
+  "organization": "ph-buildings",
+  "organization-filled": "ph-buildings",
+  "organization-outline": "ph-buildings",
+  "person": "ph-user",
+  "person-follow": "ph-user",
+  "person-outline": "ph-user",
+  "person-filled": "ph-user",
+  "person-add": "ph-user-plus",
+  "person-voice": "ph-user-sound",
+  "workspace-trusted": "ph-shield-check",
+  "workspace-untrusted": "ph-shield-slash",
+  "workspace-unknown": "ph-shield-warning",
+  "unverified": "ph-warning",
+  "cursor": "ph-cursor",
+  "mention": "ph-at",
+  "milestone": "ph-flag",
+  "git-pull-request-milestone": "ph-flag",
+  "reactions": "ph-smiley",
+  "fish1-happy": "ph-smiley",
+  "radio-tower": "ph-broadcast",
+  "broadcast": "ph-rss-simple",
+  "rss": "ph-rss-simple",
+  "telescope": "ph-eye",
+  "briefcase": "ph-briefcase",
+  "book": "ph-book",
+  "library": "ph-books",
+  "library-compact": "ph-books",
+  "mortar-board": "ph-graduation-cap",
+  "package": "ph-package",
+  "archive": "ph-archive",
+  "unarchive": "ph-archive",
+  "inbox": "ph-tray",
+  "report": "ph-file-x",
+  "compass": "ph-compass",
+  "jersey": "ph-medal",
+  "squirrel": "ph-rabbit",
+  "snake": "ph-file-py",
+  "hubot": "ph-robot",
+  "github": "ph-github-logo",
+  "github-alt": "ph-github-logo",
+  "paintcan": "ph-paint-bucket",
+  "color-mode": "ph-circle-half",
+  "symbol-color": "ph-palette",
+  "symbol-color-compact": "ph-palette",
+  "chevron-down": "ph-caret-down",
+  "chevron-up": "ph-caret-up",
+  "chevron-left": "ph-caret-left",
+  "chevron-right": "ph-caret-right",
+  "chevron-down-compact": "ph-caret-down",
+  "chevron-up-compact": "ph-caret-up",
+  "chevron-left-compact": "ph-caret-left",
+  "chevron-right-compact": "ph-caret-right",
+  "arrow-down": "ph-arrow-down",
+  "arrow-up": "ph-arrow-up",
+  "arrow-left": "ph-arrow-left",
+  "arrow-right": "ph-arrow-right",
+  "arrow-small-down": "ph-arrow-down",
+  "arrow-small-up": "ph-arrow-up",
+  "arrow-small-left": "ph-arrow-left",
+  "arrow-small-right": "ph-arrow-right",
+  "arrow-both": "ph-arrows-left-right",
+  "arrow-swap": "ph-swap",
+  "arrow-circle-down": "ph-arrow-circle-down",
+  "arrow-circle-up": "ph-arrow-circle-up",
+  "arrow-circle-left": "ph-arrow-circle-left",
+  "arrow-circle-right": "ph-arrow-circle-right",
+  "triangle-down": "ph-caret-down-fill",
+  "triangle-up": "ph-caret-up-fill",
+  "triangle-left": "ph-caret-left-fill",
+  "triangle-right": "ph-caret-right-fill",
+  "fold": "ph-arrows-in-line-vertical",
+  "fold-down": "ph-arrows-in-line-vertical",
+  "fold-up": "ph-arrows-out-line-vertical",
+  "unfold": "ph-arrows-out-line-vertical",
+  "expand-all": "ph-arrows-out-line-vertical",
+  "collapse-all": "ph-arrows-in-line-vertical",
+  "collapse-all-compact": "ph-arrows-in-line-vertical",
+  "sign-in": "ph-sign-out",
+  "sign-out": "ph-sign-out",
+  "go-to-file": "ph-file-arrow-up",
+  "go-to-editing-session": "ph-file-text",
+  "open-in-product": "ph-arrow-square-out",
+  "open-in-window": "ph-arrow-square-out",
+  "open-preview": "ph-file-magnifying-glass",
+  "preview": "ph-eye",
+  "references": "ph-link-simple",
+  "run-above": "ph-arrow-up",
+  "run-below": "ph-arrow-down",
+  "skip": "ph-skip-forward",
+  "merge-into": "ph-git-merge",
+  "circle": "ph-circle",
+  "circle-filled": "ph-circle-fill",
+  "primitive-dot": "ph-circle-fill",
+  "close-dirty": "ph-circle-fill",
+  "debug-breakpoint": "ph-circle-fill",
+  "debug-breakpoint-disabled": "ph-circle-fill",
+  "debug-hint": "ph-circle-fill",
+  "terminal-decoration-success": "ph-circle-fill",
+  "circle-filled-compact": "ph-circle-fill",
+  "circle-large": "ph-circle",
+  "circle-large-outline": "ph-circle",
+  "circle-large-filled": "ph-circle-fill",
+  "circle-small": "ph-dot-outline",
+  "circle-small-filled": "ph-dot-fill",
+  "debug-stackframe-dot": "ph-dot-fill",
+  "terminal-decoration-mark": "ph-dot-fill",
+  "circle-small-filled-compact": "ph-dot-fill",
+  "circle-slash": "ph-prohibit",
+  "circle-slash-compact": "ph-prohibit",
+  "primitive-square": "ph-square-fill",
+  "record": "ph-circle",
+  "record-small": "ph-circle",
+  "stop-circle": "ph-stop-circle",
+  "play-circle": "ph-play-circle",
+  "loading": "ph-spinner",
+  "loading-compact": "ph-spinner",
+  "play": "ph-play-fill",
+  "run": "ph-play-fill",
+  "run-compact": "ph-play-fill",
+  "debug-start": "ph-play-fill",
+  "debug-continue": "ph-play-fill",
+  "debug-continue-small": "ph-play-fill",
+  "debug-pause": "ph-pause-fill",
+  "debug-stop": "ph-stop-fill",
+  "debug-restart": "ph-arrow-clockwise",
+  "debug-rerun": "ph-repeat",
+  "debug-step-over": "ph-arrow-bend-up-right",
+  "debug-step-into": "ph-arrow-line-down",
+  "debug-step-out": "ph-arrow-line-up",
+  "debug-step-back": "ph-arrow-u-up-left",
+  "debug-reverse-continue": "ph-rewind",
+  "debug-disconnect": "ph-plugs",
+  "debug-disconnect-compact": "ph-plugs",
+  "debug-connected": "ph-plugs-connected",
+  "debug-connected-compact": "ph-plugs-connected",
+  "debug-console": "ph-terminal-window",
+  "debug-alt-small": "ph-bug",
+  "debug-all": "ph-bug",
+  "debug-line-by-line": "ph-list-dashes",
+  "debug-coverage": "ph-shield-check",
+  "debug-breakpoint-conditional": "ph-circle-fill",
+  "debug-breakpoint-conditional-disabled": "ph-circle-fill",
+  "debug-breakpoint-data": "ph-circle-fill",
+  "debug-breakpoint-data-disabled": "ph-circle-fill",
+  "debug-breakpoint-function": "ph-circle-fill",
+  "debug-breakpoint-function-disabled": "ph-circle-fill",
+  "debug-breakpoint-log": "ph-circle-fill",
+  "debug-breakpoint-log-disabled": "ph-circle-fill",
+  "debug-breakpoint-unsupported": "ph-circle",
+  "activate-breakpoints": "ph-circle-fill",
+  "debug-breakpoint-conditional-unverified": "ph-circle",
+  "debug-breakpoint-data-unverified": "ph-circle",
+  "debug-breakpoint-function-unverified": "ph-circle",
+  "debug-breakpoint-log-unverified": "ph-circle",
+  "debug-stackframe": "ph-arrow-right-fill",
+  "debug-stackframe-focused": "ph-arrow-right-fill",
+  "debug-stackframe-active": "ph-arrow-right-fill",
+  "debug-restart-frame": "ph-arrow-clockwise",
+  "coverage": "ph-chart-pie-slice",
+  "run-coverage": "ph-chart-pie-slice",
+  "run-all-coverage": "ph-chart-pie-slice",
+  "run-errors": "ph-warning-circle",
+  "run-with-deps": "ph-play",
+  "beaker-compact": "ph-flask",
+  "git-branch": "ph-git-branch",
+  "git-branch-create": "ph-git-branch",
+  "git-branch-delete": "ph-git-branch",
+  "git-branch-compact": "ph-git-branch",
+  "git-branch-changes": "ph-git-branch",
+  "git-branch-conflicts": "ph-git-branch",
+  "git-branch-staged-changes": "ph-git-branch",
+  "git-commit": "ph-git-commit",
+  "git-compare": "ph-git-diff",
+  "compare-changes": "ph-git-diff",
+  "git-fetch": "ph-download-simple",
+  "git-merge": "ph-git-merge",
+  "git-pull-request": "ph-git-pull-request",
+  "git-pull-request-abandoned": "ph-git-pull-request",
+  "git-pull-request-closed": "ph-git-pull-request",
+  "git-pull-request-draft": "ph-git-pull-request",
+  "git-pull-request-create": "ph-git-pull-request",
+  "git-pull-request-done": "ph-git-pull-request",
+  "git-pull-request-comment": "ph-git-pull-request",
+  "git-pull-request-error": "ph-git-pull-request",
+  "git-pull-request-go-to-changes": "ph-git-pull-request",
+  "git-pull-request-new-changes": "ph-git-pull-request",
+  "git-stash": "ph-archive",
+  "git-stash-apply": "ph-archive",
+  "git-stash-pop": "ph-archive",
+  "merge": "ph-git-merge",
+  "repo": "ph-book",
+  "repo-delete": "ph-book",
+  "repo-compact": "ph-book",
+  "repo-clone": "ph-download-simple",
+  "repo-fetch": "ph-download-simple",
+  "repo-force-push": "ph-upload-simple",
+  "repo-forked": "ph-git-fork",
+  "repo-forked-compact": "ph-git-fork",
+  "repo-pull": "ph-download-simple",
+  "repo-push": "ph-upload-simple",
+  "repo-pinned": "ph-push-pin-simple",
+  "repo-selected": "ph-book",
+  "diff": "ph-git-diff",
+  "diff-sidebyside": "ph-git-diff",
+  "diff-added": "ph-plus-square",
+  "diff-modified": "ph-pencil-simple",
+  "diff-removed": "ph-minus-square",
+  "diff-renamed": "ph-text-aa",
+  "diff-ignored": "ph-prohibit",
+  "diff-multiple": "ph-files",
+  "diff-single": "ph-file",
+  "issues": "ph-circle",
+  "issue-draft": "ph-circle",
+  "issue-reopened": "ph-circle",
+  "versions": "ph-clock-counter-clockwise",
+  "gist": "ph-file-text",
+  "gist-secret": "ph-file-lock",
+  "project": "ph-table",
+  "project-compact": "ph-table",
+  "github-action": "ph-play-circle",
+  "github-project": "ph-table",
+  "github-inverted": "ph-github-logo",
+  "worktree": "ph-git-fork",
+  "worktree-small": "ph-git-fork",
+  "worktree-compact": "ph-git-fork",
+  "file-text": "ph-file-text",
+  "file-code": "ph-file-code",
+  "file-binary": "ph-file-code",
+  "file-pdf": "ph-file-pdf",
+  "file-media": "ph-image-square",
+  "file-media-compact": "ph-image-square",
+  "file-zip": "ph-file-zip",
+  "file-submodule": "ph-folder",
+  "file-symlink-file": "ph-file",
+  "file-symlink-directory": "ph-folder",
+  "new-file": "ph-file-plus",
+  "file-add": "ph-file-plus",
+  "new-folder": "ph-folder-plus",
+  "file-directory-create": "ph-folder-plus",
+  "new-collection": "ph-stack-plus",
+  "collection": "ph-folders",
+  "collection-small": "ph-folders",
+  "folder-compact": "ph-folder",
+  "folder-opened-compact": "ph-folder-open",
+  "note": "ph-note",
+  "notebook": "ph-notebook",
+  "notebook-template": "ph-notebook",
+  "symbol-file": "ph-file",
+  "code": "ph-code",
+  "code-review": "ph-code-block",
+  "code-oss": "ph-code",
+  "edit-code": "ph-code-simple",
+  "edit-session": "ph-pencil-simple",
+  "edit-sparkle": "ph-pencil-simple-line",
+  "editor-layout": "ph-columns",
+  "split-horizontal": "ph-square-split-horizontal",
+  "split-vertical": "ph-square-split-vertical",
+  "window": "ph-app-window",
+  "window-compact": "ph-app-window",
+  "window-active": "ph-app-window",
+  "multiple-windows": "ph-browsers",
+  "empty-window": "ph-app-window",
+  "share-window": "ph-app-window",
+  "screen-full": "ph-corners-out",
+  "screen-normal": "ph-corners-in",
+  "screen-cut": "ph-scissors",
+  "browser": "ph-browser",
+  "desktop-download": "ph-monitor-arrow-up",
+  "device-mobile": "ph-device-mobile",
+  "device-camera": "ph-camera",
+  "device-camera-video": "ph-video-camera",
+  "terminal": "ph-terminal-window",
+  "console": "ph-terminal-window",
+  "repl": "ph-terminal-window",
+  "terminal-compact": "ph-terminal-window",
+  "terminal-bash": "ph-terminal-window",
+  "terminal-cmd": "ph-terminal-window",
+  "terminal-powershell": "ph-terminal-window",
+  "terminal-git-bash": "ph-terminal-window",
+  "terminal-linux": "ph-terminal-window",
+  "terminal-ubuntu": "ph-terminal-window",
+  "terminal-debian": "ph-terminal-window",
+  "terminal-tmux": "ph-terminal-window",
+  "terminal-secure": "ph-terminal-window",
+  "output": "ph-list-bullets",
+  "server": "ph-hard-drives",
+  "server-environment": "ph-hard-drives",
+  "server-process": "ph-hard-drives",
+  "database": "ph-database",
+  "table": "ph-table",
+  "chip": "ph-cpu",
+  "circuit-board": "ph-cpu",
+  "vm": "ph-desktop",
+  "device-desktop": "ph-desktop",
+  "vm-active": "ph-desktop",
+  "vm-compact": "ph-desktop",
+  "vm-connect": "ph-desktop",
+  "vm-outline": "ph-desktop",
+  "vm-pending": "ph-desktop",
+  "vm-running": "ph-desktop",
+  "vm-small": "ph-desktop",
+  "plug": "ph-plugs-connected",
+  "live-share": "ph-users-three",
+  "send-to-remote-agent": "ph-paper-plane-tilt",
+  "remote-compact": "ph-plugs-connected",
+  "layers": "ph-stack",
+  "layers-active": "ph-stack",
+  "layers-dot": "ph-stack",
+  "map": "ph-map-trifold",
+  "map-horizontal": "ph-map-trifold",
+  "fold-horizontal": "ph-map-trifold",
+  "map-vertical": "ph-map-trifold",
+  "fold-vertical": "ph-map-trifold",
+  "map-filled": "ph-map-trifold-fill",
+  "map-horizontal-filled": "ph-map-trifold-fill",
+  "fold-horizontal-filled": "ph-map-trifold-fill",
+  "map-vertical-filled": "ph-map-trifold-fill",
+  "fold-vertical-filled": "ph-map-trifold-fill",
+  "pulse": "ph-pulse",
+  "graph": "ph-chart-line-up",
+  "graph-line": "ph-chart-line",
+  "graph-scatter": "ph-chart-scatter",
+  "graph-left": "ph-chart-bar",
+  "pie-chart": "ph-chart-pie-slice",
+  "percentage": "ph-percent",
+  "sort-percentage": "ph-percent",
+  "credit-card": "ph-credit-card",
+  "build": "ph-wrench",
+  "tasklist": "ph-list-checks",
+  "checklist": "ph-list-bullets",
+  "checklist-compact": "ph-list-bullets",
+  "layout": "ph-columns",
+  "layout-sidebar-left": "ph-sidebar-simple",
+  "layout-sidebar-left-dock": "ph-sidebar-simple",
+  "layout-sidebar-left-off": "ph-sidebar-simple",
+  "layout-sidebar-right": "ph-sidebar-simple",
+  "layout-sidebar-right-dock": "ph-sidebar-simple",
+  "layout-sidebar-right-off": "ph-sidebar-simple",
+  "layout-panel": "ph-square-half-bottom",
+  "layout-panel-dock": "ph-square-half-bottom",
+  "layout-panel-center": "ph-square-half-bottom",
+  "layout-panel-justify": "ph-square-half-bottom",
+  "layout-panel-left": "ph-sidebar-simple",
+  "layout-panel-right": "ph-sidebar-simple",
+  "layout-panel-off": "ph-square-half-bottom",
+  "layout-activitybar-left": "ph-sidebar",
+  "layout-activitybar-right": "ph-sidebar-simple",
+  "layout-centered": "ph-columns",
+  "layout-menubar": "ph-app-window",
+  "layout-statusbar": "ph-square-half-bottom",
+  "right-panel-hide": "ph-sidebar-simple",
+  "right-panel-show": "ph-sidebar-simple",
+  "list-flat": "ph-list-bullets",
+  "list-ordered": "ph-list-numbers",
+  "list-selection": "ph-check-square",
+  "selection": "ph-check-square",
+  "list-tree": "ph-tree-structure",
+  "list-unordered": "ph-list-bullets",
+  "bold": "ph-text-b",
+  "italic": "ph-text-italic",
+  "strikethrough": "ph-text-strikethrough",
+  "text-size": "ph-text-aa",
+  "case-sensitive": "ph-text-aa",
+  "preserve-case": "ph-text-aa",
+  "whole-word": "ph-text-underline",
+  "regex": "ph-asterisk-simple",
+  "replace": "ph-swap",
+  "replace-all": "ph-arrows-clockwise",
+  "word-wrap": "ph-text-align-left",
+  "newline": "ph-arrow-elbow-down-left",
+  "no-newline": "ph-arrow-elbow-down-left",
+  "indent": "ph-text-indent",
+  "horizontal-rule": "ph-minus",
+  "quote": "ph-quotes",
+  "quotes": "ph-quotes",
+  "insert": "ph-text-t",
+  "surround-with": "ph-brackets-curly",
+  "keyboard-tab": "ph-arrow-line-right",
+  "keyboard-tab-above": "ph-arrow-line-right",
+  "keyboard-tab-below": "ph-arrow-line-right",
+  "rename": "ph-text-aa",
+  "ungroup-by-ref-type": "ph-list-dashes",
+  "group-by-ref-type": "ph-list-dashes",
+  "type-hierarchy": "ph-tree-structure",
+  "type-hierarchy-sub": "ph-tree-structure",
+  "type-hierarchy-super": "ph-tree-structure",
+  "sort-precedence": "ph-sort-ascending",
+  "blank": "ph-square",
+  "combine": "ph-git-merge",
+  "gather": "ph-git-merge",
+  "exclude": "ph-prohibit",
+  "variable-group": "ph-function",
+  "index-zero": "ph-hash",
+  "bracket-dot": "ph-brackets-curly",
+  "bracket-error": "ph-brackets-curly",
+  "comment": "ph-chat-teardrop",
+  "comment-add": "ph-chat-teardrop",
+  "comment-compact": "ph-chat-teardrop",
+  "comment-discussion": "ph-chats-teardrop",
+  "comment-draft": "ph-chat-teardrop-text",
+  "comment-unresolved": "ph-chat-teardrop-dots",
+  "comment-unresolved-compact": "ph-chat-teardrop-dots",
+  "comment-discussion-quote": "ph-chat-teardrop-text",
+  "comment-discussion-sparkle": "ph-chat-circle-dots",
+  "chat-export": "ph-export",
+  "chat-import": "ph-download-simple",
+  "attach": "ph-paperclip",
+  "attach-compact": "ph-paperclip",
+  "ask": "ph-chat-circle-text",
+  "ask-compact": "ph-chat-circle-text",
+  "mic-download": "ph-download-simple",
+  "voice-mode": "ph-waveform",
+  "new-session": "ph-chat-circle",
+  "session-in-progress-compact": "ph-chat-circle-dots",
+  "symbol-array": "ph-brackets-curly",
+  "symbol-boolean": "ph-check-square",
+  "symbol-null": "ph-check-square",
+  "symbol-class": "ph-cube",
+  "symbol-constant": "ph-hash",
+  "symbol-enum": "ph-list-bullets",
+  "symbol-value": "ph-list-bullets",
+  "symbol-enum-member": "ph-list-bullets",
+  "symbol-event": "ph-lightning",
+  "symbol-field": "ph-textbox",
+  "symbol-interface": "ph-plugs-connected",
+  "symbol-key": "ph-key",
+  "symbol-text": "ph-key",
+  "symbol-keyword": "ph-text-t",
+  "symbol-method": "ph-cube",
+  "symbol-function": "ph-cube",
+  "symbol-constructor": "ph-cube",
+  "symbol-method-arrow": "ph-cube",
+  "symbol-misc": "ph-dots-three",
+  "symbol-namespace": "ph-brackets-curly",
+  "symbol-numeric": "ph-hash",
+  "symbol-number": "ph-hash",
+  "symbol-operator": "ph-calculator",
+  "symbol-parameter": "ph-textbox",
+  "symbol-type-parameter": "ph-textbox",
+  "symbol-property": "ph-wrench",
+  "wrench": "ph-wrench",
+  "wrench-subaction": "ph-wrench",
+  "symbol-ruler": "ph-ruler",
+  "symbol-unit": "ph-ruler",
+  "symbol-snippet": "ph-clipboard-text",
+  "symbol-string": "ph-quotes",
+  "symbol-structure": "ph-columns",
+  "symbol-struct": "ph-columns",
+  "symbol-variable": "ph-function",
+  "star": "ph-star",
+  "star-add": "ph-star",
+  "star-delete": "ph-star",
+  "eraser": "ph-eraser",
+  "clear-all": "ph-eraser",
+  "clippy": "ph-clipboard",
+  "vr": "ph-eyeglasses",
+  "mirror": "ph-flip-horizontal",
+  "mirror-public": "ph-flip-horizontal",
+  "microsoft": "ph-squares-four",
+  "azure": "ph-cloud",
+  "azure-devops": "ph-cloud",
+  "vscode": "ph-code",
+  "vscode-insiders": "ph-code",
+  "vscode-outline": "ph-code",
+  "vscode-insiders-outline": "ph-code",
+  "twitter": "ph-chat-circle",
+  "openai": "ph-sparkle",
+  "google-gemini": "ph-sparkle",
+  "kimi": "ph-sparkle",
+  "octoface": "ph-github-logo",
+  "agent-compact": "ph-sparkle",
+  "copilot-compact": "ph-sparkle",
+  "copilot-large": "ph-sparkle",
+  "copilot-error": "ph-robot",
+  "copilot-warning": "ph-robot",
+  "copilot-warning-large": "ph-robot",
+  "copilot-success": "ph-robot",
+  "copilot-in-progress": "ph-robot",
+  "copilot-not-connected": "ph-robot",
+  "copilot-blocked": "ph-robot",
+  "copilot-snooze": "ph-robot",
+  "copilot-unavailable": "ph-robot",
+  "search-large": "ph-magnifying-glass",
+  "search-compact": "ph-magnifying-glass",
+  "search-sparkle": "ph-magnifying-glass",
+  "settings-compact": "ph-gear-six",
+  "gear-compact": "ph-gear-six",
+  "sparkle-compact": "ph-sparkle",
+  "request-changes": "ph-chat-teardrop-text",
+  "person-voice-filled": "ph-user-sound",
+  "chat-sparkle-error": "ph-chat-circle-text",
+  "chat-sparkle-warning": "ph-chat-circle-text",
+  "compass-active": "ph-compass",
+  "compass-dot": "ph-compass"
+}
