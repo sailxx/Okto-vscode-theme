@@ -49,18 +49,30 @@
 
 <img src="assets/readme/numbers-ru.svg" width="100%" alt="В цифрах: 37 иконок файлов, 10 цветных папок, 2 темы, 309 цветов интерфейса, 0 строк кода">
 
-<details>
+<details open>
 <summary><b>Установка</b></summary>
 
-**Из `.vsix`** (рекомендуется):
+**В один шаг** (склонируйте репозиторий или скачайте его как ZIP):
 
-1. Скачайте `okto-theme-*.vsix` со [страницы релиза](https://github.com/sailxx/okto-vscode-theme/releases/latest).
-2. Выполните `code --install-extension okto-theme-2.0.0.vsix` или откройте **Extensions → ⋯ → Install from VSIX…**.
-3. Выберите цветовую тему: `Ctrl + K`, затем `Ctrl + T` — **Okto Dark** или **Okto Light**.
-4. В палитре команд (`Ctrl + Shift + P`) найдите **Preferences: File Icon Theme** и выберите **Okto Icons**.
-5. Там же выберите **Preferences: Product Icon Theme** → **Okto Product Icons**.
+```powershell
+.\install.ps1      # Windows (PowerShell)
+```
 
-**Вручную (Windows):** склонируйте репозиторий, создайте в `%USERPROFILE%\.vscode\extensions` папку `local.okto-theme-2.0.0` и скопируйте в неё `package.json`, `icon.png`, `icon.svg` и папки `themes`, `fileicons`, `producticons`. Затем перезапустите VS Code (**Developer: Reload Window**).
+```bash
+./install.sh       # macOS и Linux
+```
+
+Скрипт копирует расширение в папку расширений VS Code (старые версии Okto удаляются). Перезапустите VS Code и добавьте в `settings.json` (`Ctrl + Shift + P` → **Preferences: Open User Settings (JSON)**):
+
+```json
+"workbench.colorTheme": "Okto Dark",
+"workbench.iconTheme": "okto-icons",
+"workbench.productIconTheme": "okto-product-icons"
+```
+
+Для светлой темы укажите `"Okto Light"`. Те же три пункта можно выбрать в палитре команд: **Preferences: Color Theme**, **File Icon Theme** и **Product Icon Theme**.
+
+**Из `.vsix`:** скачайте `okto-theme-*.vsix` со [страницы релиза](https://github.com/sailxx/okto-vscode-theme/releases/latest) и выполните `code --install-extension okto-theme-2.0.0.vsix` (или **Extensions → ⋯ → Install from VSIX…**), затем выберите темы, как описано выше.
 
 Тема значков интерфейса меняет встроенные значки VS Code. Значки, которые добавляют отдельные расширения, управляются самими расширениями и могут не заменяться темой.
 

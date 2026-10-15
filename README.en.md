@@ -49,18 +49,30 @@ Semantic highlighting (`semanticHighlighting`) is on, backed by 30+ TextMate rul
 
 <img src="assets/readme/numbers-en.svg" width="100%" alt="By the numbers: 37 file icons, 10 color folders, 2 themes, 309 interface colors, 0 lines of code">
 
-<details>
+<details open>
 <summary><b>Installation</b></summary>
 
-**From a `.vsix`** (recommended):
+**One step** (clone the repository or download it as a ZIP):
 
-1. Download `okto-theme-*.vsix` from the [release page](https://github.com/sailxx/okto-vscode-theme/releases/latest).
-2. Run `code --install-extension okto-theme-2.0.0.vsix` or open **Extensions → ⋯ → Install from VSIX…**.
-3. Pick a color theme: `Ctrl + K`, then `Ctrl + T` — **Okto Dark** or **Okto Light**.
-4. In the Command Palette (`Ctrl + Shift + P`) run **Preferences: File Icon Theme** and choose **Okto Icons**.
-5. Then run **Preferences: Product Icon Theme** → **Okto Product Icons**.
+```powershell
+.\install.ps1      # Windows (PowerShell)
+```
 
-**Manually (Windows):** clone the repository, create `local.okto-theme-2.0.0` in `%USERPROFILE%\.vscode\extensions` and copy `package.json`, `icon.png`, `icon.svg` and the `themes`, `fileicons`, `producticons` folders into it. Then restart VS Code (**Developer: Reload Window**).
+```bash
+./install.sh       # macOS and Linux
+```
+
+The script copies the extension into the VS Code extensions folder (older Okto versions are removed). Restart VS Code and add this to `settings.json` (`Ctrl + Shift + P` → **Preferences: Open User Settings (JSON)**):
+
+```json
+"workbench.colorTheme": "Okto Dark",
+"workbench.iconTheme": "okto-icons",
+"workbench.productIconTheme": "okto-product-icons"
+```
+
+Use `"Okto Light"` for the light theme. You can also pick all three from the Command Palette: **Preferences: Color Theme**, **File Icon Theme** and **Product Icon Theme**.
+
+**From a `.vsix`:** download `okto-theme-*.vsix` from the [release page](https://github.com/sailxx/okto-vscode-theme/releases/latest) and run `code --install-extension okto-theme-2.0.0.vsix` (or **Extensions → ⋯ → Install from VSIX…**), then select the themes as described above.
 
 The product icon theme replaces the built-in VS Code icons. Icons added by individual extensions are controlled by those extensions and may not be replaced by the theme.
 
