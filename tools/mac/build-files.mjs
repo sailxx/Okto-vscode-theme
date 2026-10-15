@@ -5,6 +5,7 @@ import fs from "node:fs";
 import path from "node:path";
 import { fileURLToPath } from "node:url";
 import opentype from "opentype.js";
+import * as si from "simple-icons";
 
 const here = path.dirname(fileURLToPath(import.meta.url));
 const root = path.resolve(here, "..", "..");
@@ -78,9 +79,39 @@ const kinds = {
   sql: ["#00AFCB", "L", "SQL"], shell: ["#4CAF50", "L", ">_"], gradle: ["#3FA9C9", "L", "GR"], makefile: ["#8172B8", "G", "gear-six"],
 };
 
+// Standalone vector logos (Simple Icons, CC0) - no page, just the mark with a soft macOS-like gradient.
+const siPath = (slug) => Object.values(si).find((i) => i.slug === slug).path;
+const logos = {
+  javascript: ["javascript", "#F7DF1E"], typescript: ["typescript", "#3A86D8"], python: ["python", "#3776AB"],
+  rust: ["rust", "#F2641F"], go: ["go", "#00ADD8"], java: ["__coffee", "#F0782A"], c: ["c", "#5C8DC8"],
+  cpp: ["cplusplus", "#0A6CBF"], ruby: ["ruby", "#E0403A"], php: ["php", "#8892D6"], swift: ["swift", "#F05138"],
+  kotlin: ["kotlin", "#8B5CF6"], svelte: ["svelte", "#FF3E00"], vue: ["vuedotjs", "#41B883"], dart: ["dart", "#2BB7F6"],
+  lua: ["lua", "#5568E8"], scala: ["scala", "#E04444"], haskell: ["haskell", "#8A78D8"], elixir: ["elixir", "#9A63D0"],
+  zig: ["zig", "#F7A41D"], r: ["r", "#2E7FD6"], perl: ["perl", "#5D87D6"], html: ["html5", "#E8643F"],
+  style: ["css", "#3B82F6"], shell: ["gnubash", "#4EAA25"], terminal: ["gnubash", "#4EAA25"], sql: ["sqlite", "#2B9BD6"],
+  markdown: ["markdown", "#5B7C99"], json: ["json", "#E5A93B"], yaml: ["yaml", "#E5484D"], toml: ["toml", "#D2693C"],
+  docker: ["docker", "#2496ED"], git: ["git", "#F05133"], gradle: ["gradle", "#2BA3BD"],
+};
+const logo = (slug, color) => {
+  const fill = slug === "python"
+    ? `<linearGradient id="g" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#4F8FCB"/><stop offset=".5" stop-color="#3776AB"/><stop offset=".5" stop-color="#FFD43B"/><stop offset="1" stop-color="#F5B800"/></linearGradient>`
+    : `<linearGradient id="g" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="${light(color, 0.28)}"/><stop offset="1" stop-color="${color}"/></linearGradient>`;
+  if (slug.startsWith("__")) return wrap(fill, `<g transform="translate(3 3) scale(${26 / 256})" fill="url(#g)">${glyphPaths(slug.slice(2)).map((d) => `<path d="${d}"/>`).join("")}</g>`);
+  return wrap(fill, `<g transform="translate(2.5 2.5) scale(1.1667)"><path d="${siPath(slug)}" fill="url(#g)"/></g>`);
+};
+const csharp = () => wrap(
+  `<linearGradient id="g" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#B773B8"/><stop offset="1" stop-color="#8C3F8E"/></linearGradient>`,
+  `<path d="M16 4.5l10 5.75v11.5L16 27.5 6 21.75v-11.5z" fill="url(#g)" stroke="url(#g)" stroke-width="2.6" stroke-linejoin="round"/>${label("C#", 16, 16.2, 14, 12)}`);
+
 const files = {};
 const defs = {};
 for (const [kind, [color, type, what]] of Object.entries(kinds)) {
+  if (logos[kind] || kind === "csharp") {
+    files[kind] = uniq(kind === "csharp" ? csharp() : logo(...logos[kind]), kind);
+    fs.writeFileSync(path.join(outIcons, `${kind}.svg`), files[kind]);
+    defs[`_${kind}`] = { iconPath: `./mac/${kind}.svg` };
+    continue;
+  }
   let inner = "";
   if (kind === "file" || kind === "text" || kind === "log") {
     inner = `<path d="M10.5 15h11M10.5 18.6h11M10.5 22.2h6.5" stroke="#9AA1AD" stroke-width="1.6" stroke-linecap="round" fill="none"/>`;
