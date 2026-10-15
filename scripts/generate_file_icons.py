@@ -16,6 +16,7 @@ from fontTools.pens.boundsPen import BoundsPen
 from fontTools.pens.recordingPen import RecordingPen
 from fontTools.pens.svgPathPen import SVGPathPen
 from fontTools.pens.transformPen import TransformPen
+from fontTools.svgLib.path import parse_path
 from fontTools.ttLib import TTFont
 
 root = Path(__file__).resolve().parent.parent
@@ -48,6 +49,37 @@ def text_path(text, size, tracking=0.0, dx=0.0, dy=0.0):
     out = SVGPathPen(glyph_set, ntos=lambda v: f"{v:.2f}".rstrip("0").rstrip("."))
     rec.replay(TransformPen(out, (scale, 0, 0, -scale, dx - cx * scale, dy + cy * scale)))
     return out.getCommands()
+
+
+def split_subpaths(d):
+    """Split a path with several subpaths into separate absolute path strings."""
+    rec = RecordingPen()
+    parse_path(d, rec)
+    parts, cur = [], []
+    for op, pts in rec.value:
+        cur.append((op, pts))
+        if op in ("closePath", "endPath"):
+            parts.append(cur)
+            cur = []
+    out = []
+    for part in parts:
+        pen = SVGPathPen(None, ntos=lambda v: f"{v:.2f}".rstrip("0").rstrip("."))
+        for op, pts in part:
+            getattr(pen, op)(*pts)
+        out.append(pen.getCommands())
+    return out
+
+
+# Python logo (Simple Icons, CC0): two interlocking snakes, each with an eye cut-out.
+PYTHON_D = (
+    "M14.25.18l.9.2.73.26.59.3.45.32.34.34.25.34.16.33.1.3.04.26.02.2-.01.13V8.5l-.05.63-.13.55-.21.46-.26.38-.3.31-.33.25-.35.19-.35.14-.33.1-.3.07-.26.04-.21.02H8.77l-.69.05-.59.14-.5.22-.41.27-.33.32-.27.35-.2.36-.15.37-.1.35-.07.32-.04.27-.02.21v3.06H3.17l-.21-.03-.28-.07-.32-.12-.35-.18-.36-.26-.36-.36-.35-.46-.32-.59-.28-.73-.21-.88-.14-1.05-.05-1.23.06-1.22.16-1.04.24-.87.32-.71.36-.57.4-.44.42-.33.42-.24.4-.16.36-.1.32-.05.24-.01h.16l.06.01h8.16v-.83H6.18l-.01-2.75-.02-.37.05-.34.11-.31.17-.28.25-.26.31-.23.38-.2.44-.18.51-.15.58-.12.64-.1.71-.06.77-.04.84-.02 1.27.05zm-6.3 1.98l-.23.33-.08.41.08.41.23.34.33.22.41.09.41-.09.33-.22.23-.34.08-.41-.08-.41-.23-.33-.33-.22-.41-.09-.41.09zm13.09 3.95l.28.06.32.12.35.18.36.27.36.35.35.47.32.59.28.73.21.88.14 1.04.05 1.23-.06 1.23-.16 1.04-.24.86-.32.71-.36.57-.4.45-.42.33-.42.24-.4.16-.36.09-.32.05-.24.02-.16-.01h-8.22v.82h5.84l.01 2.76.02.36-.05.34-.11.31-.17.29-.25.25-.31.24-.38.2-.44.17-.51.15-.58.13-.64.09-.71.07-.77.04-.84.01-1.27-.04-1.07-.14-.9-.2-.73-.25-.59-.3-.45-.33-.34-.34-.25-.34-.16-.33-.1-.3-.04-.25-.02-.2.01-.13v-5.34l.05-.64.13-.54.21-.46.26-.38.3-.32.33-.24.35-.2.35-.14.33-.1.3-.06.26-.04.21-.02.13-.01h5.84l.69-.05.59-.14.5-.21.41-.28.33-.32.27-.35.2-.36.15-.36.1-.35.07-.32.04-.28.02-.21V6.07h2.09l.14.01zm-6.47 14.25l-.23.33-.08.41.08.41.23.33.33.23.41.08.41-.08.33-.23.23-.33.08-.41-.08-.41-.23-.33-.33-.23-.41-.08-.41.08z"
+)
+_py = split_subpaths(PYTHON_D)
+PYTHON_GLYPH = (
+    '<g transform="translate(-12 -12) scale(.78) translate(2.6 2.6)">'
+    f'<path fill="G" fill-rule="evenodd" d="{_py[0]}{_py[1]}"/>'
+    f'<path fill="Y" fill-rule="evenodd" d="{_py[2]}{_py[3]}"/></g>'
+)
 
 
 def T(text, size, tracking=0.0, dx=0.0, dy=0.0):
@@ -127,11 +159,7 @@ glyphs = {
     "docker": (
         '<g transform="translate(-15 -13.6) scale(1.1)"><path fill="G" d="M9 15h12c-.5 2.7-2.300 4-5.500 4H12c-2 0-3.100-1.200-3-4zm2-3h2v2h-2zm3 0h2v2h-2zm3 0h2v2h-2zm-6-3h2v2h-2zm3 0h2v2h-2zm3 0h2v2h-2z"/></g>'
     ),
-    "python": (
-        '<g transform="translate(-16 -15) scale(1.06)">'
-        '<path fill="G" d="M16 7.5h-3.2c-2.1 0-3.4 1.2-3.4 3.2v2h7.1v1.2h-6c-2.2 0-3.6 1.4-3.6 3.6s1.4 3.8 3.6 3.8h2.2v-2.1c0-2.2 1.5-3.8 3.7-3.8h3.1c1.8 0 3-1.2 3-3v-1.5c0-2-1.2-3.4-3.4-3.4zm-1.8 2.1a.8.8 0 1 1 0 1.6.8.8 0 0 1 0-1.6z"/>'
-        '<path fill="#FFE27A" d="M16 22.5h3.2c2.1 0 3.4-1.2 3.4-3.2v-2h-7.1v-1.2h6c2.2 0 3.6-1.4 3.6-3.6s-1.4-3.8-3.6-3.8h-2.2v2.1c0 2.2-1.5 3.8-3.7 3.8h-3.1c-1.8 0-3 1.2-3 3v1.5c0 2 1.2 3.4 3.4 3.4zm1.8-2.1a.8.8 0 1 1 0-1.6.8.8 0 0 1 0 1.6z"/></g>'
-    ),
+    "python": PYTHON_GLYPH,
     "java": (
         '<g transform="translate(-15.5 -14) scale(1.05)">'
         '<path d="M15.8 7.5c-2 1.3 2.4 1.7.1 3.1m2-4.2c-3 1.9 2.7 2.2.1 4.6M10 13.5h11l-1.1 4.2c-.3 1-1 1.5-2.1 1.5h-4.6c-1.1 0-1.8-.5-2.1-1.5zm1.2 7h8.5" fill="none" stroke="G" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"/></g>'
@@ -217,8 +245,8 @@ def tint(hex_color, f):
     return f"#{r:02X}{g:02X}{b:02X}"
 
 
-def paint(frag, glyph_color, deep):
-    return frag.replace('"G"', f'"{glyph_color}"').replace('"D"', f'"{deep}"')
+def paint(frag, glyph_color, deep, y="#FFD43B"):
+    return frag.replace('"G"', f'"{glyph_color}"').replace('"D"', f'"{deep}"').replace('"Y"', f'"{y}"')
 
 
 def glyph_group(name, glyph_color, deep, transform):
