@@ -6,7 +6,7 @@
 
 <img src="assets/readme/hero-en.svg" width="100%" alt="Okto for VS Code — two color themes and colorful file and folder icons">
 
-<a href="https://github.com/sailxx/okto-vscode-theme/releases/latest"><img src="assets/readme/btn-download-en.svg" height="52" alt="Download .vsix"></a>&nbsp;&nbsp;<a href="CHANGELOG.md"><img src="assets/readme/btn-new-en.svg" height="52" alt="What’s new"></a>
+<a href="https://github.com/sailxx/Okto-vscode-theme/releases/latest"><img src="assets/readme/btn-download-en.svg" height="52" alt="Download .vsix"></a>&nbsp;&nbsp;<a href="CHANGELOG.md"><img src="assets/readme/btn-new-en.svg" height="52" alt="What’s new"></a>
 
 **Okto for VS Code is two color themes, file icons and color-coded folders.** The ink-violet **Okto Dark** and the warm lilac **Okto Light** with a pink accent, flat colorful icons for 37 file types and 10 kinds of folders, and detailed code highlighting. Not a single line of code in the extension — just color.
 
@@ -72,7 +72,7 @@ The script copies the extension into the VS Code extensions folder (older Okto v
 
 Use `"Okto Light"` for the light theme. You can also pick all three from the Command Palette: **Preferences: Color Theme**, **File Icon Theme** and **Product Icon Theme**.
 
-**From a `.vsix`:** download `okto-theme-*.vsix` from the [release page](https://github.com/sailxx/okto-vscode-theme/releases/latest) and run `code --install-extension okto-theme-2.0.0.vsix` (or **Extensions → ⋯ → Install from VSIX…**), then select the themes as described above.
+**From a `.vsix`:** download `okto-theme-*.vsix` from the [release page](https://github.com/sailxx/Okto-vscode-theme/releases/latest) and run `code --install-extension okto-theme-2.0.0.vsix` (or **Extensions → ⋯ → Install from VSIX…**), then select the themes as described above.
 
 The product icon theme replaces the built-in VS Code icons. Icons added by individual extensions are controlled by those extensions and may not be replaced by the theme.
 

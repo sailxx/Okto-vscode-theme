@@ -6,7 +6,7 @@
   "publisher": "local",
   "repository": {
     "type": "git",
-    "url": "https://github.com/sailxx/okto-vscode-theme.git"
+    "url": "https://github.com/sailxx/Okto-vscode-theme.git"
   },
   "engines": {
     "vscode": "^1.80.0"

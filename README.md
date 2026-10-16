@@ -6,7 +6,7 @@
 
 <img src="assets/readme/hero-ru.svg" width="100%" alt="Okto для VS Code — две цветовые темы и цветные иконки файлов и папок">
 
-<a href="https://github.com/sailxx/okto-vscode-theme/releases/latest"><img src="assets/readme/btn-download-ru.svg" height="52" alt="Скачать .vsix"></a>&nbsp;&nbsp;<a href="CHANGELOG.md"><img src="assets/readme/btn-new-ru.svg" height="52" alt="Что нового"></a>
+<a href="https://github.com/sailxx/Okto-vscode-theme/releases/latest"><img src="assets/readme/btn-download-ru.svg" height="52" alt="Скачать .vsix"></a>&nbsp;&nbsp;<a href="CHANGELOG.md"><img src="assets/readme/btn-new-ru.svg" height="52" alt="Что нового"></a>
 
 **Okto для VS Code — две цветовые темы, иконки файлов и цветные папки.** Фиолетово-чернильная **Okto Dark** и тёплая лиловая **Okto Light** с розовым акцентом, плоские цветные иконки для 37 типов файлов и 10 видов папок, подробная подсветка кода. Ни одной строки кода в расширении — только цвет.
 
@@ -79,7 +79,7 @@
 
 Для светлой темы укажите `"Okto Light"`. Те же три пункта можно выбрать в палитре команд: **Preferences: Color Theme**, **File Icon Theme** и **Product Icon Theme**.
 
-**Из `.vsix`:** скачайте `okto-theme-*.vsix` со [страницы релиза](https://github.com/sailxx/okto-vscode-theme/releases/latest) и выполните `code --install-extension okto-theme-2.0.0.vsix` (или **Extensions → ⋯ → Install from VSIX…**), затем выберите темы, как описано выше.
+**Из `.vsix`:** скачайте `okto-theme-*.vsix` со [страницы релиза](https://github.com/sailxx/Okto-vscode-theme/releases/latest) и выполните `code --install-extension okto-theme-2.0.0.vsix` (или **Extensions → ⋯ → Install from VSIX…**), затем выберите темы, как описано выше.
 
 Тема значков интерфейса меняет встроенные значки VS Code. Значки, которые добавляют отдельные расширения, управляются самими расширениями и могут не заменяться темой.
 
