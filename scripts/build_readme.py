@@ -21,8 +21,7 @@ for old in out_dir.glob("*"):
     old.unlink()
 icons = root / "fileicons" / "icons"
 pal = runpy.run_path(str(Path(__file__).with_name("generate_themes.py")))
-DARK, LIGHT, build_colors = pal["DARK"], pal["LIGHT"], pal["colors"]
-N_COLORS = len(build_colors(DARK))
+DARK, LIGHT = pal["DARK"], pal["LIGHT"]
 VERSION = json.loads((root / "package.json").read_text(encoding="utf-8"))["version"]
 FONT_G = Path(__file__).with_name("fonts") / "golos.ttf"
 FONT_M = Path(__file__).with_name("fonts") / "jbmono.ttf"
@@ -49,11 +48,6 @@ STR = {
         },
         "icons": {"alt": "Иконки Okto: плитки для файлов и цветные папки", "chip": "Иконки", "title": "Свой цвет *для каждого типа*"},
         "themes": {"alt": "Темы Okto Dark и Okto Light", "chip": "Темы", "title": "Два режима, *один характер*"},
-        "numbers": {
-            "alt": "В цифрах: 37 иконок файлов, 10 цветных папок, 2 темы, %d цветов интерфейса, 0 строк кода" % N_COLORS,
-            "chip": "В цифрах", "title": "Только цвет *и ничего лишнего*",
-            "items": [["37", "", ["иконок", "файлов"]], ["10", "", ["цветных", "папок"]], ["2", "", ["цветовые", "темы"]], [str(N_COLORS), "", ["цветов", "интерфейса"]], ["0", "", ["строк кода", "в расширении"]]],
-        },
     },
     "en": {
         "hero": {
@@ -74,11 +68,6 @@ STR = {
         },
         "icons": {"alt": "Okto icons: tiles for files and color folders", "chip": "Icons", "title": "A color for *every file type*"},
         "themes": {"alt": "Okto Dark and Okto Light themes", "chip": "Themes", "title": "Two modes, *one character*"},
-        "numbers": {
-            "alt": "By the numbers: 37 file icons, 10 color folders, 2 themes, %d interface colors, 0 lines of code" % N_COLORS,
-            "chip": "By the numbers", "title": "Just color *and nothing extra*",
-            "items": [["37", "", ["file", "icons"]], ["10", "", ["color", "folders"]], ["2", "", ["color", "themes"]], [str(N_COLORS), "", ["interface", "colors"]], ["0", "", ["lines of code", "in the extension"]]],
-        },
     },
 }
 
@@ -300,18 +289,6 @@ def themes_banner(t):
     return svg(880, round(132 + 290 * k + 40), t["themes"]["alt"], b)
 
 
-def numbers(t):
-    b = section_head(t["numbers"]["chip"], accent(t["numbers"]["title"]))
-    w = (800 - 4 * 12) / 5
-    for i, (n, unit, lines) in enumerate(t["numbers"]["items"]):
-        x, y = 40 + i * (w + 12), 132
-        b += (f'<g class="r" {delay(2 + i)}>{card(x, y, w, 124)}'
-              f'<text class="m" x="{x + 20}" y="{y + 56}" font-size="38" font-weight="700" letter-spacing="-1" fill="url(#tg)">{T(n)}<tspan font-size="16" fill="{MUTED}">{T(unit)}</tspan></text>'
-              + "".join(f'<text x="{x + 20}" y="{y + 86 + k * 18}" font-size="13" font-weight="500" fill="{MUTED}">{T(l)}</text>' for k, l in enumerate(lines))
-              + "</g>")
-    return svg(880, 290, t["numbers"]["alt"], b)
-
-
 def download_icon(c):
     return f'<g transform="translate(18 14)" fill="none" stroke="{c}" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 4v10m-4-3.5 4 4 4-4M6 19h12"/></g>'
 
@@ -355,7 +332,6 @@ for lang, t in STR.items():
         f"features-{lang}.svg": features(t),
         f"icons-{lang}.svg": icons_banner(t),
         f"themes-{lang}.svg": themes_banner(t),
-        f"numbers-{lang}.svg": numbers(t),
     }
     for render in files.values():
         render("", "")
