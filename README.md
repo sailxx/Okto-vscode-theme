@@ -1,64 +1,60 @@
 <div align="center">
 
-**Русский** · [English](README.en.md)
+<img src="assets/readme/hero-en.svg" width="100%" alt="Okto for VS Code — two color themes and colorful file and folder icons">
 
-<br>
+<a href="https://github.com/sailxx/Okto-vscode-theme/releases/latest"><img src="assets/readme/btn-download-en.svg" height="52" alt="Download .vsix"></a>&nbsp;&nbsp;<a href="CHANGELOG.md"><img src="assets/readme/btn-new-en.svg" height="52" alt="What’s new"></a>
 
-<img src="assets/readme/hero-ru.svg" width="100%" alt="Okto для VS Code — две цветовые темы и цветные иконки файлов и папок">
-
-<a href="https://github.com/sailxx/Okto-vscode-theme/releases/latest"><img src="assets/readme/btn-download-ru.svg" height="52" alt="Скачать .vsix"></a>&nbsp;&nbsp;<a href="CHANGELOG.md"><img src="assets/readme/btn-new-ru.svg" height="52" alt="Что нового"></a>
-
-**Okto для VS Code — две цветовые темы, иконки файлов и цветные папки.** Фиолетово-чернильная **Okto Dark** и тёплая лиловая **Okto Light** с розовым акцентом, плоские цветные иконки для 37 типов файлов и 10 видов папок, подробная подсветка кода. Ни одной строки кода в расширении — только цвет.
+**Okto for VS Code is two color themes, file icons and color-coded folders.** The ink-violet **Okto Dark** and the warm lilac **Okto Light** with a pink accent, flat colorful icons for 37 file types and 10 kinds of folders, and detailed code highlighting. Not a single line of code in the extension — just color.
 
 </div>
 
 <br>
 
-<img src="assets/readme/features-ru.svg" width="100%" alt="Возможности: темы, иконки файлов, цветные папки, подсветка кода">
+<img src="assets/readme/features-en.svg" width="100%" alt="Features: themes, file icons, color folders, code highlighting">
 
 <details>
-<summary><b>Подробнее о возможностях</b></summary>
+<summary><b>Feature details</b></summary>
 
-### Темы
+### Themes
 
-**Okto Dark** — глубокий фиолетово-чернильный фон, светлый текст, розовый акцент `#FF7DB0` (курсор, активная вкладка, номер текущей строки, значки-счётчики). **Okto Light** — тёплый лиловый фон с акцентом `#D62F78` и фиолетовой строкой состояния. Обе темы описывают весь интерфейс VS Code: панели, вкладки, списки, терминал, diff, Git, отладчик, скобки-радуга, значки символов.
+**Okto Dark** has a deep ink-violet background, light text and a pink accent `#FF7DB0` (cursor, active tab, current line number, badges). **Okto Light** is a warm lilac background with a `#D62F78` accent and a violet status bar. Both themes style the whole VS Code interface: panels, tabs, lists, terminal, diff, Git, debugger, rainbow brackets and symbol icons.
 
-### Подсветка кода
+### Code highlighting
 
-Включена семантическая подсветка (`semanticHighlighting`) плюс 30+ правил TextMate: ключевые слова, строки, числа, функции, типы, параметры (курсивом), `this`/`self`, свойства, декораторы, теги и атрибуты HTML, селекторы и свойства CSS, ключи JSON, заголовки и ссылки Markdown, diff.
+Semantic highlighting (`semanticHighlighting`) is on, backed by 30+ TextMate rules: keywords, strings, numbers, functions, types, parameters (italic), `this`/`self`, properties, decorators, HTML tags and attributes, CSS selectors and properties, JSON keys, Markdown headings and links, diff.
 
-### Иконки файлов
+### File icons
 
-37 плоских плиток с белым глифом: Python, JavaScript, TypeScript, JSON, YAML, Markdown, HTML, CSS, SQL, Docker, Git, Rust, Go, Java, C, C++, C#, Ruby, PHP, Swift, Kotlin, Svelte, Vue и другие. Отдельные иконки есть для lock-файлов, `.env`, тестов (`*.test.ts`, `*.spec.js`), лицензий, архивов, PDF и текстовых файлов.
+37 flat tiles with a white glyph: Python, JavaScript, TypeScript, JSON, YAML, Markdown, HTML, CSS, SQL, Docker, Git, Rust, Go, Java, C, C++, C#, Ruby, PHP, Swift, Kotlin, Svelte, Vue and more. There are dedicated icons for lock files, `.env`, tests (`*.test.ts`, `*.spec.js`), licenses, archives, PDF and plain text.
 
-### Цветные папки
+### Color folders
 
-`src`, `docs`, `test`, `assets`, `public`, `config` / `.vscode`, `.git` / `.github`, `node_modules`, `scripts` — у каждой свой цвет и значок на лицевой стороне, в закрытом и открытом виде. Остальные папки — фиолетовые.
+`src`, `docs`, `test`, `assets`, `public`, `config` / `.vscode`, `.git` / `.github`, `node_modules`, `scripts` — each has its own color and a badge on the front, closed and open. All other folders are violet.
 
 </details>
 
 <br>
 
-<img src="assets/readme/icons-ru.svg" width="100%" alt="Иконки Okto: плитки для файлов и цветные папки">
+<img src="assets/readme/icons-en.svg" width="100%" alt="Okto icons: tiles for files and color folders">
 
 <br>
 
-<img src="assets/readme/themes-ru.svg" width="100%" alt="Темы Okto Dark и Okto Light">
+<img src="assets/readme/themes-en.svg" width="100%" alt="Okto Dark and Okto Light themes">
 
 <details open>
-<summary><b>Установка</b></summary>
+<summary><b>Installation</b></summary>
 
-**В один шаг** (склонируйте репозиторий или скачайте его как ZIP):
+**One step** (clone the repository or download it as a ZIP):
 
 ```powershell
 .\install.ps1      # Windows (PowerShell)
 ```
 
 ```bash
-./install.sh       # macOS и Linux
+./install.sh       # macOS and Linux
 ```
 
-Скрипт копирует расширение в папку расширений VS Code (старые версии Okto удаляются). Перезапустите VS Code и добавьте в `settings.json` (`Ctrl + Shift + P` → **Preferences: Open User Settings (JSON)**):
+The script copies the extension into the VS Code extensions folder (older Okto versions are removed). Restart VS Code and add this to `settings.json` (`Ctrl + Shift + P` → **Preferences: Open User Settings (JSON)**):
 
 ```json
 "workbench.colorTheme": "Okto Dark",
@@ -66,10 +62,10 @@
 "workbench.productIconTheme": "okto-product-icons"
 ```
 
-Для светлой темы укажите `"Okto Light"`. Те же три пункта можно выбрать в палитре команд: **Preferences: Color Theme**, **File Icon Theme** и **Product Icon Theme**.
+Use `"Okto Light"` for the light theme. You can also pick all three from the Command Palette: **Preferences: Color Theme**, **File Icon Theme** and **Product Icon Theme**.
 
-**Из `.vsix`:** скачайте `okto-theme-*.vsix` со [страницы релиза](https://github.com/sailxx/Okto-vscode-theme/releases/latest) и выполните `code --install-extension okto-theme-2.0.0.vsix` (или **Extensions → ⋯ → Install from VSIX…**), затем выберите темы, как описано выше.
+**From a `.vsix`:** download `okto-theme-*.vsix` from the [release page](https://github.com/sailxx/Okto-vscode-theme/releases/latest) and run `code --install-extension okto-theme-2.0.0.vsix` (or **Extensions → ⋯ → Install from VSIX…**), then select the themes as described above.
 
-Тема значков интерфейса меняет встроенные значки VS Code. Значки, которые добавляют отдельные расширения, управляются самими расширениями и могут не заменяться темой.
+The product icon theme replaces the built-in VS Code icons. Icons added by individual extensions are controlled by those extensions and may not be replaced by the theme.
 
 </details>
