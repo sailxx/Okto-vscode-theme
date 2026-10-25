@@ -1,5 +1,9 @@
 <div align="center">
 
+[Русский](README.ru.md) · **English**
+
+<br>
+
 <img src="assets/readme/hero-en.svg" width="100%" alt="Okto for VS Code — two color themes and colorful file and folder icons">
 
 <a href="https://github.com/sailxx/Okto-vscode-theme/releases/latest"><img src="assets/readme/btn-download-en.svg" height="52" alt="Download .vsix"></a>&nbsp;&nbsp;<a href="CHANGELOG.md"><img src="assets/readme/btn-new-en.svg" height="52" alt="What’s new"></a>
